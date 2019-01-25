@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=SRST_RDYN Pin=R7-2
+Removed Member From Class: ClassName=FTDI-Toolkit Member=R3
+Removed Member From Class: ClassName=FTDI-Toolkit Member=R4
+Removed Member From Class: ClassName=FTDI-Toolkit Member=R5
+Removed Member From Class: ClassName=FTDI-Toolkit Member=R6
+Removed Member From Class: ClassName=FTDI-Toolkit Member=R7
+Added Pin To Net: NetName=JTAG_TMS Pin=IC2-16
+Added Pin To Net: NetName=JTAG_TCK Pin=IC2-17
+Added Pin To Net: NetName=JTAG_TDO Pin=IC2-18
+Added Pin To Net: NetName=JTAG_TDI Pin=IC2-19
+Added Pin To Net: NetName=SRST_RDYN Pin=IC2-22
