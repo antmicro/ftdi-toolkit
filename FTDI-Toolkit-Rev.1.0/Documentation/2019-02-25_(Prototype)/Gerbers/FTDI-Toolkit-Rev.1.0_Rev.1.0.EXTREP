@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: FTDI-Toolkit-Rev.1.0_Rev.1.0.GBR   25/02/2019  14:07:19
+Gerber File Extension Report For: FTDI-Toolkit-Rev.1.0_Rev.1.0.GBR   25/02/2019  21:31:29
 ------------------------------------------------------------------------------------------
 
 
@@ -7,8 +7,6 @@ Gerber File Extension Report For: FTDI-Toolkit-Rev.1.0_Rev.1.0.GBR   25/02/2019 
 Layer Extension     Layer Description                      
 ------------------------------------------------------------------------------------------
 .GTL                Top Layer                               
-.G1                 GND Layer                               
-.G2                 Power Layer                             
 .GBL                Bottom Layer                            
 .GPB                Bottom Pad Master                       
 .GPT                Top Pad Master                          
