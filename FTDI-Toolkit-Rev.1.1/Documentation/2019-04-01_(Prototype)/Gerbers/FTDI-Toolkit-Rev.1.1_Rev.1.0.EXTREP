@@ -1,0 +1,27 @@
+------------------------------------------------------------------------------------------
+Gerber File Extension Report For: FTDI-Toolkit-Rev.1.1_Rev.1.0.GBR   4/1/2019  10:10:52 AM
+------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
+Layer Extension     Layer Description                      
+------------------------------------------------------------------------------------------
+.GTL                Top Layer                               
+.G1                 GND Layer                               
+.G2                 Power Layer                             
+.GBL                Bottom Layer                            
+.GPB                Bottom Pad Master                       
+.GPT                Top Pad Master                          
+.GTO                Top Overlay                             
+.GTP                Top Paste                               
+.GTS                Top Solder                              
+.GBS                Bottom Solder                           
+.GBP                Bottom Paste                            
+.GBO                Bottom Overlay                          
+.GM1                PCB Outline                             
+.GM2                PCB Fab Notes                           
+.GM3                PCB Asm Notes                           
+.GM13               Top Body                                
+.GM15               Top Courtyard                           
+.GKO                Keep-Out Layer                          
+------------------------------------------------------------------------------------------
