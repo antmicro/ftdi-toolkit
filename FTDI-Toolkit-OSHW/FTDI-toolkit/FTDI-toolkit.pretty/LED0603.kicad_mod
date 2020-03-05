@@ -1,4 +1,4 @@
-(module LED0603 (layer F.Cu) (tedit 4289BEAB)
+(module LED0603 (layer F.Cu) (tedit 5E60B048)
   (attr smd)
   (fp_text reference USB (at 0 0) (layer F.SilkS) hide
     (effects (font (size 1.524 1.524) (thickness 0.05)))
