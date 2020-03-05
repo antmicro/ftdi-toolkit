@@ -2486,4 +2486,6 @@ VCCIOB
 Connection ~ 6600 5800
 Wire Wire Line
 	6450 5800 6600 5800
+Text Notes 13750 1750 0    118  ~ 24
+Review connections!!!!
 $EndSCHEMATC
