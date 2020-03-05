@@ -188,7 +188,7 @@ FTDI_RST
 Text Label 13350 3600 0    70   ~ 0
 TPD6E05U06RVZR
 $Comp
-L FTDI-toolkit:TLV700 IC2
+L FTDI-toolkit-rescue:TLV700 IC2
 U 1 1 5E5F7C4B
 P 9000 1950
 F 0 "IC2" H 8700 2200 60  0000 L BNN
@@ -199,7 +199,7 @@ F 3 "" H 8700 2250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FTDI-toolkit:C_1u_0603 C5
+L antmicroCapacitors0603:C_1u_0603 C5
 U 1 1 5E5F7C4A
 P 8500 2200
 F 0 "C5" H 8350 2250 60  0000 R TNN
@@ -210,7 +210,7 @@ F 3 "" H 8300 2100 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L FTDI-toolkit:SN74LV1T125 IC4
+L FTDI-toolkit-rescue:SN74LV1T125 IC4
 U 1 1 5E5F7C3F
 P 3300 6850
 F 0 "IC4" H 3000 7050 60  0000 L BNN
@@ -221,7 +221,7 @@ F 3 "" H 3300 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FTDI-toolkit:SN74LV1T125 IC5
+L FTDI-toolkit-rescue:SN74LV1T125 IC5
 U 1 1 5E5F7C3E
 P 3300 7350
 F 0 "IC5" H 3000 7550 60  0000 L BNN
@@ -232,7 +232,7 @@ F 3 "" H 3300 7350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FTDI-toolkit:SN74LV1T125 IC6
+L FTDI-toolkit-rescue:SN74LV1T125 IC6
 U 1 1 5E5F7C3D
 P 3300 7850
 F 0 "IC6" H 3000 8050 60  0000 L BNN
@@ -243,7 +243,7 @@ F 3 "" H 3300 7850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FTDI-toolkit:SN74LV1T125 IC7
+L FTDI-toolkit-rescue:SN74LV1T125 IC7
 U 1 1 5E5F7C3C
 P 3300 8350
 F 0 "IC7" H 3000 8550 60  0000 L BNN
@@ -254,7 +254,7 @@ F 3 "" H 3000 8050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FTDI-toolkit:Inductor_SMT L2
+L FTDI-toolkit-rescue:Inductor_SMT L2
 U 1 1 5E5F7C36
 P 1300 3000
 F 0 "L2" H 1350 3100 60  0000 R BNN
@@ -265,7 +265,7 @@ F 3 "" H 900 2700 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L FTDI-toolkit:Inductor_SMT L1
+L FTDI-toolkit-rescue:Inductor_SMT L1
 U 1 1 5E5F7C2B
 P 2450 1500
 F 0 "L1" H 2300 1550 60  0000 R BNN
@@ -276,7 +276,7 @@ F 3 "" H 2350 1600 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L FTDI-toolkit:TLV700 IC1
+L FTDI-toolkit-rescue:TLV700 IC1
 U 1 1 5E5F7C27
 P 6400 1800
 F 0 "IC1" H 6100 2050 60  0000 L BNN
@@ -287,7 +287,7 @@ F 3 "" H 6100 1600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FTDI-toolkit:1X03 SW1_A1
+L FTDI-toolkit-rescue:1X03 SW1_A1
 U 1 1 5E5F7C21
 P 1550 4500
 F 0 "SW1_A1" H 1650 4350 60  0000 L BNN
@@ -298,7 +298,7 @@ F 3 "" H 1550 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FTDI-toolkit:1X03 SW1_B1
+L FTDI-toolkit-rescue:1X03 SW1_B1
 U 1 1 5E5F7C1F
 P 1550 5000
 F 0 "SW1_B1" H 1650 4800 60  0000 L BNN
@@ -309,7 +309,7 @@ F 3 "" H 1550 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FTDI-toolkit:LED USB1
+L FTDI-toolkit-rescue:LED USB1
 U 1 1 5E5F7C15
 P 4250 1600
 F 0 "USB1" V 4440 1760 60  0000 L BNN
@@ -320,7 +320,7 @@ F 3 "" H 4250 1600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L FTDI-toolkit:TS5A3359 IC3
+L FTDI-toolkit-rescue:TS5A3359 IC3
 U 1 1 5E5F7C11
 P 3300 3650
 F 0 "IC3" H 3300 3700 60  0000 L BNN
@@ -331,7 +331,7 @@ F 3 "" H 3300 2850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FTDI-toolkit:TS5A3359 IC15
+L FTDI-toolkit-rescue:TS5A3359 IC15
 U 1 1 5E5F7C10
 P 3300 4750
 F 0 "IC15" H 3300 4800 60  0000 L BNN
@@ -342,7 +342,7 @@ F 3 "" H 3300 3950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FTDI-toolkit:2X05 J2
+L FTDI-toolkit-rescue:2X05 J2
 U 1 1 5E5F7C08
 P 12400 2050
 F 0 "J2" H 12300 1450 60  0000 L BNN
@@ -353,7 +353,7 @@ F 3 "" H 12400 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FTDI-toolkit:TPD2E009 D1
+L FTDI-toolkit-rescue:TPD2E009 D1
 U 1 1 5E5F7BFF
 P 2800 2250
 F 0 "D1" V 3300 1950 60  0000 L BNN
@@ -384,7 +384,7 @@ UART_1_TXD_T
 Text GLabel 4100 7750 2    50   Input ~ 0
 VCCIOA
 $Comp
-L FTDI-toolkit:C_100n_0402_16V- C8
+L FTDI-toolkit-rescue:C_100n_0402_16V-antmicroCapacitors0402 C8
 U 1 1 5F159C83
 P 5650 7150
 F 0 "C8" H 5765 7195 60  0000 L CNN
@@ -400,7 +400,7 @@ $EndComp
 Text GLabel 5650 7000 1    50   Input ~ 0
 3V3_FT
 $Comp
-L FTDI-toolkit:C_100n_0402_16V- C7
+L FTDI-toolkit-rescue:C_100n_0402_16V-antmicroCapacitors0402 C7
 U 1 1 5F1735B0
 P 5200 7150
 F 0 "C7" H 5350 7200 60  0000 L CNN
@@ -416,7 +416,7 @@ $EndComp
 Text GLabel 5200 7000 1    50   Input ~ 0
 3V3_FT
 $Comp
-L FTDI-toolkit:C_100n_0402_16V- C9
+L FTDI-toolkit-rescue:C_100n_0402_16V-antmicroCapacitors0402 C9
 U 1 1 5F18BFCF
 P 5200 8300
 F 0 "C9" H 5315 8345 60  0000 L CNN
@@ -430,7 +430,7 @@ F 6 "100n" H 5300 8450 50  0000 L CNN "Val"
 	-1   0    0    1   
 $EndComp
 $Comp
-L FTDI-toolkit:C_100n_0402_16V- C10
+L FTDI-toolkit-rescue:C_100n_0402_16V-antmicroCapacitors0402 C10
 U 1 1 5F18C23C
 P 5650 8300
 F 0 "C10" H 5765 8345 60  0000 L CNN
@@ -444,7 +444,7 @@ F 6 "100n" H 5750 8450 50  0000 L CNN "Val"
 	-1   0    0    1   
 $EndComp
 $Comp
-L FTDI-toolkit:C_100n_0402_16V- C13
+L FTDI-toolkit-rescue:C_100n_0402_16V-antmicroCapacitors0402 C13
 U 1 1 5F2076E0
 P 5250 9550
 F 0 "C13" H 5365 9595 60  0000 L CNN
@@ -458,7 +458,7 @@ F 6 "100n" H 5350 9700 50  0000 L CNN "Val"
 	-1   0    0    1   
 $EndComp
 $Comp
-L FTDI-toolkit:C_100n_0402_16V- C14
+L FTDI-toolkit-rescue:C_100n_0402_16V-antmicroCapacitors0402 C14
 U 1 1 5F2076E9
 P 5650 9550
 F 0 "C14" H 5765 9595 60  0000 L CNN
@@ -476,7 +476,7 @@ Text GLabel 5250 9400 1    50   Input ~ 0
 Text GLabel 5650 9400 1    50   Input ~ 0
 3V3_FT
 $Comp
-L FTDI-toolkit:C_100n_0402_16V- C15
+L FTDI-toolkit-rescue:C_100n_0402_16V-antmicroCapacitors0402 C15
 U 1 1 5F24E415
 P 5250 10550
 F 0 "C15" H 5365 10595 60  0000 L CNN
@@ -490,7 +490,7 @@ F 6 "100n" H 5350 10700 50  0000 L CNN "Val"
 	-1   0    0    1   
 $EndComp
 $Comp
-L FTDI-toolkit:C_100n_0402_16V- C16
+L FTDI-toolkit-rescue:C_100n_0402_16V-antmicroCapacitors0402 C16
 U 1 1 5F24E41E
 P 5650 10550
 F 0 "C16" H 5765 10595 60  0000 L CNN
@@ -506,7 +506,7 @@ $EndComp
 Text GLabel 7700 10300 1    50   Input ~ 0
 5V_USB
 $Comp
-L FTDI-toolkit:R_4k7_0402- R21
+L FTDI-toolkit-rescue:R_4k7_0402-antmicroResistors0402 R21
 U 1 1 5F32039E
 P 6550 9350
 F 0 "R21" V 6505 9420 60  0000 L CNN
@@ -524,7 +524,7 @@ USB_D_N
 Text Label 7800 8350 0    60   ~ 0
 USB_D_P
 $Comp
-L FTDI-toolkit:R_1k54_0402- R10
+L FTDI-toolkit-rescue:R_1k54_0402-antmicroResistors0402 R10
 U 1 1 5F68352C
 P 8750 8550
 F 0 "R10" H 8750 8763 60  0000 C CNN
@@ -544,7 +544,7 @@ Text GLabel 8550 7100 1    50   Input ~ 0
 Text GLabel 11150 8550 2    50   Input ~ 0
 3V3_FT
 $Comp
-L FTDI-toolkit:R_0R_0402- R23
+L FTDI-toolkit-rescue:R_0R_0402-antmicroResistors0402 R23
 U 1 1 5F9305BF
 P 10900 8550
 F 0 "R23" H 10700 8600 60  0000 C CNN
@@ -558,7 +558,7 @@ F 6 "0R" H 10700 8500 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L FTDI-toolkit:R_0R_0402- R24
+L FTDI-toolkit-rescue:R_0R_0402-antmicroResistors0402 R24
 U 1 1 5FA1BF2C
 P 10800 10050
 F 0 "R24" H 10800 9950 60  0000 C CNN
@@ -578,7 +578,7 @@ Text GLabel 13800 8950 1    50   Input ~ 0
 Text GLabel 13800 7850 1    50   Input ~ 0
 3V3_FT
 $Comp
-L FTDI-toolkit:R_220R_0402- R11
+L FTDI-toolkit-rescue:R_220R_0402-antmicroResistors0402 R11
 U 1 1 5FAC4E6B
 P 13150 8150
 F 0 "R11" H 13150 8363 60  0000 C CNN
@@ -592,7 +592,7 @@ F 6 "220R" H 13150 8265 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L FTDI-toolkit:R_220R_0402- R12
+L FTDI-toolkit-rescue:R_220R_0402-antmicroResistors0402 R12
 U 1 1 5FAC53AB
 P 13150 8500
 F 0 "R12" H 13150 8713 60  0000 C CNN
@@ -606,7 +606,7 @@ F 6 "220R" H 13150 8615 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L FTDI-toolkit:LG_L29K-G2J1-24-Z- RX_A1
+L FTDI-toolkit-rescue:LG_L29K-G2J1-24-Z-antmicroLEDIndicationDiscrete RX_A1
 U 1 1 5FC0261F
 P 13400 8500
 F 0 "RX_A1" H 13150 8450 60  0000 C CNN
@@ -619,7 +619,7 @@ F 5 "KINGBRIGHT" H 13600 9600 60  0001 L CNN "Manufacturer"
 	-1   0    0    1   
 $EndComp
 $Comp
-L FTDI-toolkit:LG_L29K-G2J1-24-Z- TX_B1
+L FTDI-toolkit-rescue:LG_L29K-G2J1-24-Z-antmicroLEDIndicationDiscrete TX_B1
 U 1 1 5FC77D69
 P 13400 9150
 F 0 "TX_B1" H 13150 9100 60  0000 C CNN
@@ -632,7 +632,7 @@ F 5 "KINGBRIGHT" H 13600 10250 60  0001 L CNN "Manufacturer"
 	-1   0    0    1   
 $EndComp
 $Comp
-L FTDI-toolkit:LG_L29K-G2J1-24-Z- RX_B1
+L FTDI-toolkit-rescue:LG_L29K-G2J1-24-Z-antmicroLEDIndicationDiscrete RX_B1
 U 1 1 5FC792C7
 P 13400 9450
 F 0 "RX_B1" H 13150 9400 60  0000 C CNN
@@ -645,7 +645,7 @@ F 5 "KINGBRIGHT" H 13600 10550 60  0001 L CNN "Manufacturer"
 	-1   0    0    1   
 $EndComp
 $Comp
-L FTDI-toolkit:R_220R_0402- R14
+L FTDI-toolkit-rescue:R_220R_0402-antmicroResistors0402 R14
 U 1 1 5FC90711
 P 13150 9150
 F 0 "R14" H 13150 9363 60  0000 C CNN
@@ -659,7 +659,7 @@ F 6 "220R" H 13150 9265 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L FTDI-toolkit:R_220R_0402- R15
+L FTDI-toolkit-rescue:R_220R_0402-antmicroResistors0402 R15
 U 1 1 5FC912F2
 P 13150 9450
 F 0 "R15" H 13150 9663 60  0000 C CNN
@@ -675,7 +675,7 @@ $EndComp
 Text GLabel 9150 3250 1    50   Input ~ 0
 5V_USB
 $Comp
-L FTDI-toolkit:LG_L29K-G2J1-24-Z- 3V3_A1
+L FTDI-toolkit-rescue:LG_L29K-G2J1-24-Z-antmicroLEDIndicationDiscrete 3V3_A1
 U 1 1 5FD4A81F
 P 9450 3700
 F 0 "3V3_A1" H 9350 3950 60  0000 C CNN
@@ -688,7 +688,7 @@ F 5 "KINGBRIGHT" H 9650 4800 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L FTDI-toolkit:R_220R_0402- R1
+L FTDI-toolkit-rescue:R_220R_0402-antmicroResistors0402 R1
 U 1 1 5FD4C16A
 P 10000 3700
 F 0 "R1" H 10000 3913 60  0000 C CNN
@@ -702,7 +702,7 @@ F 6 "220R" H 10000 3815 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L FTDI-toolkit:LG_L29K-G2J1-24-Z- 1V8_A1
+L FTDI-toolkit-rescue:LG_L29K-G2J1-24-Z-antmicroLEDIndicationDiscrete 1V8_A1
 U 1 1 5FD634C6
 P 9450 4100
 F 0 "1V8_A1" H 9350 4300 60  0000 C CNN
@@ -715,7 +715,7 @@ F 5 "KINGBRIGHT" H 9650 5200 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L FTDI-toolkit:R_220R_0402- R3
+L FTDI-toolkit-rescue:R_220R_0402-antmicroResistors0402 R3
 U 1 1 5FD63DBB
 P 10000 4100
 F 0 "R3" H 10000 4313 60  0000 C CNN
@@ -729,7 +729,7 @@ F 6 "220R" H 10000 4215 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L FTDI-toolkit:LG_L29K-G2J1-24-Z- 5V0_A1
+L FTDI-toolkit-rescue:LG_L29K-G2J1-24-Z-antmicroLEDIndicationDiscrete 5V0_A1
 U 1 1 5FD7B6A6
 P 9450 4500
 F 0 "5V0_A1" H 9400 4700 60  0000 C CNN
@@ -742,7 +742,7 @@ F 5 "KINGBRIGHT" H 9650 5600 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L FTDI-toolkit:R_220R_0402- R6
+L FTDI-toolkit-rescue:R_220R_0402-antmicroResistors0402 R6
 U 1 1 5FDA8C90
 P 10000 4500
 F 0 "R6" H 10000 4713 60  0000 C CNN
@@ -756,7 +756,7 @@ F 6 "220R" H 10000 4615 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L FTDI-toolkit:LG_L29K-G2J1-24-Z- 3V3_B1
+L FTDI-toolkit-rescue:LG_L29K-G2J1-24-Z-antmicroLEDIndicationDiscrete 3V3_B1
 U 1 1 5FDD6AF7
 P 9450 4900
 F 0 "3V3_B1" H 9400 5100 60  0000 C CNN
@@ -769,7 +769,7 @@ F 5 "KINGBRIGHT" H 9650 6000 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L FTDI-toolkit:LG_L29K-G2J1-24-Z- 1V8_B1
+L FTDI-toolkit-rescue:LG_L29K-G2J1-24-Z-antmicroLEDIndicationDiscrete 1V8_B1
 U 1 1 5FDD6FB7
 P 9450 5300
 F 0 "1V8_B1" H 9400 5500 60  0000 C CNN
@@ -782,7 +782,7 @@ F 5 "KINGBRIGHT" H 9650 6400 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L FTDI-toolkit:LG_L29K-G2J1-24-Z- 5V0_B1
+L FTDI-toolkit-rescue:LG_L29K-G2J1-24-Z-antmicroLEDIndicationDiscrete 5V0_B1
 U 1 1 5FDD92AB
 P 9450 5750
 F 0 "5V0_B1" H 9400 5950 60  0000 C CNN
@@ -795,7 +795,7 @@ F 5 "KINGBRIGHT" H 9650 6850 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L FTDI-toolkit:R_220R_0402- R7
+L FTDI-toolkit-rescue:R_220R_0402-antmicroResistors0402 R7
 U 1 1 5FDF0599
 P 10000 4900
 F 0 "R7" H 10000 5113 60  0000 C CNN
@@ -809,7 +809,7 @@ F 6 "220R" H 10000 5015 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L FTDI-toolkit:R_220R_0402- R8
+L FTDI-toolkit-rescue:R_220R_0402-antmicroResistors0402 R8
 U 1 1 5FDF3A18
 P 10000 5300
 F 0 "R8" H 10000 5513 60  0000 C CNN
@@ -823,7 +823,7 @@ F 6 "220R" H 10000 5415 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L FTDI-toolkit:R_220R_0402- R18
+L FTDI-toolkit-rescue:R_220R_0402-antmicroResistors0402 R18
 U 1 1 5FDF43BB
 P 10000 5750
 F 0 "R18" H 10000 5963 60  0000 C CNN
@@ -891,7 +891,7 @@ Wire Wire Line
 Text Label 13600 5000 0    60   ~ 0
 UART_2_CTS_T
 $Comp
-L FTDI-toolkit:2X08 J3
+L FTDI-toolkit-rescue:2X08 J3
 U 1 1 5E5F7BFD
 P 13300 4700
 F 0 "J3" H 13200 3800 60  0000 L BNN
@@ -902,7 +902,7 @@ F 3 "" H 13300 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FTDI-toolkit:GND #PWR0101
+L FTDI-toolkit-rescue:GND #PWR0101
 U 1 1 5E905D4B
 P 13000 5400
 F 0 "#PWR0101" H 13000 5150 50  0001 C CNN
@@ -913,7 +913,7 @@ F 3 "" H 13000 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FTDI-toolkit:GND #PWR0102
+L FTDI-toolkit-rescue:GND #PWR0102
 U 1 1 5E906038
 P 13600 5400
 F 0 "#PWR0102" H 13600 5150 50  0001 C CNN
@@ -946,7 +946,7 @@ Wire Wire Line
 	13800 8500 13600 8500
 Connection ~ 13800 8150
 $Comp
-L FTDI-toolkit:LG_L29K-G2J1-24-Z- TX_A1
+L FTDI-toolkit-rescue:LG_L29K-G2J1-24-Z-antmicroLEDIndicationDiscrete TX_A1
 U 1 1 5FAC8457
 P 13400 8150
 F 0 "TX_A1" H 13150 8100 60  0000 C CNN
@@ -963,7 +963,7 @@ Wire Wire Line
 Wire Wire Line
 	13000 8150 12300 8150
 $Comp
-L FTDI-toolkit:GND #PWR0103
+L FTDI-toolkit-rescue:GND #PWR0103
 U 1 1 5EB8D6B4
 P 5200 8450
 F 0 "#PWR0103" H 5200 8200 50  0001 C CNN
@@ -974,7 +974,7 @@ F 3 "" H 5200 8450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FTDI-toolkit:GND #PWR0104
+L FTDI-toolkit-rescue:GND #PWR0104
 U 1 1 5EBA475A
 P 5650 8450
 F 0 "#PWR0104" H 5650 8200 50  0001 C CNN
@@ -985,7 +985,7 @@ F 3 "" H 5650 8450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FTDI-toolkit:GND #PWR0105
+L FTDI-toolkit-rescue:GND #PWR0105
 U 1 1 5EBBEF3F
 P 5200 7300
 F 0 "#PWR0105" H 5200 7050 50  0001 C CNN
@@ -996,7 +996,7 @@ F 3 "" H 5200 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FTDI-toolkit:GND #PWR0106
+L FTDI-toolkit-rescue:GND #PWR0106
 U 1 1 5EBD6033
 P 5650 7300
 F 0 "#PWR0106" H 5650 7050 50  0001 C CNN
@@ -1007,7 +1007,7 @@ F 3 "" H 5650 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FTDI-toolkit:GND #PWR0107
+L FTDI-toolkit-rescue:GND #PWR0107
 U 1 1 5EBEDF1A
 P 6600 5800
 F 0 "#PWR0107" H 6600 5550 50  0001 C CNN
@@ -1018,7 +1018,7 @@ F 3 "" H 6600 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FTDI-toolkit:GND #PWR0108
+L FTDI-toolkit-rescue:GND #PWR0108
 U 1 1 5EC264C2
 P 6550 10100
 F 0 "#PWR0108" H 6550 9850 50  0001 C CNN
@@ -1036,7 +1036,7 @@ Connection ~ 6550 9700
 Wire Wire Line
 	6550 9700 6550 9500
 $Comp
-L FTDI-toolkit:GND #PWR0109
+L FTDI-toolkit-rescue:GND #PWR0109
 U 1 1 5ECB739F
 P 5250 10700
 F 0 "#PWR0109" H 5250 10450 50  0001 C CNN
@@ -1047,7 +1047,7 @@ F 3 "" H 5250 10700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FTDI-toolkit:GND #PWR0110
+L FTDI-toolkit-rescue:GND #PWR0110
 U 1 1 5ECE5100
 P 5650 10700
 F 0 "#PWR0110" H 5650 10450 50  0001 C CNN
@@ -1058,7 +1058,7 @@ F 3 "" H 5650 10700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FTDI-toolkit:GND #PWR0111
+L FTDI-toolkit-rescue:GND #PWR0111
 U 1 1 5ECFBD47
 P 5250 9700
 F 0 "#PWR0111" H 5250 9450 50  0001 C CNN
@@ -1069,7 +1069,7 @@ F 3 "" H 5250 9700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FTDI-toolkit:GND #PWR0112
+L FTDI-toolkit-rescue:GND #PWR0112
 U 1 1 5ED1299D
 P 5650 9700
 F 0 "#PWR0112" H 5650 9450 50  0001 C CNN
@@ -1142,6 +1142,9 @@ Connection ~ 6950 5800
 Wire Wire Line
 	6950 5800 6600 5800
 Wire Wire Line
+	6450 5800 6550 5800
+Connection ~ 6550 5800
+Wire Wire Line
 	6450 4300 5900 4300
 Wire Wire Line
 	6450 4400 5900 4400
@@ -1165,7 +1168,7 @@ Wire Wire Line
 	6450 4900 6450 5000
 Connection ~ 6450 5000
 $Comp
-L FTDI-toolkit:74HC00BQ IC13
+L FTDI-toolkit-rescue:74HC00BQ IC13
 U 1 1 5E5F7C06
 P 7050 4800
 F 0 "IC13" H 7250 5700 60  0000 L BNN
@@ -1193,7 +1196,7 @@ Connection ~ 3950 9100
 Wire Wire Line
 	3950 9100 4100 9100
 $Comp
-L FTDI-toolkit:SN74LV1T125 IC12
+L FTDI-toolkit-rescue:SN74LV1T125 IC12
 U 1 1 5E5F7C38
 P 3350 10700
 F 0 "IC12" H 3050 10900 60  0000 L BNN
@@ -1204,7 +1207,7 @@ F 3 "" H 3050 10400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FTDI-toolkit:SN74LV1T125 IC11
+L FTDI-toolkit-rescue:SN74LV1T125 IC11
 U 1 1 5E5F7C39
 P 3350 10200
 F 0 "IC11" H 3050 10400 60  0000 L BNN
@@ -1219,7 +1222,7 @@ Wire Wire Line
 Wire Wire Line
 	3850 10800 4700 10800
 $Comp
-L FTDI-toolkit:SN74LV1T125 IC10
+L FTDI-toolkit-rescue:SN74LV1T125 IC10
 U 1 1 5E5F7C3A
 P 3350 9700
 F 0 "IC10" H 3050 9900 60  0000 L BNN
@@ -1257,7 +1260,7 @@ Wire Wire Line
 	2800 10800 2800 10950
 Connection ~ 2800 10800
 $Comp
-L FTDI-toolkit:GND #PWR0113
+L FTDI-toolkit-rescue:GND #PWR0113
 U 1 1 5F533155
 P 2800 10950
 F 0 "#PWR0113" H 2800 10700 50  0001 C CNN
@@ -1314,7 +1317,7 @@ Wire Wire Line
 	2700 8450 2700 8600
 Connection ~ 2700 8450
 $Comp
-L FTDI-toolkit:GND #PWR0114
+L FTDI-toolkit-rescue:GND #PWR0114
 U 1 1 5F6D41E7
 P 2700 8600
 F 0 "#PWR0114" H 2700 8350 50  0001 C CNN
@@ -1325,7 +1328,7 @@ F 3 "" H 2700 8600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FTDI-toolkit:SN74LV1T125 IC9
+L FTDI-toolkit-rescue:SN74LV1T125 IC9
 U 1 1 5E5F7C3B
 P 3350 9200
 F 0 "IC9" H 3050 9400 60  0000 L BNN
@@ -1346,7 +1349,7 @@ Wire Wire Line
 Wire Wire Line
 	1350 5100 700  5100
 $Comp
-L FTDI-toolkit:GND #PWR0115
+L FTDI-toolkit-rescue:GND #PWR0115
 U 1 1 5F7E3F1F
 P 1350 4500
 F 0 "#PWR0115" H 1350 4250 50  0001 C CNN
@@ -1357,7 +1360,7 @@ F 3 "" H 1350 4500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L FTDI-toolkit:GND #PWR0116
+L FTDI-toolkit-rescue:GND #PWR0116
 U 1 1 5F7E4A07
 P 1350 5000
 F 0 "#PWR0116" H 1350 4750 50  0001 C CNN
@@ -1370,7 +1373,7 @@ $EndComp
 Text GLabel 13050 2650 0    50   Input ~ 0
 JTAG_VCC
 $Comp
-L FTDI-toolkit:TPD6E05U06 D2
+L FTDI-toolkit-rescue:TPD6E05U06 D2
 U 1 1 5E5F7C02
 P 13650 2950
 F 0 "D2" V 13200 2750 60  0000 R BNN
@@ -1393,7 +1396,7 @@ Wire Wire Line
 	14550 2750 14550 3050
 Connection ~ 14150 2750
 $Comp
-L FTDI-toolkit:GND #PWR0117
+L FTDI-toolkit-rescue:GND #PWR0117
 U 1 1 5F8C7328
 P 14550 3050
 F 0 "#PWR0117" H 14550 2800 50  0001 C CNN
@@ -1453,7 +1456,7 @@ Wire Wire Line
 	12000 2450 12000 2600
 Connection ~ 12000 2450
 $Comp
-L FTDI-toolkit:GND #PWR0118
+L FTDI-toolkit-rescue:GND #PWR0118
 U 1 1 5FA5B810
 P 12000 2600
 F 0 "#PWR0118" H 12000 2350 50  0001 C CNN
@@ -1470,7 +1473,7 @@ Wire Wire Line
 Wire Wire Line
 	9050 8950 8150 8950
 $Comp
-L FTDI-toolkit:CRYSTAL_6Mhz Y1
+L FTDI-toolkit-rescue:CRYSTAL_6Mhz Y1
 U 1 1 5E5F7BFE
 P 7850 9050
 F 0 "Y1" H 7870 9060 60  0000 L BNN
@@ -1481,7 +1484,7 @@ F 3 "" H 7650 8700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FTDI-toolkit:C_27p_0402- C18
+L FTDI-toolkit-rescue:C_27p_0402-antmicroCapacitors0402 C18
 U 1 1 5F401E5E
 P 8150 9450
 F 0 "C18" H 8265 9495 60  0000 L CNN
@@ -1495,7 +1498,7 @@ F 6 "27p" H 8300 9600 50  0000 L CNN "Val"
 	-1   0    0    1   
 $EndComp
 $Comp
-L FTDI-toolkit:C_27p_0402- C17
+L FTDI-toolkit-rescue:C_27p_0402-antmicroCapacitors0402 C17
 U 1 1 5F401725
 P 7700 9450
 F 0 "C17" H 7815 9495 60  0000 L CNN
@@ -1511,7 +1514,7 @@ $EndComp
 Wire Wire Line
 	7750 9300 7700 9300
 $Comp
-L FTDI-toolkit:GND #PWR0119
+L FTDI-toolkit-rescue:GND #PWR0119
 U 1 1 5FB95A2D
 P 7700 9600
 F 0 "#PWR0119" H 7700 9350 50  0001 C CNN
@@ -1522,7 +1525,7 @@ F 3 "" H 7700 9600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FTDI-toolkit:GND #PWR0120
+L FTDI-toolkit-rescue:GND #PWR0120
 U 1 1 5FB95D7E
 P 8150 9600
 F 0 "#PWR0120" H 8150 9350 50  0001 C CNN
@@ -1533,7 +1536,7 @@ F 3 "" H 8150 9600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FTDI-toolkit:C_100n_0402_16V- C19
+L FTDI-toolkit-rescue:C_100n_0402_16V-antmicroCapacitors0402 C19
 U 1 1 5F39DBC1
 P 7700 10450
 F 0 "C19" H 7815 10495 60  0000 L CNN
@@ -1547,7 +1550,7 @@ F 6 "100n" H 7800 10600 50  0000 L CNN "Val"
 	-1   0    0    1   
 $EndComp
 $Comp
-L FTDI-toolkit:C_100n_0402_16V- C20
+L FTDI-toolkit-rescue:C_100n_0402_16V-antmicroCapacitors0402 C20
 U 1 1 5F39DBCA
 P 8150 10450
 F 0 "C20" H 8265 10495 60  0000 L CNN
@@ -1561,7 +1564,7 @@ F 6 "100n" H 8250 10600 50  0000 L CNN "Val"
 	-1   0    0    1   
 $EndComp
 $Comp
-L FTDI-toolkit:GND #PWR0121
+L FTDI-toolkit-rescue:GND #PWR0121
 U 1 1 5FB9B706
 P 7700 10600
 F 0 "#PWR0121" H 7700 10350 50  0001 C CNN
@@ -1572,7 +1575,7 @@ F 3 "" H 7700 10600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FTDI-toolkit:GND #PWR0122
+L FTDI-toolkit-rescue:GND #PWR0122
 U 1 1 5FB9B9EC
 P 8150 10600
 F 0 "#PWR0122" H 8150 10350 50  0001 C CNN
@@ -1583,7 +1586,7 @@ F 3 "" H 8150 10600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FTDI-toolkit:GND #PWR0123
+L FTDI-toolkit-rescue:GND #PWR0123
 U 1 1 5FBF14DD
 P 9050 10450
 F 0 "#PWR0123" H 9050 10200 50  0001 C CNN
@@ -1594,7 +1597,7 @@ F 3 "" H 9050 10450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FTDI-toolkit:R_10k_0402- R13
+L FTDI-toolkit-rescue:R_10k_0402-antmicroResistors0402 R13
 U 1 1 5F464B54
 P 8900 9350
 F 0 "R13" H 8900 9137 60  0000 C CNN
@@ -1625,7 +1628,7 @@ Connection ~ 8300 8350
 Wire Wire Line
 	8300 8350 7750 8350
 $Comp
-L FTDI-toolkit:C_100n_0402_16V- C12
+L FTDI-toolkit-rescue:C_100n_0402_16V-antmicroCapacitors0402 C12
 U 1 1 5F5D3CC5
 P 8900 8050
 F 0 "C12" V 8642 8050 60  0000 C CNN
@@ -1639,7 +1642,7 @@ F 6 "100n" V 8740 8050 50  0000 C CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L FTDI-toolkit:GND #PWR0124
+L FTDI-toolkit-rescue:GND #PWR0124
 U 1 1 5FD2BAA8
 P 8750 8050
 F 0 "#PWR0124" H 8750 7800 50  0001 C CNN
@@ -1668,7 +1671,7 @@ Wire Wire Line
 	8750 7450 8750 7350
 Connection ~ 8750 7350
 $Comp
-L FTDI-toolkit:C_100n_0402_16V- C11
+L FTDI-toolkit-rescue:C_100n_0402_16V-antmicroCapacitors0402 C11
 U 1 1 5F73EFA8
 P 8250 7550
 F 0 "C11" H 8135 7505 60  0000 R CNN
@@ -1682,7 +1685,7 @@ F 6 "100n" H 8135 7603 50  0000 R CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L FTDI-toolkit:R_470R_0402- R9
+L FTDI-toolkit-rescue:R_470R_0402-antmicroResistors0402 R9
 U 1 1 5F741F68
 P 8000 7250
 F 0 "R9" H 8000 7463 60  0000 C CNN
@@ -1709,7 +1712,7 @@ Wire Wire Line
 Wire Wire Line
 	7800 7250 7800 7050
 $Comp
-L FTDI-toolkit:GND #PWR0125
+L FTDI-toolkit-rescue:GND #PWR0125
 U 1 1 5FE7F73B
 P 8250 7700
 F 0 "#PWR0125" H 8250 7450 50  0001 C CNN
@@ -1737,7 +1740,7 @@ Wire Wire Line
 	9050 9950 9050 10050
 Connection ~ 9050 10050
 $Comp
-L FTDI-toolkit:FT2232 IC8
+L FTDI-toolkit-rescue:FT2232 IC8
 U 1 1 5E5F7BFC
 P 9750 9050
 F 0 "IC8" H 9250 11050 60  0000 L BNN
@@ -1784,7 +1787,7 @@ Wire Wire Line
 Text Label 10800 2000 0    60   ~ 0
 UART_1_OE
 $Comp
-L FTDI-toolkit:R_10k_0402- R19
+L FTDI-toolkit-rescue:R_10k_0402-antmicroResistors0402 R19
 U 1 1 600DB1C2
 P 11400 2250
 F 0 "R19" V 11355 2320 60  0000 L CNN
@@ -1800,7 +1803,7 @@ $EndComp
 Text GLabel 11400 1600 1    50   Input ~ 0
 JTAG_VCC
 $Comp
-L FTDI-toolkit:R_0R_0402- R20
+L FTDI-toolkit-rescue:R_0R_0402-antmicroResistors0402 R20
 U 1 1 601008D1
 P 11400 1750
 F 0 "R20" H 11400 1850 60  0000 C CNN
@@ -1823,7 +1826,7 @@ Connection ~ 11400 2000
 Wire Wire Line
 	11400 2000 11400 2100
 $Comp
-L FTDI-toolkit:GND #PWR0126
+L FTDI-toolkit-rescue:GND #PWR0126
 U 1 1 601680D3
 P 11400 2650
 F 0 "#PWR0126" H 11400 2400 50  0001 C CNN
@@ -1882,7 +1885,7 @@ Connection ~ 2800 10600
 Wire Wire Line
 	2800 10600 2800 10800
 $Comp
-L FTDI-toolkit:GND #PWR0127
+L FTDI-toolkit-rescue:GND #PWR0127
 U 1 1 5E71170D
 P 8500 2450
 F 0 "#PWR0127" H 8500 2200 50  0001 C CNN
@@ -1893,7 +1896,7 @@ F 3 "" H 8500 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FTDI-toolkit:C_1u_0603 C6
+L antmicroCapacitors0603:C_1u_0603 C6
 U 1 1 5E780C9B
 P 9900 2100
 F 0 "C6" H 10150 2100 60  0000 R TNN
@@ -1918,7 +1921,7 @@ Connection ~ 8500 1950
 Wire Wire Line
 	8500 2350 8500 2450
 $Comp
-L FTDI-toolkit:GND #PWR0128
+L FTDI-toolkit-rescue:GND #PWR0128
 U 1 1 5E7C4348
 P 9550 2450
 F 0 "#PWR0128" H 9550 2200 50  0001 C CNN
@@ -1942,7 +1945,7 @@ Connection ~ 9900 1850
 Wire Wire Line
 	9900 1850 9950 1850
 $Comp
-L FTDI-toolkit:GND #PWR0129
+L FTDI-toolkit-rescue:GND #PWR0129
 U 1 1 5E804EDC
 P 9900 2450
 F 0 "#PWR0129" H 9900 2200 50  0001 C CNN
@@ -1955,7 +1958,7 @@ $EndComp
 Wire Wire Line
 	9900 2250 9900 2450
 $Comp
-L FTDI-toolkit:C_1u_0603 C1
+L antmicroCapacitors0603:C_1u_0603 C1
 U 1 1 5E88533E
 P 7200 2200
 F 0 "C1" H 7050 2250 60  0000 R TNN
@@ -1966,7 +1969,7 @@ F 3 "" H 7000 2100 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L FTDI-toolkit:C_1u_0603 C2
+L antmicroCapacitors0603:C_1u_0603 C2
 U 1 1 5E88563B
 P 7650 2200
 F 0 "C2" H 7500 2250 60  0000 R TNN
@@ -1992,7 +1995,7 @@ Text GLabel 7500 1700 2    50   Input ~ 0
 Wire Wire Line
 	6900 1700 7300 1700
 $Comp
-L FTDI-toolkit:GND #PWR0130
+L FTDI-toolkit-rescue:GND #PWR0130
 U 1 1 5E8E0D0B
 P 6900 1950
 F 0 "#PWR0130" H 6900 1700 50  0001 C CNN
@@ -2005,7 +2008,7 @@ $EndComp
 Wire Wire Line
 	6900 1800 6900 1950
 $Comp
-L FTDI-toolkit:GND #PWR0131
+L FTDI-toolkit-rescue:GND #PWR0131
 U 1 1 5E8F71DA
 P 7200 2350
 F 0 "#PWR0131" H 7200 2100 50  0001 C CNN
@@ -2016,7 +2019,7 @@ F 3 "" H 7200 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FTDI-toolkit:GND #PWR0132
+L FTDI-toolkit-rescue:GND #PWR0132
 U 1 1 5E8F744A
 P 7650 2350
 F 0 "#PWR0132" H 7650 2100 50  0001 C CNN
@@ -2037,7 +2040,7 @@ Connection ~ 7300 1700
 Wire Wire Line
 	7300 1700 7500 1700
 $Comp
-L FTDI-toolkit:R_470R_0402 R2
+L antmicroResistors0402:R_470R_0402 R2
 U 1 1 5E960659
 P 4250 2100
 F 0 "R2" V 4295 2030 60  0000 R CNN
@@ -2053,7 +2056,7 @@ $EndComp
 Wire Wire Line
 	4250 1800 4250 1950
 $Comp
-L FTDI-toolkit:GND #PWR0133
+L FTDI-toolkit-rescue:GND #PWR0133
 U 1 1 5E97ABE7
 P 4250 2250
 F 0 "#PWR0133" H 4250 2000 50  0001 C CNN
@@ -2075,7 +2078,7 @@ Wire Wire Line
 	2650 1500 3250 1500
 Connection ~ 4250 1500
 $Comp
-L FTDI-toolkit:GND #PWR0134
+L FTDI-toolkit-rescue:GND #PWR0134
 U 1 1 5EAE0932
 P 1650 2000
 F 0 "#PWR0134" H 1650 1750 50  0001 C CNN
@@ -2092,7 +2095,7 @@ Wire Wire Line
 Wire Wire Line
 	2600 2000 2200 2000
 $Comp
-L FTDI-toolkit:GND #PWR0135
+L FTDI-toolkit-rescue:GND #PWR0135
 U 1 1 5EB0A680
 P 2200 2000
 F 0 "#PWR0135" H 2200 1750 50  0001 C CNN
@@ -2116,7 +2119,7 @@ Wire Wire Line
 	1850 1500 1850 2350
 Connection ~ 1850 1500
 $Comp
-L FTDI-toolkit:C_10n_0402 C3
+L antmicroCapacitors0402:C_10n_0402 C3
 U 1 1 5EB64DB5
 P 1850 2500
 F 0 "C3" H 1965 2545 60  0000 L CNN
@@ -2130,7 +2133,7 @@ F 6 "10n" H 1965 2447 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L FTDI-toolkit:GND #PWR0136
+L FTDI-toolkit-rescue:GND #PWR0136
 U 1 1 5EB65932
 P 1850 2650
 F 0 "#PWR0136" H 1850 2400 50  0001 C CNN
@@ -2141,7 +2144,7 @@ F 3 "" H 1850 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FTDI-toolkit:C_100n_0402_16V- C4
+L FTDI-toolkit-rescue:C_100n_0402_16V-antmicroCapacitors0402 C4
 U 1 1 5EB67938
 P 3250 2050
 F 0 "C4" H 3365 2095 60  0000 L CNN
@@ -2160,7 +2163,7 @@ Connection ~ 3250 1500
 Wire Wire Line
 	3250 1500 4250 1500
 $Comp
-L FTDI-toolkit:GND #PWR0137
+L FTDI-toolkit-rescue:GND #PWR0137
 U 1 1 5EB8092E
 P 3250 2200
 F 0 "#PWR0137" H 3250 1950 50  0001 C CNN
@@ -2171,7 +2174,7 @@ F 3 "" H 3250 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FTDI-toolkit:GND #PWR0138
+L FTDI-toolkit-rescue:GND #PWR0138
 U 1 1 5EB82BAA
 P 1750 3000
 F 0 "#PWR0138" H 1750 2750 50  0001 C CNN
@@ -2184,7 +2187,7 @@ $EndComp
 Wire Wire Line
 	1500 3000 1750 3000
 $Comp
-L FTDI-toolkit:GNDREF #PWR0140
+L power:GNDREF #PWR0140
 U 1 1 5EB9A35F
 P 950 3000
 F 0 "#PWR0140" H 950 2750 50  0001 C CNN
@@ -2197,7 +2200,7 @@ $EndComp
 Wire Wire Line
 	1100 3000 950  3000
 $Comp
-L FTDI-toolkit:C_100n_0402_16V- C21
+L FTDI-toolkit-rescue:C_100n_0402_16V-antmicroCapacitors0402 C21
 U 1 1 5EBCE840
 P 5300 4300
 F 0 "C21" H 5415 4345 60  0000 L CNN
@@ -2211,7 +2214,7 @@ F 6 "100n" H 5415 4247 50  0000 L CNN "Val"
 	-1   0    0    1   
 $EndComp
 $Comp
-L FTDI-toolkit:C_100n_0402_16V- C22
+L FTDI-toolkit-rescue:C_100n_0402_16V-antmicroCapacitors0402 C22
 U 1 1 5EBCEEBB
 P 5300 5350
 F 0 "C22" H 5415 5395 60  0000 L CNN
@@ -2225,7 +2228,7 @@ F 6 "100n" H 5415 5297 50  0000 L CNN "Val"
 	-1   0    0    1   
 $EndComp
 $Comp
-L FTDI-toolkit:GND #PWR0141
+L FTDI-toolkit-rescue:GND #PWR0141
 U 1 1 5EBD0C7B
 P 5300 5500
 F 0 "#PWR0141" H 5300 5250 50  0001 C CNN
@@ -2236,7 +2239,7 @@ F 3 "" H 5300 5500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FTDI-toolkit:GND #PWR0142
+L FTDI-toolkit-rescue:GND #PWR0142
 U 1 1 5EBD128D
 P 5300 4450
 F 0 "#PWR0142" H 5300 4200 50  0001 C CNN
@@ -2281,7 +2284,7 @@ Wire Wire Line
 Wire Wire Line
 	4600 4950 4800 4950
 $Comp
-L FTDI-toolkit:GND #PWR0143
+L FTDI-toolkit-rescue:GND #PWR0143
 U 1 1 5ED2213A
 P 4700 5400
 F 0 "#PWR0143" H 4700 5150 50  0001 C CNN
@@ -2292,7 +2295,7 @@ F 3 "" H 4700 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FTDI-toolkit:GND #PWR0144
+L FTDI-toolkit-rescue:GND #PWR0144
 U 1 1 5ED223C0
 P 4700 4300
 F 0 "#PWR0144" H 4700 4050 50  0001 C CNN
@@ -2313,7 +2316,7 @@ Wire Wire Line
 Wire Wire Line
 	3100 4150 2450 4150
 $Comp
-L FTDI-toolkit:R_10k_0402- R5
+L FTDI-toolkit-rescue:R_10k_0402-antmicroResistors0402 R5
 U 1 1 5ED6FF77
 P 2450 4000
 F 0 "R5" H 2450 4100 60  0000 C CNN
@@ -2327,7 +2330,7 @@ F 6 "10k" H 2450 3885 50  0000 C CNN "Val"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L FTDI-toolkit:R_10k_0402- R4
+L FTDI-toolkit-rescue:R_10k_0402-antmicroResistors0402 R4
 U 1 1 5ED8D5EF
 P 2100 4000
 F 0 "R4" H 2100 4100 60  0000 C CNN
@@ -2355,7 +2358,7 @@ Wire Wire Line
 Text GLabel 2300 4650 1    50   Input ~ 0
 5V_USB
 $Comp
-L FTDI-toolkit:R_10k_0402- R16
+L FTDI-toolkit-rescue:R_10k_0402-antmicroResistors0402 R16
 U 1 1 5EDF1A22
 P 2150 5050
 F 0 "R16" H 2150 5150 60  0000 C CNN
@@ -2369,7 +2372,7 @@ F 6 "10k" H 2150 4935 50  0000 C CNN "Val"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L FTDI-toolkit:R_10k_0402- R17
+L FTDI-toolkit-rescue:R_10k_0402-antmicroResistors0402 R17
 U 1 1 5EDF1E8D
 P 2500 5050
 F 0 "R17" H 2500 5150 60  0000 C CNN
@@ -2412,7 +2415,7 @@ Connection ~ 3950 10100
 Wire Wire Line
 	3950 10100 4150 10100
 $Comp
-L FTDI-toolkit:GNDREF #PWR0139
+L power:GNDREF #PWR0139
 U 1 1 5EB99E50
 P 1050 2300
 F 0 "#PWR0139" H 1050 2050 50  0001 C CNN
@@ -2431,7 +2434,7 @@ Wire Wire Line
 Wire Wire Line
 	1850 1500 1540 1500
 $Comp
-L FTDI-toolkit:Micro_USB_B J1
+L FTDI-toolkit-rescue:Micro_USB_B J1
 U 1 1 5E5F7C20
 P 1050 1800
 F 0 "J1" H 1300 1400 60  0000 R BNN
@@ -2466,7 +2469,7 @@ Connection ~ 8150 9150
 Wire Wire Line
 	8150 9150 8150 9300
 $Comp
-L FTDI-toolkit:R_10k_0402- R22
+L FTDI-toolkit-rescue:R_10k_0402-antmicroResistors0402 R22
 U 1 1 5F321E97
 P 6550 9950
 F 0 "R22" V 6505 10020 60  0000 L CNN
@@ -2485,5 +2488,5 @@ Text GLabel 5650 10400 1    50   Input ~ 0
 VCCIOB
 Connection ~ 6600 5800
 Wire Wire Line
-	6450 5800 6600 5800
+	6600 5800 6550 5800
 $EndSCHEMATC
