@@ -1,4 +1,4 @@
-(module SC70-5 (layer F.Cu) (tedit 5E68C429)
+(module SC70-5 (layer F.Cu) (tedit 5E68D0FF)
   (attr smd)
   (fp_text reference IC4 (at 0.4 0.35) (layer B.SilkS) hide
     (effects (font (size 1.524 1.524) (thickness 0.05)) (justify mirror))
@@ -11,9 +11,9 @@
   (pad 3 smd rect (at -1.1 0.65 90) (size 0.35 0.85) (layers F.Cu F.Paste F.Mask))
   (pad 4 smd rect (at 1.1 0.65 90) (size 0.35 0.85) (layers F.Cu F.Paste F.Mask))
   (pad 5 smd rect (at 1.1 -0.65 90) (size 0.35 0.85) (layers F.Cu F.Paste F.Mask))
-  (model ./wrlshp/42A777B7-0107.wrl
+  (model ${KIPRJMOD}/lib/3d-models/SC70-5.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz 0 0 90))
   )
 )

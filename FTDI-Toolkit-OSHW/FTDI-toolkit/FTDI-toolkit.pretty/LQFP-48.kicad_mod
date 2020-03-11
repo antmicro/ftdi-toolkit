@@ -1,4 +1,4 @@
-(module LQFP-48 (layer F.Cu) (tedit 5E68C3A8)
+(module LQFP-48 (layer F.Cu) (tedit 5E68D023)
   (attr smd)
   (fp_text reference IC8 (at 0 0 270) (layer B.SilkS) hide
     (effects (font (size 1.524 1.524) (thickness 0.05)) (justify mirror))
@@ -54,9 +54,9 @@
   (pad 1 smd oval (at -4.225 -2.75 90) (size 0.35 1.75) (layers F.Cu F.Paste F.Mask))
   (pad 8 smd oval (at -4.225 0.75 90) (size 0.35 1.75) (layers F.Cu F.Paste F.Mask))
   (pad 7 smd oval (at -4.225 0.25 90) (size 0.35 1.75) (layers F.Cu F.Paste F.Mask))
-  (model ./wrlshp/962A1087-D945.wrl
-    (at (xyz 0 0 0))
+  (model ${KIPRJMOD}/lib/3d-models/LQFP-48.step
+    (offset (xyz 0 0 1))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 180))
+    (rotate (xyz 0 0 0))
   )
 )

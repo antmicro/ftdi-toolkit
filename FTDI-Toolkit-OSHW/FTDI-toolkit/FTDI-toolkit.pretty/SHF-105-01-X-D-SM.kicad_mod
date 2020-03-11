@@ -1,4 +1,4 @@
-(module SHF-105-01-X-D-SM (layer F.Cu) (tedit 5E68C7AD)
+(module SHF-105-01-X-D-SM (layer F.Cu) (tedit 5E68D3A7)
   (attr smd)
   (fp_text reference J2 (at 0 0 180) (layer F.SilkS) hide
     (effects (font (size 1.524 1.524) (thickness 0.05)))
@@ -18,9 +18,9 @@
   (pad 8 smd rect (at 2.032 1.27) (size 2.794 0.7366) (layers F.Cu F.Paste F.Mask))
   (pad 9 smd rect (at -2.032 2.54) (size 2.794 0.7366) (layers F.Cu F.Paste F.Mask))
   (pad 10 smd rect (at 2.032 2.54) (size 2.794 0.7366) (layers F.Cu F.Paste F.Mask))
-  (model ./wrlshp/BDA57040-8FFF.wrl
+  (model ${KIPRJMOD}/lib/3d-models/SHF-105-01-L-D-SM-K-TR.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 180))
+    (rotate (xyz -90 0 90))
   )
 )
