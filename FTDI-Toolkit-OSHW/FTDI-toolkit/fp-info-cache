@@ -1,4 +1,4 @@
-968872321087132
+975227734608132
 FTDI-toolkit
 0402
 
@@ -70,6 +70,13 @@ MH_2X08_2.54_RA
 16
 16
 FTDI-toolkit
+OSHW-Logo2_7.3x6mm_SilkScreen
+Open Source Hardware Symbol
+Logo Symbol OSHW
+0
+0
+0
+FTDI-toolkit
 SC70-5
 
 
@@ -111,6 +118,13 @@ WE_629105150521
 0
 9
 6
+FTDI-toolkit
+antmicro-logo_scaled_12mm
+
+
+0
+0
+0
 antmicro-footprints
 685119134923
 WR-COM SMT Horizontal HDMI, 19 pins
@@ -2555,6 +2569,13 @@ https://industrial.panasonic.com/content/data/CP/PDF/built-in_sensor_catalog_e.p
 14
 14
 antmicro-footprints
+SMH-120-02-T-D
+
+
+0
+40
+40
+antmicro-footprints
 SOCKET_DIP-6_7.62mm_Conn
 http://www.assmann-wsw.com/fileadmin/datasheets/ASS_0810_CO.pdf
 
@@ -3303,6 +3324,13 @@ TPD6E05U06
 0
 14
 8
+antmicro-footprints
+TPD12S016PWR
+
+
+0
+24
+24
 antmicro-footprints
 TQFN-20-1EP_5x5mm
 

@@ -2488,4 +2488,26 @@ Wire Wire Line
 	6450 5800 6600 5800
 Text Notes 13750 1750 0    118  ~ 24
 Review connections!!!!
+$Comp
+L FTDI-toolkit:antmicro_logo N1
+U 1 1 5E6C149E
+P 10100 10950
+F 0 "N1" H 10314 11043 50  0000 L CNN
+F 1 "antmicro_logo" H 10314 10952 50  0000 L CNN
+F 2 "FTDI-toolkit:antmicro-logo_scaled_12mm" H 10000 11200 50  0001 C CNN
+F 3 "" H 10100 11300 50  0001 C CNN
+	1    10100 10950
+	1    0    0    -1  
+$EndComp
+$Comp
+L FTDI-toolkit:oshw_logo N2
+U 1 1 5E6EE219
+P 11050 10850
+F 0 "N2" H 11244 10853 50  0000 L CNN
+F 1 "oshw_logo" H 11244 10762 50  0000 L CNN
+F 2 "FTDI-toolkit:OSHW-Logo2_7.3x6mm_SilkScreen" H 11070 10610 50  0001 C CNN
+F 3 "" H 11050 10850 50  0001 C CNN
+	1    11050 10850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
