@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name FTDI-toolkit)(type Legacy)(uri ${KIPRJMOD}/lib/FTDI-toolkit.lib)(options "")(descr ""))
-)

@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name FTDI-toolkit)(type KiCad)(uri ${KIPRJMOD}/FTDI-toolkit.pretty)(options "")(descr ""))
-)
