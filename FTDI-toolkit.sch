@@ -2550,4 +2550,6 @@ Wire Wire Line
 Connection ~ 6350 5300
 Wire Wire Line
 	6350 5300 6350 5800
+Text Notes 15450 11050 0    47   ~ 0
+1.1.0 07.2020
 $EndSCHEMATC
