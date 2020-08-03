@@ -691,8 +691,6 @@ Wire Wire Line
 	3250 1500 4250 1500
 Wire Wire Line
 	1500 3000 1750 3000
-Wire Wire Line
-	1100 3000 950  3000
 Text GLabel 5300 4150 1    50   Input ~ 0
 5V_USB
 Text GLabel 3100 3750 0    50   Input ~ 0
@@ -807,9 +805,6 @@ Wire Wire Line
 	6600 2100 6600 2150
 Wire Wire Line
 	9200 2250 9200 2300
-Wire Wire Line
-	8750 1850 8900 1850
-Connection ~ 8750 1850
 Wire Wire Line
 	8900 1950 8750 1950
 Wire Wire Line
@@ -2554,15 +2549,11 @@ Wire Wire Line
 	7300 6850 7750 6850
 Wire Wire Line
 	7750 6850 7750 7900
-Wire Wire Line
-	7750 7900 8300 7900
 Connection ~ 7300 6850
 Wire Wire Line
 	7300 7550 7650 7550
 Wire Wire Line
 	7650 7550 7650 8000
-Wire Wire Line
-	7650 8000 8300 8000
 Connection ~ 7300 7550
 Text GLabel 8150 6600 0    50   Input ~ 0
 3V3_FT
@@ -2802,4 +2793,44 @@ Text Notes 11900 8350 0    60   ~ 0
 I2C_SDA
 Text Notes 11900 8450 0    60   ~ 0
 I2C_SCL
+NoConn ~ 9900 7000
+NoConn ~ 9900 7100
+NoConn ~ 9900 7200
+NoConn ~ 9900 7300
+NoConn ~ 9900 7450
+NoConn ~ 9900 7550
+NoConn ~ 9900 7650
+NoConn ~ 9900 7950
+NoConn ~ 9900 8050
+NoConn ~ 9900 8150
+NoConn ~ 9900 8700
+NoConn ~ 9900 8800
+NoConn ~ 9900 8900
+NoConn ~ 9900 9000
+NoConn ~ 9900 9150
+NoConn ~ 9900 9250
+NoConn ~ 9900 9350
+NoConn ~ 8300 9250
+NoConn ~ 8300 9350
+NoConn ~ 8300 9450
+NoConn ~ 9900 9650
+NoConn ~ 9900 9750
+NoConn ~ 9900 9850
+NoConn ~ 9900 10150
+NoConn ~ 9900 10250
+Wire Wire Line
+	7750 7900 8300 7900
+Wire Wire Line
+	7650 8000 8300 8000
+Wire Wire Line
+	950  3000 1100 3000
+Wire Wire Line
+	8750 1850 8900 1850
+Connection ~ 8750 1850
+NoConn ~ 12100 2350
+NoConn ~ 1500 1800
+NoConn ~ 8150 4400
+NoConn ~ 11550 7550
+NoConn ~ 11550 7750
+NoConn ~ 8150 4200
 $EndSCHEMATC
