@@ -29,24 +29,20 @@ Text Notes 8100 6200 0    144  ~ 0
 JTAG/UART to USB
 Text Notes 12800 3800 0    144  ~ 0
 Goldpin connector
-Text Label 10050 6700 0    60   ~ 0
-UART_1_RXD
-Text Label 10050 6600 0    60   ~ 0
-UART_1_TXD
 Text Label 10050 8400 0    60   ~ 0
-UART_2_RXD
+BDBUS1
 Text Label 10050 8300 0    60   ~ 0
-UART_2_TXD
+BDBUS0
 Text Notes 8300 1400 0    144  ~ 0
 3V3 -> 1.8V LDO 200mA
 Text Label 10050 6900 0    60   ~ 0
-UART_1_CTS
+ADBUS3
 Text Label 10050 6800 0    60   ~ 0
-UART_1_RTS
+ADBUS2
 Text Label 10050 8600 0    60   ~ 0
-UART_2_CTS
+BDBUS3
 Text Label 10050 8500 0    60   ~ 0
-UART_2_RTS
+BDBUS2
 Text Label 10050 7750 0    60   ~ 0
 UART_1_RXLED
 Text Label 10050 7850 0    60   ~ 0
@@ -71,14 +67,10 @@ Text Label 14300 7350 0    60   ~ 0
 UART_1_RXLED
 Text Notes 2350 6250 0    144  ~ 0
 Voltage level translation
-Text Label 4150 6950 0    60   ~ 0
-UART_1_RXD
 Text Label 4150 7450 0    60   ~ 0
-UART_1_CTS
-Text Label 2050 7850 0    60   ~ 0
-UART_1_TXD
+ADBUS3
 Text Label 2100 8350 0    60   ~ 0
-UART_1_RTS
+ADBUS2
 Text Label 2050 6850 0    60   ~ 0
 UART_1_RXD_T
 Text Label 2050 7350 0    60   ~ 0
@@ -148,13 +140,13 @@ Wire Notes Line
 Text Label 12700 2450 0    60   ~ 0
 CN_JTAG_RESETn
 Text Label 12700 2050 0    60   ~ 0
-UART_1_CTS
+ADBUS3
 Text Label 12700 2150 0    60   ~ 0
-UART_1_TXD
+ADBUS0
 Text Label 12700 2250 0    60   ~ 0
-UART_1_RTS
+ADBUS2
 Text Label 12700 2350 0    60   ~ 0
-UART_1_RXD
+ADBUS1
 Text Notes 10900 6600 0    60   ~ 0
 JTAG_TCK
 Text Notes 10900 6700 0    60   ~ 0
@@ -182,9 +174,9 @@ UART_2_TXD_T
 Text Label 2050 9700 0    60   ~ 0
 UART_2_CTS_T
 Text Label 2050 10700 0    60   ~ 0
-UART_2_RTS
+BDBUS2
 Text Label 2050 10200 0    60   ~ 0
-UART_2_TXD
+BDBUS0
 Text Label 4050 7950 0    60   ~ 0
 UART_1_TXD_T
 Text GLabel 4100 7750 2    50   Input ~ 0
@@ -364,9 +356,9 @@ Wire Wire Line
 Wire Wire Line
 	8700 4000 8150 4000
 Text Label 4100 9300 0    60   ~ 0
-UART_2_RXD
+BDBUS1
 Text Label 4100 9800 0    60   ~ 0
-UART_2_CTS
+BDBUS3
 Wire Wire Line
 	3850 9100 3950 9100
 Wire Wire Line
@@ -2250,8 +2242,6 @@ Wire Wire Line
 Connection ~ 6850 4600
 Wire Wire Line
 	6850 4600 6850 5100
-Text Notes 15450 11050 0    47   ~ 0
-1.1.0 07.2020
 Connection ~ 7100 5100
 Wire Wire Line
 	7100 5100 7450 5100
@@ -2355,13 +2345,13 @@ $Comp
 L antmicroCapacitors0402:C_100n_0402_16V C12
 U 1 1 5F5D3CC5
 P 7300 7750
-F 0 "C12" H 7500 7800 60  0000 C CNN
+F 0 "C12" H 7450 7850 60  0000 C CNN
 F 1 "C_100n_0402_16V" H 7300 7600 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 7500 7950 60  0001 L CNN
 F 3 "" H 7300 7750 50  0001 C CNN
 F 4 "MULTICOMP" H 7500 8150 60  0001 L CNN "Manufacturer"
 F 5 "MC0402B104K160CT" H 7500 8050 60  0001 L CNN "MPN"
-F 6 "100n" H 7500 7700 50  0000 C CNN "Val"
+F 6 "100n" H 7500 7750 50  0000 C CNN "Val"
 	1    7300 7750
 	1    0    0    -1  
 $EndComp
@@ -2380,7 +2370,7 @@ $Comp
 L antmicroCapacitors0402:C_100n_0402_16V C25
 U 1 1 5FC7C451
 P 7300 7050
-F 0 "C25" H 7450 7100 60  0000 C CNN
+F 0 "C25" H 7500 7100 60  0000 C CNN
 F 1 "C_100n_0402_16V" H 7300 6900 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 7500 7250 60  0001 L CNN
 F 3 "" H 7300 7050 50  0001 C CNN
@@ -2405,13 +2395,13 @@ $Comp
 L antmicroCapacitors0402:C_4u7_0402 C11
 U 1 1 5FCAF724
 P 6950 7050
-F 0 "C11" H 7065 7095 60  0000 L CNN
+F 0 "C11" H 6650 7100 60  0000 L CNN
 F 1 "C_4u7_0402" H 6950 6900 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 7150 7250 60  0001 L CNN
 F 3 "" H 6950 7050 50  0001 C CNN
 F 4 "MURATA" H 7150 7450 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R61A475MEAAD" H 7150 7350 60  0001 L CNN "MPN"
-F 6 "4u7" H 7065 6997 50  0000 L CNN "Val"
+F 6 "4u7" H 6650 7000 50  0000 L CNN "Val"
 	1    6950 7050
 	1    0    0    -1  
 $EndComp
@@ -2419,13 +2409,13 @@ $Comp
 L antmicroCapacitors0402:C_4u7_0402 C23
 U 1 1 5FCB05D9
 P 6950 7750
-F 0 "C23" H 7065 7795 60  0000 L CNN
+F 0 "C23" H 7000 7850 60  0000 L CNN
 F 1 "C_4u7_0402" H 6950 7600 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 7150 7950 60  0001 L CNN
 F 3 "" H 6950 7750 50  0001 C CNN
 F 4 "MURATA" H 7150 8150 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R61A475MEAAD" H 7150 8050 60  0001 L CNN "MPN"
-F 6 "4u7" H 7065 7697 50  0000 L CNN "Val"
+F 6 "4u7" H 7050 7750 50  0000 L CNN "Val"
 	1    6950 7750
 	1    0    0    -1  
 $EndComp
@@ -2526,13 +2516,13 @@ $Comp
 L antmicroCapacitors0402:C_4u7_0402 C27
 U 1 1 5FFC3DD8
 P 8050 7000
-F 0 "C27" H 7900 7100 60  0000 L CNN
+F 0 "C27" H 7850 7100 60  0000 L CNN
 F 1 "C_4u7_0402" H 8050 6850 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 8250 7200 60  0001 L CNN
 F 3 "" H 8050 7000 50  0001 C CNN
 F 4 "MURATA" H 8250 7400 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R61A475MEAAD" H 8250 7300 60  0001 L CNN "MPN"
-F 6 "4u7" H 7800 6950 50  0000 L CNN "Val"
+F 6 "4u7" H 7800 7000 50  0000 L CNN "Val"
 	1    8050 7000
 	1    0    0    -1  
 $EndComp
@@ -2559,7 +2549,7 @@ L antmicroResistors0402:R_12k_0402 R9
 U 1 1 600538C3
 P 8050 8700
 F 0 "R9" H 8050 8800 60  0000 C CNN
-F 1 "R_12k_0402" H 8050 8550 60  0001 C CNN
+F 1 "R_12k_0402_1%" H 8050 8550 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 8250 8900 60  0001 L CNN
 F 3 "" H 8050 8700 50  0001 C CNN
 F 4 "VISHAY" H 8250 9100 60  0001 L CNN "Manufacturer"
@@ -2585,8 +2575,6 @@ Wire Wire Line
 	7900 8700 7800 8700
 Wire Wire Line
 	7800 8700 7800 8750
-Text Notes 7400 8750 0    118  ~ 24
-1%?\n
 Wire Wire Line
 	7250 9100 7250 9150
 Wire Wire Line
@@ -2606,7 +2594,7 @@ $Comp
 L antmicroCapacitors0402:C_100n_0402_16V C24
 U 1 1 60314ADF
 P 7300 6200
-F 0 "C24" H 7450 6250 60  0000 C CNN
+F 0 "C24" H 7500 6250 60  0000 C CNN
 F 1 "C_100n_0402_16V" H 7300 6050 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 7500 6400 60  0001 L CNN
 F 3 "" H 7300 6200 50  0001 C CNN
@@ -2620,7 +2608,7 @@ $Comp
 L antmicroCapacitors0402:C_100n_0402_16V C26
 U 1 1 603158A4
 P 7700 6200
-F 0 "C26" H 7850 6250 60  0000 C CNN
+F 0 "C26" H 7900 6250 60  0000 C CNN
 F 1 "C_100n_0402_16V" H 7700 6050 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 7900 6400 60  0001 L CNN
 F 3 "" H 7700 6200 50  0001 C CNN
@@ -2665,60 +2653,6 @@ Wire Wire Line
 	7300 6000 7700 6000
 Wire Wire Line
 	9900 8600 10800 8600
-Wire Wire Line
-	11550 7350 12450 7350
-Text Label 11700 7350 0    60   ~ 0
-CN_JTAG_RESETn
-$Comp
-L antmicroResistors0402:R_0R_0402 R24
-U 1 1 5FA1BF2C
-P 11900 7750
-F 0 "R24" H 11900 7650 60  0000 C CNN
-F 1 "R_0R_0402" H 11900 7600 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 12100 7950 60  0001 L CNN
-F 3 "" H 11900 7750 50  0001 C CNN
-F 4 "PANASONIC" H 12100 8150 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 12100 8050 60  0001 L CNN "MPN"
-F 6 "0R" H 11900 7550 50  0000 C CNN "Val"
-	1    11900 7750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12050 7750 12150 7750
-Wire Wire Line
-	11750 7750 11550 7750
-Text GLabel 12150 7750 2    50   Input ~ 0
-3V3_FT
-$Comp
-L antmicroResistors0402:R_0R_0402 R23
-U 1 1 5F9305BF
-P 11900 7550
-F 0 "R23" H 11700 7600 60  0000 C CNN
-F 1 "R_0R_0402" H 11900 7400 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 12100 7750 60  0001 L CNN
-F 3 "" H 11900 7550 50  0001 C CNN
-F 4 "PANASONIC" H 12100 7950 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 12100 7850 60  0001 L CNN "MPN"
-F 6 "0R" H 11700 7500 50  0000 C CNN "Val"
-	1    11900 7550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12050 7550 12150 7550
-Wire Wire Line
-	11550 7550 11750 7550
-Text GLabel 12150 7550 2    50   Input ~ 0
-3V3_FT
-Wire Notes Line
-	11250 8100 12650 8100
-Wire Notes Line
-	12650 8100 12650 7150
-Wire Notes Line
-	12650 7150 11250 7150
-Wire Notes Line
-	11250 7150 11250 8100
-Text Notes 12700 7700 0    118  ~ 24
-misc redundant?\n
 Text Notes 11450 6600 0    60   ~ 0
 SPI_SK\n
 Text Notes 11450 6800 0    60   ~ 0
@@ -2785,8 +2719,6 @@ Wire Wire Line
 NoConn ~ 12100 2350
 NoConn ~ 1500 1800
 NoConn ~ 8150 4400
-NoConn ~ 11550 7550
-NoConn ~ 11550 7750
 NoConn ~ 8150 4200
 $Comp
 L antmicroPMICVoltageRegulatorsLinear:TLV700 IC2
@@ -2837,4 +2769,16 @@ Wire Wire Line
 Connection ~ 8650 1850
 Wire Wire Line
 	8650 1850 8700 1850
+Text Notes 15500 11050 0    39   ~ 0
+1.1.0 07/2020\n
+Text Notes 13400 10750 0    60   ~ 0
+https://dev.antmicro.com/git/antmicro-ftdi-toolkit-hw
+Text Label 4150 6950 0    60   ~ 0
+ADBUS1
+Text Label 10050 6700 0    60   ~ 0
+ADBUS1
+Text Label 2050 7850 0    60   ~ 0
+ADBUS0
+Text Label 10050 6600 0    60   ~ 0
+ADBUS0
 $EndSCHEMATC
