@@ -2025,7 +2025,7 @@ Wire Wire Line
 Wire Wire Line
 	5250 8800 6150 8800
 Text Notes 6300 6250 0    60   ~ 0
-SPI_SK\n
+SPI_SCK\n
 Text Notes 6300 6450 0    60   ~ 0
 SPI_DI\n
 Text Notes 6300 6550 0    60   ~ 0
@@ -2045,7 +2045,7 @@ JTAG_TDO
 Text Notes 6250 8850 0    60   ~ 0
 JTAG_TMS
 Text Notes 6800 8550 0    60   ~ 0
-SPI_SK\n
+SPI_SCK\n
 Text Notes 6800 8750 0    60   ~ 0
 SPI_DI\n
 Text Notes 6800 8850 0    60   ~ 0
