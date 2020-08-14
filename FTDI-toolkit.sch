@@ -4,12 +4,12 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title "FTDI-Toolkit-SchDoc"
+Title "FTDI Toolkit"
 Date "04 03 2020"
-Rev ""
+Rev "1.1.0"
 Comp ""
-Comment1 ""
-Comment2 ""
+Comment1 "www.antmicro.com"
+Comment2 "Antmicro Ltd."
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -544,8 +544,6 @@ Text GLabel 900  7250 1    50   Input ~ 0
 5V_USB
 Text GLabel 2550 8950 0    50   Input ~ 0
 5V_USB
-Text Notes 13750 1750 0    118  ~ 24
-Review connections!!!!
 Wire Wire Line
 	1500 1900 1650 1900
 Wire Wire Line
