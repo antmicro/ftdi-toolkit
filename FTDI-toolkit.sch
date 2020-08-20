@@ -1631,6 +1631,8 @@ F 0 "IC13" H 7750 5000 60  0000 L BNN
 F 1 "74HC00BQ" H 7750 4900 60  0000 L BNN
 F 2 "antmicro-footprints:DHVQFN14" H 8170 4600 60  0001 C CNN
 F 3 "" H 8170 4600 60  0000 C CNN
+F 4 "74HC00BQ" H 0   0   50  0001 C CNN "MPN"
+F 5 "Nexperia" H 0   0   50  0001 C CNN "Manufacturer"
 	1    7550 4100
 	1    0    0    -1  
 $EndComp
@@ -1699,6 +1701,8 @@ F 0 "J3" H 13550 3150 60  0000 L BNN
 F 1 "2X08" H 13650 4050 50  0001 C CNN
 F 2 "antmicro-footprints:MH_2X08_2.54_RA" H 13650 4050 50  0001 C CNN
 F 3 "" H 13650 4050 50  0001 C CNN
+F 4 "61301621121" H 13650 4050 50  0001 C CNN "MPN"
+F 5 "Wurth Elektronik" H 0   0   50  0001 C CNN "Manufacturer"
 	1    13650 4050
 	1    0    0    -1  
 $EndComp
@@ -1981,6 +1985,8 @@ F 0 "D1" V 3300 1950 60  0000 L BNN
 F 1 "TPD2E009" V 3400 1950 60  0000 L BNN
 F 2 "antmicro-footprints:SOT-3" H 3400 1950 60  0001 C CNN
 F 3 "" H 3400 1950 60  0000 C CNN
+F 4 "TPD2E009DRTR" H 0   0   50  0001 C CNN "MPN"
+F 5 "Texas Instruments" H 0   0   50  0001 C CNN "Manufacturer"
 	1    2800 2250
 	0    1    1    0   
 $EndComp
@@ -1992,6 +1998,8 @@ F 0 "J2" H 12300 1450 60  0000 L BNN
 F 1 "2X05" H 12400 2050 50  0001 C CNN
 F 2 "antmicro-footprints:SHF-105-01-X-D-SM" H 12400 2050 50  0001 C CNN
 F 3 "" H 12400 2050 50  0001 C CNN
+F 4 "61301021121" H 0   0   50  0001 C CNN "MPN"
+F 5 "Wurth Elektronik" H 0   0   50  0001 C CNN "Manufacturer"
 	1    12400 2050
 	1    0    0    -1  
 $EndComp
@@ -2003,6 +2011,8 @@ F 0 "IC15" H 3300 4800 60  0000 L BNN
 F 1 "TS5A3359" H 3300 3950 60  0000 L BNN
 F 2 "antmicro-footprints:TS5A3359" H 3300 3950 60  0001 C CNN
 F 3 "" H 3300 3950 60  0000 C CNN
+F 4 "TS5A3359DCUR" H 0   0   50  0001 C CNN "MPN"
+F 5 "Texas Instruments" H 0   0   50  0001 C CNN "Manufacturer"
 	1    3300 4750
 	1    0    0    -1  
 $EndComp
@@ -2014,6 +2024,8 @@ F 0 "IC3" H 3300 3700 60  0000 L BNN
 F 1 "TS5A3359" H 3300 2850 60  0000 L BNN
 F 2 "antmicro-footprints:TS5A3359" H 3300 2850 60  0001 C CNN
 F 3 "" H 3300 2850 60  0000 C CNN
+F 4 "TS5A3359DCUR" H 0   0   50  0001 C CNN "MPN"
+F 5 "Texas Instruments" H 0   0   50  0001 C CNN "Manufacturer"
 	1    3300 3650
 	1    0    0    -1  
 $EndComp
@@ -2025,6 +2037,8 @@ F 0 "SW1_B1" H 1650 4800 60  0000 L BNN
 F 1 "1X03" H 1550 5000 50  0001 C CNN
 F 2 "antmicro-footprints:MH_1X03_2.54" H 1550 5000 50  0001 C CNN
 F 3 "" H 1550 5000 50  0001 C CNN
+F 4 "61300311121" H 0   0   50  0001 C CNN "MPN"
+F 5 "Wurth Elektronik" H 0   0   50  0001 C CNN "Manufacturer"
 	1    1550 5000
 	1    0    0    -1  
 $EndComp
@@ -2036,6 +2050,8 @@ F 0 "SW1_A1" H 1650 4350 60  0000 L BNN
 F 1 "1X03" H 1550 4500 50  0001 C CNN
 F 2 "antmicro-footprints:MH_1X03_2.54" H 1550 4500 50  0001 C CNN
 F 3 "" H 1550 4500 50  0001 C CNN
+F 4 "61300311121" H 0   0   50  0001 C CNN "MPN"
+F 5 "Wurth Elektronik" H 0   0   50  0001 C CNN "Manufacturer"
 	1    1550 4500
 	1    0    0    -1  
 $EndComp
@@ -2319,28 +2335,6 @@ F 3 "" H 3050 6550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroPMICVoltageRegulatorsLinear:TLV700 IC2
-U 1 1 5E5F7C4B
-P 9200 1950
-F 0 "IC2" H 8900 2200 60  0000 L BNN
-F 1 "TLV700" H 8900 2300 60  0000 L BNN
-F 2 "antmicro-footprints:SC-70-5" H 8900 2250 60  0001 C CNN
-F 3 "" H 8900 2250 60  0000 C CNN
-	1    9200 1950
-	1    0    0    -1  
-$EndComp
-$Comp
-L antmicroPMICVoltageRegulatorsLinear:TLV700 IC1
-U 1 1 5E5F7C27
-P 6400 1800
-F 0 "IC1" H 6100 2050 60  0000 L BNN
-F 1 "TLV700" H 6100 1600 60  0000 L BNN
-F 2 "antmicro-footprints:SC-70-5" H 6100 1600 60  0001 C CNN
-F 3 "" H 6100 1600 60  0000 C CNN
-	1    6400 1800
-	1    0    0    -1  
-$EndComp
-$Comp
 L antmicroInterfaceControllers:FT2232H-56Q U1
 U 1 1 5F74C0C3
 P 4450 8950
@@ -2533,6 +2527,8 @@ F 0 "U2" H 9050 6850 50  0000 C CNN
 F 1 "TXB0104RUT" H 8900 6750 50  0000 C CNN
 F 2 "Package_DFN_QFN:Texas_R_PUQFN-N12" H 9500 6600 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/txb0104.pdf" H 9610 7445 50  0001 C CNN
+F 4 "TXB0104RUTR" H 0   0   50  0001 C CNN "MPN"
+F 5 "Texas Instruments" H 0   0   50  0001 C CNN "Manufacturer"
 	1    9500 7350
 	1    0    0    -1  
 $EndComp
@@ -2544,6 +2540,8 @@ F 0 "U3" H 9050 9000 50  0000 C CNN
 F 1 "TXB0104RUT" H 8900 8900 50  0000 C CNN
 F 2 "Package_DFN_QFN:Texas_R_PUQFN-N12" H 9500 8750 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/txb0104.pdf" H 9610 9595 50  0001 C CNN
+F 4 "TXB0104RUTR" H 0   0   50  0001 C CNN "MPN"
+F 5 "Texas Instruments" H 0   0   50  0001 C CNN "Manufacturer"
 	1    9500 9500
 	1    0    0    -1  
 $EndComp
@@ -2593,6 +2591,8 @@ F 24 "+85°C" H 6600 9600 50  0001 L CNN "temperature range high"
 F 25 "-40°C" H 6600 9700 50  0001 L CNN "temperature range low"
 F 26 "DPDT" H 6600 9800 50  0001 L CNN "throw configuration"
 F 27 "6V" H 6600 9900 50  0001 L CNN "voltage rating DC"
+F 28 "JS202011JCQN" H 0   0   50  0001 C CNN "MPN"
+F 29 "C&K" H 0   0   50  0001 C CNN "Manufacturer"
 	1    6600 6900
 	1    0    0    -1  
 $EndComp
@@ -2604,6 +2604,8 @@ F 0 "Q1" H 15391 9346 50  0000 L CNN
 F 1 "BC817" H 15391 9255 50  0000 L CNN
 F 2 "antmicro-footprints:SOT-23-3" H 15400 9225 50  0001 L CIN
 F 3 "" H 15200 9300 50  0001 L CNN
+F 4 "BC817W,115" H 0   0   50  0001 C CNN "MPN"
+F 5 "Nexperia" H 0   0   50  0001 C CNN "Manufacturer"
 	1    15200 9300
 	1    0    0    -1  
 $EndComp
@@ -2764,6 +2766,8 @@ F 0 "U4" H 11800 6900 50  0000 C CNN
 F 1 "TXB0104RUT" H 11650 6800 50  0000 C CNN
 F 2 "Package_DFN_QFN:Texas_R_PUQFN-N12" H 12250 6650 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/txb0104.pdf" H 12360 7495 50  0001 C CNN
+F 4 "TXB0104RUTR" H 0   0   50  0001 C CNN "MPN"
+F 5 "Texas Instruments" H 0   0   50  0001 C CNN "Manufacturer"
 	1    12250 7400
 	1    0    0    -1  
 $EndComp
@@ -2867,5 +2871,31 @@ F 4 "61300411121" H 13450 7750 60  0001 L CNN "MPN"
 F 5 "Wurth Electronics Inc." H 13450 8350 60  0001 L CNN "Manufacturer"
 	1    13250 7250
 	0    -1   1    0   
+$EndComp
+$Comp
+L antmicroPMICVoltageRegulatorsLinear:TLV70033 IC1
+U 1 1 5F45287D
+P 6400 1800
+F 0 "IC1" H 6150 2050 60  0000 C CNN
+F 1 "TLV70033" H 6300 1650 60  0000 C CNN
+F 2 "antmicro-footprints:SC-70-5" H 6800 1550 60  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/tlv700.pdf?HQS=TI-null-null-mousermode-df-pf-null-wwe&ts=1597910921555&ref_url=https%253A%252F%252Fpl.mouser.com%252F" H 6400 1800 60  0001 C CNN
+F 4 "TLV70033DCKR" H 6400 1450 50  0001 C CNN "MPN"
+F 5 "Texas Instruments" H 0   0   50  0001 C CNN "Manufacturer"
+	1    6400 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroPMICVoltageRegulatorsLinear:TLV70018 IC2
+U 1 1 5F453AE2
+P 9200 1950
+F 0 "IC2" H 8950 2300 60  0000 C CNN
+F 1 "TLV70018" H 9100 2200 60  0000 C CNN
+F 2 "antmicro-footprints:SC-70-5" H 9600 1700 60  0001 C CNN
+F 3 "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftlv700" H 9200 1950 60  0001 C CNN
+F 4 "TLV70018DCKR" H 9200 1600 50  0001 C CNN "MPN"
+F 5 "Texas Instruments" H 0   0   50  0001 C CNN "Manufacturer"
+	1    9200 1950
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

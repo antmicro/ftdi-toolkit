@@ -114,8 +114,10 @@ ENDDEF
 DEF antmicroInterfaceAnalogSwitchesMultiplexersDemultiplexers_TS5A3359 IC 0 40 Y Y 1 F N
 F0 "IC" 0 0 60 H V L BNN
 F1 "antmicroInterfaceAnalogSwitchesMultiplexersDemultiplexers_TS5A3359" 0 -800 60 H V L BNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
+F2 "antmicro-footprints:TS5A3359" 700 -950 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+F4 "TS5A3359DCUR" 300 -850 50 H I C CNN "MPN"
+F5 "Texas Instruments" 350 -1100 50 H I C CNN "Manufacturer"
 DRAW
 A 420 -300 13 0 1200 1 1 10 N 433 -300 413 -288
 A 420 -300 13 1200 -1200 1 1 10 N 413 -288 413 -311
@@ -245,8 +247,10 @@ ENDDEF
 DEF antmicroLogicGatesandInverters_74HC00BQ IC 0 40 Y Y 1 F N
 F0 "IC" 620 600 60 H V L BNN
 F1 "antmicroLogicGatesandInverters_74HC00BQ" 620 500 60 H V L BNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
+F2 "antmicro-footprints:DHVQFN14" 900 -700 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+F4 "74HC00BQ" 400 -800 50 H I C CNN "MPN"
+F5 "Nexperia" 350 -900 50 H I C CNN "Manufacturer"
 DRAW
 T 0 -180 0 60 0 1 1 4xNAND Normal 0 L B
 S -400 -600 400 600 0 1 10 f
@@ -275,6 +279,8 @@ F0 "U" -250 650 50 H V C CNN
 F1 "antmicroLogicTranslatorsLevelShifters_TXB0104RUT" 150 650 50 H V L CNN
 F2 "Package_DFN_QFN:Texas_R_PUQFN-N12" 0 -750 50 H I C CNN
 F3 "" 110 95 50 H I C CNN
+F4 "Texas Instruments" -400 -850 50 H I C CNN "Manufacturer"
+F5 "TXB0104RUTR" -450 -950 50 H I C CNN "MPN"
 ALIAS TXB0304RUT
 $FPLIST
  Texas*R*PUQFN*N12*
@@ -362,13 +368,33 @@ X VDD 4 -350 50 100 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# antmicroPMICVoltageRegulatorsLinear_TLV700
+# antmicroPMICVoltageRegulatorsLinear_TLV70018
 #
-DEF antmicroPMICVoltageRegulatorsLinear_TLV700 IC 0 40 Y Y 1 F N
+DEF antmicroPMICVoltageRegulatorsLinear_TLV70018 IC 0 40 Y Y 1 F N
 F0 "IC" -300 200 60 H V L BNN
-F1 "antmicroPMICVoltageRegulatorsLinear_TLV700" -300 -200 60 H V L BNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
+F1 "antmicroPMICVoltageRegulatorsLinear_TLV70018" -300 -200 60 H V L BNN
+F2 "antmicro-footprints:SC-70-5" 400 -250 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+F4 "TLV70018DCKR" 0 -350 50 H I C CNN "MPN"
+F5 "Texas Instruments" 50 -450 50 H I C CNN "Manufacturer"
+DRAW
+S -300 -100 300 200 0 1 10 f
+X VIN 1 -500 100 200 R 70 70 0 1 P
+X GND 2 500 0 200 L 70 70 0 1 P
+X EN 3 -500 0 200 R 70 70 0 1 P
+X VOUT 5 500 100 200 L 70 70 0 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroPMICVoltageRegulatorsLinear_TLV70033
+#
+DEF antmicroPMICVoltageRegulatorsLinear_TLV70033 IC 0 40 Y Y 1 F N
+F0 "IC" -300 200 60 H V L BNN
+F1 "antmicroPMICVoltageRegulatorsLinear_TLV70033" -300 -200 60 H V L BNN
+F2 "antmicro-footprints:SC-70-5" 400 -250 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+F4 "TLV70033DCKR" 0 -350 50 H I C CNN "MPN"
+F5 "Texas Instruments" 50 -450 50 H I C CNN "Manufacturer"
 DRAW
 S -300 -100 300 200 0 1 10 f
 X VIN 1 -500 100 200 R 70 70 0 1 P
@@ -382,9 +408,11 @@ ENDDEF
 #
 DEF antmicroRectangularConnectorsHeadersMalePins_1X03 SW 0 40 Y Y 1 F N
 F0 "SW" 0 -300 60 H V L BNN
-F1 "antmicroRectangularConnectorsHeadersMalePins_1X03" 0 0 60 H V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
+F1 "antmicroRectangularConnectorsHeadersMalePins_1X03" 0 250 60 H V C CNN
+F2 "antmicro-footprints:MH_1X03_2.54" 400 -350 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+F4 "61300311121" -150 -450 50 H I C CNN "MPN"
+F5 "Wurth Elektronik" -100 -550 50 H I C CNN "Manufacturer"
 DRAW
 S 0 -200 100 200 0 1 10 f
 S 20 -120 70 -80 0 1 10 f
@@ -400,9 +428,11 @@ ENDDEF
 #
 DEF antmicroRectangularConnectorsHeadersMalePins_2X05 J 0 40 Y Y 1 F N
 F0 "J" -100 -600 60 H V L BNN
-F1 "antmicroRectangularConnectorsHeadersMalePins_2X05" 0 0 60 H V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
+F1 "antmicroRectangularConnectorsHeadersMalePins_2X05" -50 150 60 H V C CNN
+F2 "antmicro-footprints:SHF-105-01-X-D-SM" 500 -650 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+F4 "61301021121" -200 -750 50 H I C CNN "MPN"
+F5 "Wurth Elektronik" -200 -850 50 H I C CNN "Manufacturer"
 DRAW
 S -100 -500 100 100 0 1 10 f
 S -80 -420 -30 -380 0 1 10 f
@@ -432,9 +462,11 @@ ENDDEF
 #
 DEF antmicroRectangularConnectorsHeadersMalePins_2X08 J 0 40 Y Y 1 F N
 F0 "J" -100 -900 60 H V L BNN
-F1 "antmicroRectangularConnectorsHeadersMalePins_2X08" 0 0 60 H V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
+F1 "antmicroRectangularConnectorsHeadersMalePins_2X08" 0 150 60 H V C CNN
+F2 "antmicro-footprints:MH_2X08_2.54_RA" 400 -950 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+F4 "61301621121" -200 -1050 50 H I C CNN "MPN"
+F5 "Wurth Elektronik" -150 -1150 50 H I C CNN "Manufacturer"
 DRAW
 S -100 -800 100 100 0 1 10 f
 S -80 -720 -30 -680 0 1 10 f
@@ -603,30 +635,8 @@ F0 "SW" 0 300 50 H V L CNN
 F1 "antmicroSlideSwitches_JS202011JCQN" 0 400 50 H V L CNN
 F2 "antmicro-footprints:JS202011JCQN" 0 500 50 H I L CNN
 F3 "" 0 600 50 H I L CNN
-F4 "No" 0 700 50 H I L CNN "automotive"
-F5 "Switch" 0 800 50 H I L CNN "category"
-F6 "0.3A" 0 900 50 H I L CNN "contact current rating"
-F7 "70mΩ" 0 1000 50 H I L CNN "contact resistance"
-F8 "Electromechanical" 0 1100 50 H I L CNN "device class L1"
-F9 "Switches" 0 1200 50 H I L CNN "device class L2"
-F10 "Slide Switches" 0 1300 50 H I L CNN "device class L3"
-F11 "SWITCH SLIDE DPDT 300MA 6V" 0 1400 50 H I L CNN "digikey description"
-F12 "CKN10723CT-ND" 0 1500 50 H I L CNN "digikey part number"
-F13 "5000Cycles" 0 1600 50 H I L CNN "electromechanical life"
-F14 "5.6mm" 0 1700 50 H I L CNN "height"
-F15 "Yes" 0 1800 50 H I L CNN "lead free"
-F16 "454d300764c44d9e" 0 1900 50 H I L CNN "library id"
-F17 "C&K Components" 0 2000 50 H I L CNN "manufacturer"
-F18 "Surface Mount" 0 2100 50 H I L CNN "mount"
-F19 "JS Series Sub-Miniature Slide Switch DPDT On-On Top Slide 0.3A 6VDC J-Lead Surface Mount T/R" 0 2200 50 H I L CNN "mouser description"
-F20 "611-JS202011JCQN" 0 2300 50 H I L CNN "mouser part number"
-F21 "SMD6" 0 2400 50 H I L CNN "package"
-F22 "Yes" 0 2500 50 H I L CNN "rohs"
-F23 "0.1mm" 0 2600 50 H I L CNN "standoff height"
-F24 "+85°C" 0 2700 50 H I L CNN "temperature range high"
-F25 "-40°C" 0 2800 50 H I L CNN "temperature range low"
-F26 "DPDT" 0 2900 50 H I L CNN "throw configuration"
-F27 "6V" 0 3000 50 H I L CNN "voltage rating DC"
+F4 "C&K" 200 -500 50 H I C CNN "Manufacturer"
+F5 "JS202011JCQN" 400 -600 50 H I C CNN "MPN"
 DRAW
 C 230 -400 20 1 1 0 N
 C 230 0 20 1 1 0 N
@@ -657,8 +667,10 @@ ENDDEF
 DEF antmicroTVSDiodes_TPD2E009 D 0 40 Y Y 1 F N
 F0 "D" -300 -500 60 H V L BNN
 F1 "antmicroTVSDiodes_TPD2E009" -300 -600 60 V V L BNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
+F2 "antmicro-footprints:SOT-3" 50 200 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+F4 "TPD2E009DRTR" -300 300 50 H I C CNN "MPN"
+F5 "Texas Instruments" -300 400 50 H I C CNN "Manufacturer"
 DRAW
 S 400 -300 0 100 0 1 10 f
 P 2 0 1 10 310 -10 310 -230 N
@@ -712,6 +724,8 @@ F0 "Q" 200 75 50 H V L CNN
 F1 "antmicroTransistorsBipolarSingle_BC817" 200 0 50 H V L CNN
 F2 "antmicro-footprints:SOT-23-3" 200 -75 50 H I L CIN
 F3 "" 0 0 50 H I L CNN
+F4 "BC817W,115" 450 -150 50 H I C CNN "MPN"
+F5 "Nexperia" 400 -250 50 H I C CNN "Manufacturer"
 ALIAS BC818 BC847 BC848 BC849 BC850 MMBT3904 MMBT5550L MMBT5551L
 $FPLIST
  SOT?23*
