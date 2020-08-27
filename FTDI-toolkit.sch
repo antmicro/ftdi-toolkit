@@ -1630,8 +1630,8 @@ P 7550 4100
 F 0 "IC13" H 7750 5000 60  0000 L BNN
 F 1 "74HC00BQ" H 7750 4900 60  0000 L BNN
 F 2 "antmicro-footprints:DHVQFN14" H 8170 4600 60  0001 C CNN
-F 3 "" H 8170 4600 60  0000 C CNN
-F 4 "74HC00BQ" H 0   0   50  0001 C CNN "MPN"
+F 3 "https://pl.mouser.com/datasheet/2/916/74HC_HCT00-1318972.pdf" H 8170 4600 60  0001 C CNN
+F 4 "74HC00BQ,115" H 0   0   50  0001 C CNN "MPN"
 F 5 "Nexperia" H 0   0   50  0001 C CNN "Manufacturer"
 	1    7550 4100
 	1    0    0    -1  
@@ -1700,7 +1700,7 @@ P 13650 4050
 F 0 "J3" H 13550 3150 60  0000 L BNN
 F 1 "2X08" H 13650 4050 50  0001 C CNN
 F 2 "antmicro-footprints:MH_2X08_2.54_RA" H 13650 4050 50  0001 C CNN
-F 3 "" H 13650 4050 50  0001 C CNN
+F 3 "https://www.we-online.com/catalog/datasheet/61301621121.pdf" H 13650 4050 50  0001 C CNN
 F 4 "61301621121" H 13650 4050 50  0001 C CNN "MPN"
 F 5 "Wurth Elektronik" H 0   0   50  0001 C CNN "Manufacturer"
 	1    13650 4050
@@ -1984,7 +1984,7 @@ P 2800 2250
 F 0 "D1" V 3300 1950 60  0000 L BNN
 F 1 "TPD2E009" V 3400 1950 60  0000 L BNN
 F 2 "antmicro-footprints:SOT-3" H 3400 1950 60  0001 C CNN
-F 3 "" H 3400 1950 60  0000 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/tpd2e009.pdf?ts=1597910439511&ref_url=https%253A%252F%252Fwww.google.com%252F" H 3400 1950 60  0001 C CNN
 F 4 "TPD2E009DRTR" H 0   0   50  0001 C CNN "MPN"
 F 5 "Texas Instruments" H 0   0   50  0001 C CNN "Manufacturer"
 	1    2800 2250
@@ -1997,9 +1997,9 @@ P 12400 2050
 F 0 "J2" H 12300 1450 60  0000 L BNN
 F 1 "2X05" H 12400 2050 50  0001 C CNN
 F 2 "antmicro-footprints:SHF-105-01-X-D-SM" H 12400 2050 50  0001 C CNN
-F 3 "" H 12400 2050 50  0001 C CNN
-F 4 "61301021121" H 0   0   50  0001 C CNN "MPN"
-F 5 "Wurth Elektronik" H 0   0   50  0001 C CNN "Manufacturer"
+F 3 "https://eu.mouser.com/datasheet/2/527/shf-1370134.pdf" H 12400 2050 50  0001 C CNN
+F 4 "SHF-105-01-L-D-SM" H 0   0   50  0001 C CNN "MPN"
+F 5 "Samtec" H 0   0   50  0001 C CNN "Manufacturer"
 	1    12400 2050
 	1    0    0    -1  
 $EndComp
@@ -2010,7 +2010,7 @@ P 3300 4750
 F 0 "IC15" H 3300 4800 60  0000 L BNN
 F 1 "TS5A3359" H 3300 3950 60  0000 L BNN
 F 2 "antmicro-footprints:TS5A3359" H 3300 3950 60  0001 C CNN
-F 3 "" H 3300 3950 60  0000 C CNN
+F 3 "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fts5a3359" H 3300 3950 60  0001 C CNN
 F 4 "TS5A3359DCUR" H 0   0   50  0001 C CNN "MPN"
 F 5 "Texas Instruments" H 0   0   50  0001 C CNN "Manufacturer"
 	1    3300 4750
@@ -2023,7 +2023,7 @@ P 3300 3650
 F 0 "IC3" H 3300 3700 60  0000 L BNN
 F 1 "TS5A3359" H 3300 2850 60  0000 L BNN
 F 2 "antmicro-footprints:TS5A3359" H 3300 2850 60  0001 C CNN
-F 3 "" H 3300 2850 60  0000 C CNN
+F 3 "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fts5a3359" H 3300 2850 60  0001 C CNN
 F 4 "TS5A3359DCUR" H 0   0   50  0001 C CNN "MPN"
 F 5 "Texas Instruments" H 0   0   50  0001 C CNN "Manufacturer"
 	1    3300 3650
@@ -2036,7 +2036,7 @@ P 1550 5000
 F 0 "SW1_B1" H 1650 4800 60  0000 L BNN
 F 1 "1X03" H 1550 5000 50  0001 C CNN
 F 2 "antmicro-footprints:MH_1X03_2.54" H 1550 5000 50  0001 C CNN
-F 3 "" H 1550 5000 50  0001 C CNN
+F 3 "https://www.we-online.com/catalog/datasheet/61300311121.pdf" H 1550 5000 50  0001 C CNN
 F 4 "61300311121" H 0   0   50  0001 C CNN "MPN"
 F 5 "Wurth Elektronik" H 0   0   50  0001 C CNN "Manufacturer"
 	1    1550 5000
@@ -2049,7 +2049,7 @@ P 1550 4500
 F 0 "SW1_A1" H 1650 4350 60  0000 L BNN
 F 1 "1X03" H 1550 4500 50  0001 C CNN
 F 2 "antmicro-footprints:MH_1X03_2.54" H 1550 4500 50  0001 C CNN
-F 3 "" H 1550 4500 50  0001 C CNN
+F 3 "https://www.we-online.com/catalog/datasheet/61300311121.pdf" H 1550 4500 50  0001 C CNN
 F 4 "61300311121" H 0   0   50  0001 C CNN "MPN"
 F 5 "Wurth Elektronik" H 0   0   50  0001 C CNN "Manufacturer"
 	1    1550 4500
@@ -2343,7 +2343,7 @@ F 1 "FT2232H-56Q" H 4450 11331 60  0000 C CNN
 F 2 "antmicro-footprints:QFN-56-1EP_8x8mm_P0.5mm_EP5.5.9x5.9mm" V 4650 9150 60  0001 L CNN
 F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT2232H.pdf" H 4650 9350 60  0001 L CNN
 F 4 "FTDI" H 4650 10100 60  0001 L CNN "Manufacturer"
-F 5 "FT2232HQ" H 4650 9500 60  0001 L CNN "MPN"
+F 5 "FT2232HQ-TRAY" H 4650 9500 60  0001 L CNN "MPN"
 	1    4450 8950
 	1    0    0    -1  
 $EndComp
@@ -2603,9 +2603,9 @@ P 15200 9300
 F 0 "Q1" H 15391 9346 50  0000 L CNN
 F 1 "BC817" H 15391 9255 50  0000 L CNN
 F 2 "antmicro-footprints:SOT-23-3" H 15400 9225 50  0001 L CIN
-F 3 "" H 15200 9300 50  0001 L CNN
-F 4 "BC817W,115" H 0   0   50  0001 C CNN "MPN"
-F 5 "Nexperia" H 0   0   50  0001 C CNN "Manufacturer"
+F 3 "https://assets.nexperia.com/documents/data-sheet/BC817W_SER.pdf" H 15200 9300 50  0001 L CNN
+F 4 "BC817-16LT3G" H 0   0   50  0001 C CNN "MPN"
+F 5 "ON Semiconductor" H 0   0   50  0001 C CNN "Manufacturer"
 	1    15200 9300
 	1    0    0    -1  
 $EndComp

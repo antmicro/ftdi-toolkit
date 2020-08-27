@@ -159,7 +159,7 @@ F1 "antmicroInterfaceControllers_FT2232H-56Q" 0 -400 60 V V L CNN
 F2 "antmicro-footprints:QFN-56-1EP_8x8mm_P0.5mm_EP5.5.9x5.9mm" 200 200 60 V I L CNN
 F3 "" 200 400 60 H I L CNN
 F4 "FTDI" 200 1150 60 H I L CNN "Manufacturer"
-F5 "FT2232HQ" 200 550 60 H I L CNN "MPN"
+F5 "FT2232HQ-TRAY" 200 550 60 H I L CNN "MPN"
 DRAW
 S -700 2300 700 -1800 0 1 0 f
 X EECS 1 -800 -500 100 R 50 50 1 1 B
@@ -249,7 +249,7 @@ F0 "IC" 620 600 60 H V L BNN
 F1 "antmicroLogicGatesandInverters_74HC00BQ" 620 500 60 H V L BNN
 F2 "antmicro-footprints:DHVQFN14" 900 -700 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
-F4 "74HC00BQ" 400 -800 50 H I C CNN "MPN"
+F4 "74HC00BQ,115" 400 -800 50 H I C CNN "MPN"
 F5 "Nexperia" 350 -900 50 H I C CNN "Manufacturer"
 DRAW
 T 0 -180 0 60 0 1 1 4xNAND Normal 0 L B
@@ -431,8 +431,8 @@ F0 "J" -100 -600 60 H V L BNN
 F1 "antmicroRectangularConnectorsHeadersMalePins_2X05" -50 150 60 H V C CNN
 F2 "antmicro-footprints:SHF-105-01-X-D-SM" 500 -650 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
-F4 "61301021121" -200 -750 50 H I C CNN "MPN"
-F5 "Wurth Elektronik" -200 -850 50 H I C CNN "Manufacturer"
+F4 "SHF-105-01-L-D-SM" -200 -750 50 H I C CNN "MPN"
+F5 "Samtec" -200 -850 50 H I C CNN "Manufacturer"
 DRAW
 S -100 -500 100 100 0 1 10 f
 S -80 -420 -30 -380 0 1 10 f
@@ -724,8 +724,8 @@ F0 "Q" 200 75 50 H V L CNN
 F1 "antmicroTransistorsBipolarSingle_BC817" 200 0 50 H V L CNN
 F2 "antmicro-footprints:SOT-23-3" 200 -75 50 H I L CIN
 F3 "" 0 0 50 H I L CNN
-F4 "BC817W,115" 450 -150 50 H I C CNN "MPN"
-F5 "Nexperia" 400 -250 50 H I C CNN "Manufacturer"
+F4 "BC817-16LT3G" 450 -150 50 H I C CNN "MPN"
+F5 "ON Semiconductor" 400 -250 50 H I C CNN "Manufacturer"
 ALIAS BC818 BC847 BC848 BC849 BC850 MMBT3904 MMBT5550L MMBT5551L
 $FPLIST
  SOT?23*
