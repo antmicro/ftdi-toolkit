@@ -138,7 +138,7 @@ USB_D_N
 Text Label 1450 8800 0    60   ~ 0
 USB_D_P
 Text GLabel 21050 13750 1    50   Input ~ 0
-3V3_FT
+3V3_B
 Text GLabel 21050 12650 1    50   Input ~ 0
 3V3_A
 Text GLabel 19875 1325 1    50   Input ~ 0
@@ -1668,94 +1668,6 @@ F 3 "" H 10750 13200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP1
-U 1 1 5FBC015F
-P 6400 7850
-F 0 "TP1" V 6400 7800 50  0000 R CNN
-F 1 "TP_SMD1MM" H 6400 7750 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 6600 8050 60  0001 L CNN
-F 3 "" H 6600 8150 60  0001 L CNN
-	1    6400 7850
-	0    -1   -1   0   
-$EndComp
-$Comp
-L antmicroTestPoints:TP_SMD1MM TP2
-U 1 1 5FBC112B
-P 6400 7950
-F 0 "TP2" V 6400 7900 50  0000 R CNN
-F 1 "TP_SMD1MM" H 6400 7850 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 6600 8150 60  0001 L CNN
-F 3 "" H 6600 8250 60  0001 L CNN
-	1    6400 7950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L antmicroTestPoints:TP_SMD1MM TP3
-U 1 1 5FBE0271
-P 6400 8050
-F 0 "TP3" V 6400 8000 50  0000 R CNN
-F 1 "TP_SMD1MM" H 6400 7950 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 6600 8250 60  0001 L CNN
-F 3 "" H 6600 8350 60  0001 L CNN
-	1    6400 8050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L antmicroTestPoints:TP_SMD1MM TP4
-U 1 1 5FBFF340
-P 6400 8150
-F 0 "TP4" V 6400 8100 50  0000 R CNN
-F 1 "TP_SMD1MM" H 6400 8050 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 6600 8350 60  0001 L CNN
-F 3 "" H 6600 8450 60  0001 L CNN
-	1    6400 8150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L antmicroTestPoints:TP_SMD1MM TP5
-U 1 1 5FC1E2E9
-P 6400 8250
-F 0 "TP5" V 6400 8200 50  0000 R CNN
-F 1 "TP_SMD1MM" H 6400 8150 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 6600 8450 60  0001 L CNN
-F 3 "" H 6600 8550 60  0001 L CNN
-	1    6400 8250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L antmicroTestPoints:TP_SMD1MM TP6
-U 1 1 5FC3D2F5
-P 6400 8350
-F 0 "TP6" V 6400 8300 50  0000 R CNN
-F 1 "TP_SMD1MM" H 6400 8250 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 6600 8550 60  0001 L CNN
-F 3 "" H 6600 8650 60  0001 L CNN
-	1    6400 8350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L antmicroTestPoints:TP_SMD1MM TP7
-U 1 1 5FC5C3D2
-P 6400 8450
-F 0 "TP7" V 6400 8400 50  0000 R CNN
-F 1 "TP_SMD1MM" H 6400 8350 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 6600 8650 60  0001 L CNN
-F 3 "" H 6600 8750 60  0001 L CNN
-	1    6400 8450
-	0    -1   -1   0   
-$EndComp
-$Comp
-L antmicroTestPoints:TP_SMD1MM TP8
-U 1 1 5FC7B476
-P 6400 8550
-F 0 "TP8" V 6400 8500 50  0000 R CNN
-F 1 "TP_SMD1MM" H 6400 8450 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 6600 8750 60  0001 L CNN
-F 3 "" H 6600 8850 60  0001 L CNN
-	1    6400 8550
-	0    -1   -1   0   
-$EndComp
-$Comp
 L antmicroPMICVoltageRegulatorsLinear:TLV70033 IC1
 U 1 1 5F45287D
 P 8675 1825
@@ -3112,7 +3024,7 @@ Text Label 13550 11050 2    60   ~ 0
 BDBUS3
 Wire Wire Line
 	11150 12800 11800 12800
-Text Label 11650 12800 2    60   ~ 0
+Text Label 11650 12200 2    60   ~ 0
 ADBUS7_T
 Wire Wire Line
 	11150 12600 11800 12600
@@ -3120,11 +3032,11 @@ Wire Wire Line
 	11150 12400 11800 12400
 Wire Wire Line
 	11150 12200 11800 12200
-Text Label 11650 12200 2    60   ~ 0
+Text Label 11650 12800 2    60   ~ 0
 ADBUS4_T
-Text Label 11650 12400 2    60   ~ 0
-ADBUS5_T
 Text Label 11650 12600 2    60   ~ 0
+ADBUS5_T
+Text Label 11650 12400 2    60   ~ 0
 ADBUS6_T
 $Comp
 L antmicroLogicTranslatorsLevelShifters:TXB0104RUT U4
@@ -3141,7 +3053,7 @@ F 5 "Texas Instruments" H -1500 5100 50  0001 C CNN "Manufacturer"
 $EndComp
 Wire Wire Line
 	9700 12800 10350 12800
-Text Label 10200 12800 2    60   ~ 0
+Text Label 10100 12200 2    60   ~ 0
 ADBUS7
 Text Label 10200 12000 2    60   ~ 0
 ADBUS_OE
@@ -3153,15 +3065,15 @@ Wire Wire Line
 	9700 12400 10350 12400
 Wire Wire Line
 	9700 12200 10350 12200
-Text Label 10200 12200 2    60   ~ 0
+Text Label 10100 12800 2    60   ~ 0
 ADBUS4
-Text Label 10200 12400 2    60   ~ 0
+Text Label 10100 12600 2    60   ~ 0
 ADBUS5
 Text GLabel 11500 11750 2    50   Input ~ 0
 VCCIOA
 Text GLabel 10000 11750 0    50   Input ~ 0
 3V3_FT
-Text Label 10200 12600 2    60   ~ 0
+Text Label 10100 12400 2    60   ~ 0
 ADBUS6
 Text GLabel 15250 12300 0    50   Input ~ 0
 3V3_FT
@@ -4166,4 +4078,103 @@ Text Label 5550 8450 0    60   ~ 0
 ACBUS6
 Text Label 5550 8550 0    60   ~ 0
 ACBUS7
+$Comp
+L antmicroTestPoints:TP_SMD_0_75MM TP1
+U 1 1 63AB8FDA
+P 6400 7850
+F 0 "TP1" V 6400 7800 50  0000 R CNN
+F 1 "TP_SMD_0_75MM" H 6400 7750 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 6600 8050 60  0001 L CNN
+F 3 "" H 6600 8150 60  0001 L CNN
+	1    6400 7850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L antmicroTestPoints:TP_SMD_0_75MM TP2
+U 1 1 63ABB7BA
+P 6400 7950
+F 0 "TP2" V 6400 7900 50  0000 R CNN
+F 1 "TP_SMD_0_75MM" H 6400 7850 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 6600 8150 60  0001 L CNN
+F 3 "" H 6600 8250 60  0001 L CNN
+	1    6400 7950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L antmicroTestPoints:TP_SMD_0_75MM TP3
+U 1 1 63ABBB53
+P 6400 8050
+F 0 "TP3" V 6400 8000 50  0000 R CNN
+F 1 "TP_SMD_0_75MM" H 6400 7950 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 6600 8250 60  0001 L CNN
+F 3 "" H 6600 8350 60  0001 L CNN
+	1    6400 8050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L antmicroTestPoints:TP_SMD_0_75MM TP4
+U 1 1 63ABBD85
+P 6400 8150
+F 0 "TP4" V 6400 8100 50  0000 R CNN
+F 1 "TP_SMD_0_75MM" H 6400 8050 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 6600 8350 60  0001 L CNN
+F 3 "" H 6600 8450 60  0001 L CNN
+	1    6400 8150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L antmicroTestPoints:TP_SMD_0_75MM TP5
+U 1 1 63ABC078
+P 6400 8250
+F 0 "TP5" V 6400 8200 50  0000 R CNN
+F 1 "TP_SMD_0_75MM" H 6400 8150 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 6600 8450 60  0001 L CNN
+F 3 "" H 6600 8550 60  0001 L CNN
+	1    6400 8250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L antmicroTestPoints:TP_SMD_0_75MM TP6
+U 1 1 63ABC327
+P 6400 8350
+F 0 "TP6" V 6400 8300 50  0000 R CNN
+F 1 "TP_SMD_0_75MM" H 6400 8250 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 6600 8550 60  0001 L CNN
+F 3 "" H 6600 8650 60  0001 L CNN
+	1    6400 8350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L antmicroTestPoints:TP_SMD_0_75MM TP7
+U 1 1 63ABC5DB
+P 6400 8450
+F 0 "TP7" V 6400 8400 50  0000 R CNN
+F 1 "TP_SMD_0_75MM" H 6400 8350 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 6600 8650 60  0001 L CNN
+F 3 "" H 6600 8750 60  0001 L CNN
+	1    6400 8450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L antmicroTestPoints:TP_SMD_0_75MM TP8
+U 1 1 63ABC8F0
+P 6400 8550
+F 0 "TP8" V 6400 8500 50  0000 R CNN
+F 1 "TP_SMD_0_75MM" H 6400 8450 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 6600 8750 60  0001 L CNN
+F 3 "" H 6600 8850 60  0001 L CNN
+	1    6400 8550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 63C6837D
+P 11150 9600
+F 0 "#PWR?" H 11150 9350 50  0001 C CNN
+F 1 "GND" H 11155 9427 50  0000 C CNN
+F 2 "" H 11150 9600 50  0001 C CNN
+F 3 "" H 11150 9600 50  0001 C CNN
+	1    11150 9600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
