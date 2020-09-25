@@ -2671,7 +2671,7 @@ ADBUS7_T
 Text Notes 19550 11300 0    144  ~ 0
 Auxillary connector
 $Comp
-L antmicroLogicTranslatorsLevelShifters:NTS0302JKZ U11
+L FTDI-toolkit-rescue:NTS0302JKZ-antmicroLogicTranslatorsLevelShifters U11
 U 1 1 5F68E14C
 P 15950 13050
 F 0 "U11" H 15950 13565 50  0000 C CNN
@@ -2684,7 +2684,7 @@ F 5 "NXP Semiconductors" H 15950 13473 50  0001 C CNN "Manufacturer"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L antmicroLogicTranslatorsLevelShifters:SN74LVC1T45DRLR U2
+L FTDI-toolkit-rescue:SN74LVC1T45DRLR-antmicroLogicTranslatorsLevelShifters U2
 U 1 1 5F68EFE9
 P 10700 9500
 F 0 "U2" H 10350 9900 60  0000 C CNN
@@ -2745,7 +2745,7 @@ F 3 "" H 11200 10350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroLogicTranslatorsLevelShifters:SN74LVC1T45DRLR U3
+L FTDI-toolkit-rescue:SN74LVC1T45DRLR-antmicroLogicTranslatorsLevelShifters U3
 U 1 1 5FA4FA1B
 P 10750 10250
 F 0 "U3" H 10400 10650 60  0000 C CNN
@@ -2780,7 +2780,7 @@ Wire Wire Line
 Text Label 10150 10350 2    60   ~ 0
 nMPSSE_A
 $Comp
-L antmicroLogicTranslatorsLevelShifters:74LVC2T45GT U5
+L FTDI-toolkit-rescue:74LVC2T45GT-antmicroLogicTranslatorsLevelShifters U5
 U 1 1 5FB5368D
 P 10750 10950
 F 0 "U5" H 10500 11300 60  0000 C CNN
@@ -2869,7 +2869,7 @@ F 3 "" H 14700 9600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroLogicTranslatorsLevelShifters:SN74LVC1T45DRLR U8
+L FTDI-toolkit-rescue:SN74LVC1T45DRLR-antmicroLogicTranslatorsLevelShifters U8
 U 1 1 5FCE022B
 P 14250 9500
 F 0 "U8" H 13900 9900 60  0000 C CNN
@@ -2920,7 +2920,7 @@ F 3 "" H 14700 10350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroLogicTranslatorsLevelShifters:SN74LVC1T45DRLR U9
+L FTDI-toolkit-rescue:SN74LVC1T45DRLR-antmicroLogicTranslatorsLevelShifters U9
 U 1 1 5FCE0248
 P 14250 10250
 F 0 "U9" H 13900 10650 60  0000 C CNN
@@ -2955,7 +2955,7 @@ Wire Wire Line
 Text Label 13650 10350 2    60   ~ 0
 nMPSSE_B
 $Comp
-L antmicroLogicTranslatorsLevelShifters:74LVC2T45GT U10
+L FTDI-toolkit-rescue:74LVC2T45GT-antmicroLogicTranslatorsLevelShifters U10
 U 1 1 5FCE025B
 P 14250 10950
 F 0 "U10" H 14000 11300 60  0000 C CNN
@@ -3560,7 +3560,7 @@ Wire Wire Line
 	15750 12300 15500 12300
 Connection ~ 15500 12300
 $Comp
-L antmicroLogicTranslatorsLevelShifters:74LVC2T45GT U7
+L FTDI-toolkit-rescue:74LVC2T45GT-antmicroLogicTranslatorsLevelShifters U7
 U 1 1 61826E03
 P 14050 13000
 F 0 "U7" H 13700 13450 60  0000 C CNN
@@ -3708,7 +3708,7 @@ Wire Wire Line
 Wire Wire Line
 	17100 12300 17350 12300
 $Comp
-L antmicroLogicTranslatorsLevelShifters:74LVC2T45GT U6
+L FTDI-toolkit-rescue:74LVC2T45GT-antmicroLogicTranslatorsLevelShifters U6
 U 1 1 62439B48
 P 10850 14550
 F 0 "U6" H 10350 15000 60  0000 C CNN
