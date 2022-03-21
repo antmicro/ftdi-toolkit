@@ -1,0 +1,17 @@
+(module MH_1X03_2.54 (layer F.Cu) (tedit 5F35436A)
+  (attr smd)
+  (fp_text reference SW1_A (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.05)))
+  )
+  (fp_text value "Male header, 1 x 03 pins, pitch 2.54 mm" (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.05)))
+  )
+  (pad 1 thru_hole rect (at 0 0 270) (size 1.8 1.8) (drill 1.01999) (layers *.Cu *.Mask))
+  (pad 2 thru_hole circle (at 0 2.54 270) (size 1.8 1.8) (drill 1.01999) (layers *.Cu *.Mask))
+  (pad 3 thru_hole circle (at 0 5.08 270) (size 1.8 1.8) (drill 1.01999) (layers *.Cu *.Mask))
+  (model ${KIPRJMOD}/lib/3d-models/61300311121_Download_STP_61300311121_rev1.stp
+    (offset (xyz 0 -2.5 1.27))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 -90))
+  )
+)
