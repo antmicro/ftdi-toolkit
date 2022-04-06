@@ -1820,27 +1820,6 @@ Wire Wire Line
 Wire Notes Line width 10 style solid
 	22500 5000 1000 5000
 Wire Wire Line
-	1400 2200 1400 3350
-Connection ~ 3300 2300
-Wire Wire Line
-	2800 2300 3300 2300
-Connection ~ 3200 2200
-Wire Wire Line
-	2800 2200 3200 2200
-$Comp
-L FTDI-toolkit:12401598E4_2A J1
-U 1 1 60256059
-P 2300 2250
-F 0 "J1" H 2300 3285 50  0000 C CNN
-F 1 "12401598E4_2A" H 2300 3194 50  0000 C CNN
-F 2 "FTDI-toolkit-footprints:USB-C_Female_12401X" H 2500 2450 60  0001 L CNN
-F 3 "http://www.amphenol-icc.com/media/wysiwyg/files/drawing/12401598xxx2a.pdf" H 2500 2550 60  0001 L CNN
-F 4 "12401598E4#2A" H 2500 2750 60  0001 L CNN "MPN"
-F 5 "Amphenol ICC (Commercial Products)" H 2500 3350 60  0001 L CNN "Manufacturer"
-	1    2300 2250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
 	4300 2400 4300 2550
 Wire Wire Line
 	3950 2400 3950 2550
@@ -1848,22 +1827,14 @@ Wire Wire Line
 	4300 2400 3950 2400
 Wire Wire Line
 	3550 2000 3550 2350
-Connection ~ 3550 2000
 Wire Wire Line
 	3550 2000 3950 2000
 Wire Wire Line
-	4500 2300 5600 2300
+	4500 2325 5600 2325
 Wire Wire Line
-	4400 2200 5600 2200
+	4400 2175 5600 2175
 Wire Wire Line
-	3300 2300 4500 2300
-Wire Wire Line
-	3200 2200 4400 2200
-Connection ~ 4500 2300
-Wire Wire Line
-	4500 2550 4500 2300
-Wire Wire Line
-	3100 2000 3550 2000
+	4500 2550 4500 2325
 Wire Wire Line
 	2650 4150 2900 4150
 Wire Wire Line
@@ -1914,96 +1885,6 @@ F 3 "" H 3550 2650 50  0001 C CNN
 	1    3550 2650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1600 2500 1600 3150
-Connection ~ 1600 2500
-Wire Wire Line
-	1800 2500 1600 2500
-Connection ~ 3100 2000
-Wire Wire Line
-	3100 3150 3100 2000
-Wire Wire Line
-	1600 3150 3100 3150
-Wire Wire Line
-	1600 2000 1600 2500
-Wire Wire Line
-	1800 2000 1600 2000
-Wire Wire Line
-	2900 2000 3100 2000
-Connection ~ 2900 2000
-Wire Wire Line
-	2900 2500 2900 2000
-Wire Wire Line
-	2800 2500 2900 2500
-Wire Wire Line
-	2800 2000 2900 2000
-Wire Wire Line
-	3300 3350 3300 2300
-Wire Wire Line
-	1400 3350 3300 3350
-Wire Wire Line
-	1800 2200 1400 2200
-Wire Wire Line
-	1500 2300 1800 2300
-Wire Wire Line
-	1500 3250 1500 2300
-Wire Wire Line
-	3200 3250 1500 3250
-Wire Wire Line
-	3200 2200 3200 3250
-Wire Wire Line
-	2100 3200 2100 3450
-$Comp
-L FTDI-toolkit:GNDREF #PWR0139
-U 1 1 5F66E573
-P 2100 3450
-F 0 "#PWR0139" H 2100 3200 50  0001 C CNN
-F 1 "GNDREF" H 2105 3277 50  0000 C CNN
-F 2 "" H 2100 3450 50  0001 C CNN
-F 3 "" H 2100 3450 50  0001 C CNN
-	1    2100 3450
-	1    0    0    -1  
-$EndComp
-Connection ~ 3000 2800
-Wire Wire Line
-	3000 1700 3000 2800
-Wire Wire Line
-	2800 1700 3000 1700
-Connection ~ 1700 2800
-Wire Wire Line
-	1700 1700 1700 2800
-Wire Wire Line
-	1800 1700 1700 1700
-Wire Wire Line
-	3000 2800 3000 2900
-Wire Wire Line
-	2800 2800 3000 2800
-Wire Wire Line
-	1700 2800 1700 2900
-Wire Wire Line
-	1800 2800 1700 2800
-$Comp
-L FTDI-toolkit:GND #PWR0134
-U 1 1 5F5AAFDD
-P 1700 2900
-F 0 "#PWR0134" H 1700 2650 50  0001 C CNN
-F 1 "GND" H 1705 2727 50  0000 C CNN
-F 2 "" H 1700 2900 50  0001 C CNN
-F 3 "" H 1700 2900 50  0001 C CNN
-	1    1700 2900
-	1    0    0    -1  
-$EndComp
-$Comp
-L FTDI-toolkit:GND #PWR0126
-U 1 1 5F5A9AB0
-P 3000 2900
-F 0 "#PWR0126" H 3000 2650 50  0001 C CNN
-F 1 "GND" H 3005 2727 50  0000 C CNN
-F 2 "" H 3000 2900 50  0001 C CNN
-F 3 "" H 3000 2900 50  0001 C CNN
-	1    3000 2900
-	1    0    0    -1  
-$EndComp
 $Comp
 L FTDI-toolkit:LG_L29K-G2J1-24-Z USB1
 U 1 1 5F90B005
@@ -2021,8 +1902,8 @@ $Comp
 L FTDI-toolkit:BLM18PG121SN1D L1
 U 1 1 5E5F7C2B
 P 4150 2000
-F 0 "L1" H 4000 2050 60  0000 R BNN
-F 1 "BLM18PG121SN1D" H 4050 2100 60  0000 L BNN
+F 0 "L1" H 4300 2125 60  0000 R BNN
+F 1 "BLM18PG121SN1D" H 3325 2125 60  0000 L BNN
 F 2 "FTDI-toolkit-footprints:0603-res" H 4050 2100 60  0001 C CNN
 F 3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 4050 2100 60  0001 C CNN
 F 4 "BLM18PG121SN1D" H 1700 500 50  0001 C CNN "MPN"
@@ -2128,9 +2009,9 @@ Wire Wire Line
 Connection ~ 4950 2000
 Wire Wire Line
 	4950 2400 4950 2000
-Connection ~ 4400 2200
+Connection ~ 4400 2175
 Wire Wire Line
-	4400 2550 4400 2200
+	4400 2550 4400 2175
 Wire Wire Line
 	4350 2000 4950 2000
 Text Notes 3500 1200 0    144  ~ 0
@@ -2139,9 +2020,9 @@ Wire Wire Line
 	5950 1650 5950 2000
 Text GLabel 5950 1650 1    50   Input ~ 0
 5V_USB
-Text Label 5050 2200 0    60   ~ 0
+Text Label 5600 2175 2    60   ~ 0
 USB_D_P
-Text Label 5050 2300 0    60   ~ 0
+Text Label 5600 2325 2    60   ~ 0
 USB_D_N
 Text Notes 7550 2950 0    144  ~ 0
 3V3 -> 1.8V LDO 200mA
@@ -8112,4 +7993,114 @@ Wire Wire Line
 	14600 12950 14775 12950
 Wire Wire Line
 	14200 12950 13900 12950
+$Comp
+L antmicroUSBDVIHDMIConnectors:USB4105-GF-A J1
+U 1 1 62BA78DC
+P 2150 2575
+F 0 "J1" H 2557 3842 50  0000 C CNN
+F 1 "USB4105-GF-A" H 2557 3751 50  0000 C CNN
+F 2 "antmicro-footprints:GCT_USB4105-GF-A" H 1500 2825 50  0001 L BNN
+F 3 "https://gct.co/files/drawings/usb4105.pdf" H 2150 2575 50  0001 L BNN
+F 4 "GCT" H 1500 2925 50  0001 L BNN "Manufacturer"
+F 5 "USB4105-GF-A" H 1800 3025 50  0001 C CNN "MPN"
+	1    2150 2575
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2950 2575
+NoConn ~ 2950 2675
+$Comp
+L FTDI-toolkit:GNDREF #PWR0105
+U 1 1 62C41BFB
+P 3000 3050
+F 0 "#PWR0105" H 3000 2800 50  0001 C CNN
+F 1 "GNDREF" H 3005 2877 50  0000 C CNN
+F 2 "" H 3000 3050 50  0001 C CNN
+F 3 "" H 3000 3050 50  0001 C CNN
+	1    3000 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 3050 3000 2975
+Wire Wire Line
+	3000 2975 2950 2975
+$Comp
+L FTDI-toolkit:GND #PWR0109
+U 1 1 62C8C6B7
+P 3275 3050
+F 0 "#PWR0109" H 3275 2800 50  0001 C CNN
+F 1 "GND" H 3280 2877 50  0000 C CNN
+F 2 "" H 3275 3050 50  0001 C CNN
+F 3 "" H 3275 3050 50  0001 C CNN
+	1    3275 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3275 3050 3275 2875
+Wire Wire Line
+	3275 2875 2950 2875
+Wire Wire Line
+	2950 2425 3050 2425
+Wire Wire Line
+	3050 2425 3050 2325
+Wire Wire Line
+	3050 2325 2950 2325
+Wire Wire Line
+	2950 2075 3050 2075
+Wire Wire Line
+	3050 2075 3050 2175
+Wire Wire Line
+	3050 2175 2950 2175
+Connection ~ 4500 2325
+Wire Wire Line
+	3050 2175 4400 2175
+Connection ~ 3050 2175
+Wire Wire Line
+	3050 2325 4500 2325
+Connection ~ 3050 2325
+Wire Wire Line
+	3550 2000 3375 2000
+Wire Wire Line
+	3375 2000 3375 1625
+Wire Wire Line
+	3375 1625 2950 1625
+Connection ~ 3550 2000
+Text Label 14025 14825 0    60   ~ 0
+UART_1_RXD_T
+Text Label 14025 14925 0    60   ~ 0
+UART_1_RTS_T
+$Comp
+L FTDI-toolkit:R_510_0402 R28
+U 1 1 6336BFB1
+P 14875 14825
+F 0 "R28" H 14875 15038 60  0000 C CNN
+F 1 "R_510_0402" H 14875 14675 60  0001 C CNN
+F 2 "FTDI-toolkit-footprints:0402-res" H 15075 15025 60  0001 L CNN
+F 3 "" H 14875 14825 50  0001 C CNN
+F 4 "Vishay" H 15075 15225 60  0001 L CNN "Manufacturer"
+F 5 "CRCW0402510RFKEDC" H 15075 15125 60  0001 L CNN "MPN"
+F 6 "510" H 14875 14940 50  0000 C CNN "Val"
+	1    14875 14825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14025 14825 14725 14825
+Wire Wire Line
+	15025 14825 15150 14825
+Wire Wire Line
+	14025 14925 15150 14925
+Text Notes 13475 14450 0    144  ~ 0
+SWD buffered mode switch
+$Comp
+L antmicroRectangularConnectorsHeadersMalePins:M20-9990246 J4
+U 1 1 6352EADF
+P 15250 14925
+F 0 "J4" V 15341 14797 50  0000 R CNN
+F 1 "M20-9990246" V 15250 14797 50  0000 R CNN
+F 2 "antmicro-footprints:PinHeader_1x2_P2.54mm" H 15450 15125 60  0001 L CNN
+F 3 "https://cdn.harwin.com/pdfs/M20-999.pdf" H 15450 15225 60  0001 L CNN
+F 4 "M20-9990246" H 15450 15425 60  0001 L CNN "MPN"
+F 5 "Harwin Inc." H 15450 16025 60  0001 L CNN "Manufacturer"
+	1    15250 14925
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
