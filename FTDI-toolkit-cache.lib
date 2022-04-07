@@ -899,6 +899,24 @@ T 0 30 -40 79 0 1 1 Logo Normal 0 C C
 ENDDRAW
 ENDDEF
 #
+# antmicroRectangularConnectorsHeadersMalePins_M20-9990246
+#
+DEF antmicroRectangularConnectorsHeadersMalePins_M20-9990246 J 0 40 Y Y 1 F N
+F0 "J" -100 50 50 H V R CNN
+F1 "antmicroRectangularConnectorsHeadersMalePins_M20-9990246" 50 -150 50 H V C CNN
+F2 "antmicro-footprints:PinHeader_1x2_P2.54mm" 200 200 60 H I L CNN
+F3 "https://cdn.harwin.com/pdfs/M20-999.pdf" 200 300 60 H I L CNN
+F4 "M20-9990246" 200 500 60 H I L CNN "MPN"
+F5 "Harwin Inc." 200 1100 60 H I L CNN "Manufacturer"
+DRAW
+S -50 0 150 -100 1 1 0 f
+S -10 -45 10 -65 1 1 0 F
+S 90 -45 110 -65 1 1 0 F
+X ~ 1 0 100 100 D 50 50 1 1 P
+X ~ 2 100 100 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # antmicroResistors0402_R_4k7_0402
 #
 DEF antmicroResistors0402_R_4k7_0402 R 0 0 Y Y 1 F N

@@ -1830,12 +1830,6 @@ Wire Wire Line
 Wire Wire Line
 	3550 2000 3950 2000
 Wire Wire Line
-	4500 2325 5600 2325
-Wire Wire Line
-	4400 2175 5600 2175
-Wire Wire Line
-	4500 2550 4500 2325
-Wire Wire Line
 	2650 4150 2900 4150
 Wire Wire Line
 	2100 4150 2250 4150
@@ -1910,19 +1904,6 @@ F 4 "BLM18PG121SN1D" H 1700 500 50  0001 C CNN "MPN"
 F 5 "Murata Electronics North America" H 1700 500 50  0001 C CNN "Manufacturer"
 	1    4150 2000
 	-1   0    0    -1  
-$EndComp
-$Comp
-L FTDI-toolkit:TPD2E009 D1
-U 1 1 5E5F7BFF
-P 4500 2750
-F 0 "D1" V 5000 2450 60  0000 L BNN
-F 1 "TPD2E009" V 5100 2450 60  0000 L BNN
-F 2 "FTDI-toolkit-footprints:SOT-3" H 5100 2450 60  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/tpd2e009.pdf?ts=1597910439511&ref_url=https%253A%252F%252Fwww.google.com%252F" H 5100 2450 60  0001 C CNN
-F 4 "TPD2E009DRTR" H 1700 500 50  0001 C CNN "MPN"
-F 5 "Texas Instruments" H 1700 500 50  0001 C CNN "Manufacturer"
-	1    4500 2750
-	0    1    1    0   
 $EndComp
 $Comp
 L FTDI-toolkit:R_470R_0402 R2
@@ -2009,9 +1990,6 @@ Wire Wire Line
 Connection ~ 4950 2000
 Wire Wire Line
 	4950 2400 4950 2000
-Connection ~ 4400 2175
-Wire Wire Line
-	4400 2550 4400 2175
 Wire Wire Line
 	4350 2000 4950 2000
 Text Notes 3500 1200 0    144  ~ 0
@@ -3757,7 +3735,7 @@ F 3 "" H 6400 14350 50  0001 C CNN
 F 4 "BOURNS" H 6600 14750 60  0001 L CNN "Manufacturer"
 F 5 "CR0603-J/-000ELF" H 6600 14650 60  0001 L CNN "MPN"
 F 6 "0R" H 6400 14465 50  0000 C CNN "Val"
-F 7 "1" H 6400 14350 50  0001 C CNN "DNP"
+F 7 "DNP" H 6400 14350 50  0000 C CNN "DNP"
 	1    6400 14350
 	1    0    0    -1  
 $EndComp
@@ -8050,12 +8028,7 @@ Wire Wire Line
 	3050 2075 3050 2175
 Wire Wire Line
 	3050 2175 2950 2175
-Connection ~ 4500 2325
-Wire Wire Line
-	3050 2175 4400 2175
 Connection ~ 3050 2175
-Wire Wire Line
-	3050 2325 4500 2325
 Connection ~ 3050 2325
 Wire Wire Line
 	3550 2000 3375 2000
@@ -8103,4 +8076,31 @@ F 5 "Harwin Inc." H 15450 16025 60  0001 L CNN "Manufacturer"
 	1    15250 14925
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	3050 2325 4400 2325
+Wire Wire Line
+	3050 2175 4500 2175
+$Comp
+L FTDI-toolkit:TPD2E009 D1
+U 1 1 5E5F7BFF
+P 4500 2750
+F 0 "D1" V 5000 2450 60  0000 L BNN
+F 1 "TPD2E009" V 5100 2450 60  0000 L BNN
+F 2 "FTDI-toolkit-footprints:SOT-3" H 5100 2450 60  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/tpd2e009.pdf?ts=1597910439511&ref_url=https%253A%252F%252Fwww.google.com%252F" H 5100 2450 60  0001 C CNN
+F 4 "TPD2E009DRTR" H 1700 500 50  0001 C CNN "MPN"
+F 5 "Texas Instruments" H 1700 500 50  0001 C CNN "Manufacturer"
+	1    4500 2750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4400 2550 4400 2325
+Connection ~ 4400 2325
+Wire Wire Line
+	4400 2325 5600 2325
+Wire Wire Line
+	4500 2550 4500 2175
+Connection ~ 4500 2175
+Wire Wire Line
+	4500 2175 5600 2175
 $EndSCHEMATC
