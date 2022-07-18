@@ -5,6 +5,11 @@
   )
 
   (paper "A4")
+  (title_block
+    (date "2022-07-18")
+    (rev "1.2.2")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (1 "In1.Cu" signal)
@@ -8410,7 +8415,7 @@
   (gr_text "FTDI Toolkit" (at 163.676 -118.872 90) (layer "F.Mask") (tstamp 00000000-0000-0000-0000-00005f6e0a16)
     (effects (font (size 0.7 0.7) (thickness 0.175)))
   )
-  (gr_text "Rev. 1.2.1" (at 164.892 -118.504 90) (layer "F.Mask") (tstamp 00000000-0000-0000-0000-00005f6e0add)
+  (gr_text "Rev. 1.2.2" (at 164.892 -118.504 90) (layer "F.Mask") (tstamp 00000000-0000-0000-0000-00005f6e0add)
     (effects (font (size 0.7 0.7) (thickness 0.175)))
   )
   (gr_text "6" (at 191.16322 -132.737) (layer "Dwgs.User") (tstamp 01f43312-5e43-4117-b0b3-31aad45e94ed)

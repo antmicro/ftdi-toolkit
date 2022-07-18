@@ -6,8 +6,8 @@
 
   (title_block
     (title "FTDI Toolkit")
-    (date "2022-03-21")
-    (rev "1.2.1")
+    (date "2022-07-18")
+    (rev "1.2.2")
     (comment 1 "www.antmicro.com")
     (comment 2 "Antmicro Ltd.")
   )
@@ -3702,7 +3702,7 @@
 
   (no_connect (at 137.16 255.27) (uuid 14197979-8d7f-48c7-ad9d-a84333dabac6))
   (no_connect (at 74.93 46.355) (uuid 1440b613-0741-47d3-961b-6a1ea288959f))
-  (no_connect (at 74.93 48.895) (uuid 1440b613-0741-47d3-961b-6a1ea288959f))
+  (no_connect (at 74.93 48.895) (uuid 1440b613-0741-47d3-961b-6a1ea28895a0))
   (no_connect (at 137.16 260.35) (uuid 1711d288-7b77-464a-8622-36128e705edd))
   (no_connect (at 137.16 270.51) (uuid 2c1c1cb7-4af1-4df7-93d9-98fe7b6626d1))
   (no_connect (at 96.52 250.19) (uuid 360fe9f0-ef6e-4ab5-a89c-835d6a9f7007))
