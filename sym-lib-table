@@ -1,4 +1,3 @@
 (sym_lib_table
   (lib (name "FTDI-toolkit")(type "Legacy")(uri "${KIPRJMOD}/lib/FTDI-toolkit.lib")(options "")(descr ""))
-  (lib (name "FTDI-toolkit-rescue")(type "Legacy")(uri "${KIPRJMOD}/FTDI-toolkit-rescue.lib")(options "")(descr ""))
 )
