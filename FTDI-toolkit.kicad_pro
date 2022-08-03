@@ -48,16 +48,17 @@
           "min_clearance": 0.15
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
+      "diff_pair_dimensions": [],
       "drc_exclusions": [
-        "courtyards_overlap|133704999|-122490001|00000000-0000-0000-0000-0000624e8784|00000000-0000-0000-0000-0000624ff977",
-        "courtyards_overlap|90211999|98799000|00000000-0000-0000-0000-0000624e8784|00000000-0000-0000-0000-0000624ff977"
+        "courtyards_overlap|90211999|98799000|00000000-0000-0000-0000-0000624e8784|00000000-0000-0000-0000-0000624ff977",
+        "silk_over_copper|122299947|107515612|f112d63c-4e16-42da-a688-4e2bc69fac74|9410bb0a-c26a-40da-a476-56c7c0b1268f",
+        "silk_over_copper|126867291|101071984|f41f5074-2f12-410e-b5f7-476800b1b5e6|4c5a5b00-1760-45de-befd-2db8434de183",
+        "silk_over_copper|126870476|106417600|98b9c287-d1db-43dd-8a1d-94c8634bc36b|406b1fd2-52d3-4468-9e97-4168162476bf",
+        "silk_over_copper|128187000|102370001|459fbb73-71a3-4c61-a697-04685b6b3711|1f067459-27e9-4717-954e-31d23d16d07b",
+        "silk_over_copper|82491000|108454001|00000000-0000-0000-0000-00005f4dede3|a9040deb-66ed-4c34-a077-1d4cdb98a07a",
+        "silk_over_copper|82491000|98874001|00000000-0000-0000-0000-00005f4dede3|7bc0df96-e51e-47b7-8fe2-b21bc58ec69c",
+        "silk_overlap|127807000|104764001|b37b4b78-2ec5-4517-8504-6f309521b8df|d456e1f2-0e49-4d96-afb5-34c322b9ae31",
+        "silk_overlap|129007000|96214001|6d9e9a2e-60a2-47b0-891f-0bd31904e087|a021aac6-f5b1-4646-bae5-9eb71255115e"
       ],
       "meta": {
         "filename": "board_design_settings.json",
@@ -89,8 +90,8 @@
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_over_copper": "ignore",
-        "silk_overlap": "ignore",
+        "silk_over_copper": "warning",
+        "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -129,12 +130,7 @@
         0.254,
         0.4
       ],
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        }
-      ],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
