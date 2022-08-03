@@ -237,7 +237,7 @@
       (net 18 "Net-(TX_A1-Pad1)") (pintype "passive") (tstamp 3baabb2b-a08d-4cb0-8461-1bb032fc07e7))
     (pad "2" smd roundrect locked (at 0.485 0 270) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 54 "3V3_A") (pintype "passive") (tstamp 9d906233-22d4-49dd-b29a-88b0bc29225b))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -280,7 +280,7 @@
       (net 20 "Net-(RX_A1-Pad1)") (pintype "passive") (tstamp b73c6e68-5fea-46a3-9bf3-2fd5d5110b14))
     (pad "2" smd roundrect locked (at 0.485 0 270) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 54 "3V3_A") (pintype "passive") (tstamp e5aeb778-77b4-4230-8d66-376f1a04fa14))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -329,7 +329,7 @@
       (net 21 "Net-(RX_B1-Pad1)") (pintype "passive") (tstamp 8d544131-1694-42be-b288-ae036af6bc62))
     (pad "2" smd rect locked (at 0.75 0 270) (size 0.8 0.8) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 4 "GND") (pintype "passive") (tstamp 1dc04d5a-b31c-4443-9e01-3b9746134850))
-    (model "${ANT3DMDL}/LED0603.step"
+    (model "${KIPRJMOD}/lib/3d-models/LED0603.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -378,7 +378,7 @@
       (net 19 "Net-(R14-Pad1)") (pintype "passive") (tstamp 5390241e-3079-4061-9748-5121f56d23f7))
     (pad "2" smd rect locked (at 0.75 0 270) (size 0.8 0.8) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 4 "GND") (pintype "passive") (tstamp 4c07760d-2d85-47ac-be1f-b45e268c2cf2))
-    (model "${ANT3DMDL}/LED0603.step"
+    (model "${KIPRJMOD}/lib/3d-models/LED0603.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -427,7 +427,7 @@
       (net 18 "Net-(TX_A1-Pad1)") (pintype "passive") (tstamp a173b51f-2a6b-45cb-bdbc-a1396164f5cb))
     (pad "2" smd rect locked (at 0.75 0 270) (size 0.8 0.8) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 4 "GND") (pintype "passive") (tstamp f40e44d0-9e73-4c60-b00f-1a9effea1a69))
-    (model "${ANT3DMDL}/LED0603.step"
+    (model "${KIPRJMOD}/lib/3d-models/LED0603.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -476,7 +476,7 @@
       (net 20 "Net-(RX_A1-Pad1)") (pintype "passive") (tstamp 44858511-8912-457c-aeab-f74c26963e1a))
     (pad "2" smd rect locked (at 0.75 0 270) (size 0.8 0.8) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 4 "GND") (pintype "passive") (tstamp d9f56e04-48ba-4532-8b9f-b5ffe88f3816))
-    (model "${ANT3DMDL}/LED0603.step"
+    (model "${KIPRJMOD}/lib/3d-models/LED0603.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1630,7 +1630,7 @@
       (net 21 "Net-(RX_B1-Pad1)") (pintype "passive") (tstamp d45d0ca6-700a-4afd-8aae-4007a993e214))
     (pad "2" smd roundrect locked (at 0.485 0 270) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 73 "3V3_B") (pintype "passive") (tstamp 149283b5-9872-42c5-9a32-afee59334fdf))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1673,7 +1673,7 @@
       (net 34 "Net-(3V3_A1-Pad2)") (pintype "passive") (tstamp e8640149-12b9-4a40-a3ba-7606fa5837e4))
     (pad "2" smd roundrect locked (at 0.485 0 180) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 13 "/IN1_A") (pintype "passive") (tstamp 51115092-e1c5-43e9-b806-d89f0a9a4b66))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1722,7 +1722,7 @@
       (net 3 "5V_USB") (pintype "passive") (tstamp a114ed5e-5302-4bd8-a4ce-f5633daa10be))
     (pad "2" smd rect locked (at 0.75 0 180) (size 0.8 0.8) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 34 "Net-(3V3_A1-Pad2)") (pintype "passive") (tstamp 599812fb-6c3a-4895-ba37-a6075cd19314))
-    (model "${ANT3DMDL}/LED0603.step"
+    (model "${KIPRJMOD}/lib/3d-models/LED0603.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1752,7 +1752,7 @@
       (net 4 "GND") (pinfunction "2") (pintype "passive") (tstamp 97f2646d-fe12-4cb8-850b-a8d4a04e2d74))
     (pad "3" thru_hole circle locked (at 0 5.08 270) (size 1.8 1.8) (drill 1.01999) (layers *.Cu *.Mask)
       (net 27 "/IN2_B") (pinfunction "3") (pintype "passive") (tstamp f133955a-19b8-43c5-a62a-d89b6986052e))
-    (model "${ANT3DMDL}/61300311121_Download_STP_61300311121_rev1.stp"
+    (model "${KIPRJMOD}/lib/3d-models/61300311121_Download_STP_61300311121_rev1.stp"
       (offset (xyz 0 -2.5 1.27))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 -90))
@@ -1782,7 +1782,7 @@
       (net 7 "3V3_FT") (pinfunction "2") (pintype "passive") (tstamp 3759fa6b-4211-4924-a79e-a1da17441e41))
     (pad "3" thru_hole circle locked (at 0 5.08) (size 1.8 1.8) (drill 1.01999) (layers *.Cu *.Mask)
       (net 69 "/MPSSE_A") (pinfunction "3") (pintype "passive") (tstamp 562a7db1-17b3-4f79-9a7f-041c7a111c31))
-    (model "${ANT3DMDL}/61300311121_Download_STP_61300311121_rev1.stp"
+    (model "${KIPRJMOD}/lib/3d-models/61300311121_Download_STP_61300311121_rev1.stp"
       (offset (xyz 0 -2.5 1.27))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 -90))
@@ -1812,7 +1812,7 @@
       (net 7 "3V3_FT") (pinfunction "2") (pintype "passive") (tstamp a64886d2-80ca-41d1-acc8-642f1a5e7f2a))
     (pad "3" thru_hole circle locked (at 0 5.08) (size 1.8 1.8) (drill 1.01999) (layers *.Cu *.Mask)
       (net 72 "/MPSSE_B") (pinfunction "3") (pintype "passive") (tstamp 70828bc4-2849-4a68-a8fa-6ef3dd9ecc3e))
-    (model "${ANT3DMDL}/61300311121_Download_STP_61300311121_rev1.stp"
+    (model "${KIPRJMOD}/lib/3d-models/61300311121_Download_STP_61300311121_rev1.stp"
       (offset (xyz 0 -2.5 1.27))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 -90))
@@ -1865,7 +1865,7 @@
       (net 96 "Net-(C33-Pad1)") (pintype "passive") (tstamp d41d30ec-2950-4832-93f9-fd7e0298df3c))
     (pad "K" smd rect locked (at -0.85 0) (size 0.4 0.35) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 7 "3V3_FT") (pintype "passive") (tstamp ca342dc4-eb2c-40b0-8cbb-574306d28198))
-    (model "${ANT3DMDL}/SOD523F.step"
+    (model "${KIPRJMOD}/lib/3d-models/SOD523F.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1921,7 +1921,7 @@
       (net 4 "GND") (pinfunction "15") (pintype "passive") (tstamp 30c407e7-fe2d-4a69-aff0-bc2893ee4aac))
     (pad "16" thru_hole circle locked (at 2.54 17.78 270) (size 1.8 1.8) (drill 1.01999) (layers *.Cu *.Mask)
       (net 4 "GND") (pinfunction "16") (pintype "passive") (tstamp 702aaa3d-99a6-4d3d-9674-dfeabbf3e20f))
-    (model "${ANT3DMDL}/61301621121_Download_STP_61301621121_rev1.stp"
+    (model "${KIPRJMOD}/lib/3d-models/61301621121_Download_STP_61301621121_rev1.stp"
       (offset (xyz 0 -8.9 1.27))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
@@ -1971,7 +1971,7 @@
       (net 66 "/ADBUS6_T") (pintype "passive") (tstamp 76cff64d-b20d-4b12-bde0-bf607bf9b03a))
     (pad "4" thru_hole circle locked (at 7.62 0) (size 2.02 2.02) (drill 1.02) (layers *.Cu *.Mask)
       (net 67 "/ADBUS7_T") (pintype "passive") (tstamp d4318e25-a6b5-4663-8410-77b24ab09d47))
-    (model "${ANT3DMDL}/61300411121.step"
+    (model "${KIPRJMOD}/lib/3d-models/61300411121.step"
       (offset (xyz -5.075 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2017,7 +2017,7 @@
       (net 4 "GND") (pinfunction "9") (pintype "passive") (tstamp 75b63114-0f42-4400-8206-b4274fca8432))
     (pad "10" smd rect locked (at 2.032 2.54 180) (size 2.794 0.7366) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 50 "/ADBUS5") (pinfunction "10") (pintype "passive") (tstamp c8aab30e-b237-4c7c-9381-413c664e3343))
-    (model "${ANT3DMDL}/SHF-105-01-L-D-SM-LC-K-TR.stp"
+    (model "${KIPRJMOD}/lib/3d-models/SHF-105-01-L-D-SM-LC-K-TR.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
@@ -2066,7 +2066,7 @@
       (net 3 "5V_USB") (pintype "passive") (tstamp 10e60472-95db-4e8f-ae8b-63f1893d59bb))
     (pad "2" smd rect locked (at 0.75 0 270) (size 0.8 0.8) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 31 "Net-(R2-Pad2)") (pintype "passive") (tstamp 52ff8d58-e22d-4f1e-9af0-ec255747ea9a))
-    (model "${ANT3DMDL}/LED0603.step"
+    (model "${KIPRJMOD}/lib/3d-models/LED0603.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2126,7 +2126,7 @@
     )
   )
 
-  (footprint "antmicro-footprints:GCT_USB4105-GF-A" (layer "F.Cu")
+  (footprint "FTDI-toolkit-footprints:GCT_USB4105-GF-A" (layer "F.Cu")
     (tedit 62691069) (tstamp 00000000-0000-0000-0000-0000624e8784)
     (at 84.632 103.664001 -90)
     (property "MPN" "USB4105-GF-A")
@@ -2207,7 +2207,7 @@
       (net 30 "GNDREF") (pinfunction "SHIELD") (pintype "passive") (tstamp 6b216034-7084-419f-955f-b850fe6a9083))
     (pad "S1" thru_hole oval locked (at 4.32 -4.18 270) (size 1.05 2.1) (drill oval 0.6 1.7) (layers *.Cu *.Mask)
       (net 30 "GNDREF") (pinfunction "SHIELD") (pintype "passive") (tstamp 747fb424-ae26-4d7c-ac5b-5bf60ab0aafa))
-    (model "${ANT3DMDL}/USB4105-GF-A.step"
+    (model "${KIPRJMOD}/lib/3d-models/USB4105-GF-A.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -2256,14 +2256,14 @@
       (net 3 "5V_USB") (pintype "passive") (tstamp d64a5bd5-3550-4088-8a1a-b34e2510923d))
     (pad "2" smd rect locked (at 0.75 0 180) (size 0.8 0.8) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 39 "Net-(5V0_B1-Pad2)") (pintype "passive") (tstamp 4e05b244-10d0-4f47-8e8d-e386e7f80cf7))
-    (model "${ANT3DMDL}/LED0603.step"
+    (model "${KIPRJMOD}/lib/3d-models/LED0603.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:PinHeader_1x2_P2.54mm" (layer "F.Cu")
+  (footprint "FTDI-toolkit-footprints:PinHeader_1x2_P2.54mm" (layer "F.Cu")
     (tedit 624E9BE2) (tstamp 00000000-0000-0000-0000-0000624ff977)
     (at 88.957 94.739001 -90)
     (property "MPN" "M20-9990246")
@@ -2296,7 +2296,7 @@
       (net 17 "/UART_1_RTS_T") (pintype "passive") (tstamp 4e0ce970-fc10-44ce-8375-da3797306f9d))
     (pad "2" thru_hole circle locked (at 2.54 0.02 270) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
       (net 98 "Net-(J4-Pad2)") (pintype "passive") (tstamp 8b2c552c-b37e-4a9f-bb3d-a79b20d3751f))
-    (model "${ANT3DMDL}/PinHeader_1x2_P2.54mm.step"
+    (model "${KIPRJMOD}/lib/3d-models/PinHeader_1x2_P2.54mm.step"
       (offset (xyz -10.16 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2339,7 +2339,7 @@
       (net 39 "Net-(5V0_B1-Pad2)") (pintype "passive") (tstamp 762b0f9a-5c94-466f-80fc-1cf4a2a62d23))
     (pad "2" smd roundrect locked (at 0.485 0) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 29 "/IN12_B") (pintype "passive") (tstamp 7870d26d-c74d-49cc-a28a-7e98946d7397))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2388,7 +2388,7 @@
       (net 3 "5V_USB") (pintype "passive") (tstamp 2e480fe8-510d-4340-a37a-847487de9c29))
     (pad "2" smd rect locked (at 0.75 0 180) (size 0.8 0.8) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 37 "Net-(3V3_B1-Pad2)") (pintype "passive") (tstamp 3a5ffc36-b397-4695-a557-092e6853624b))
-    (model "${ANT3DMDL}/LED0603.step"
+    (model "${KIPRJMOD}/lib/3d-models/LED0603.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2431,7 +2431,7 @@
       (net 19 "Net-(R14-Pad1)") (pintype "passive") (tstamp 579be20c-db8b-4353-b184-087def99e0d5))
     (pad "2" smd roundrect locked (at 0.485 0 270) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 73 "3V3_B") (pintype "passive") (tstamp e88e07ff-2fb5-40e4-848f-42eabc1ed64a))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2474,7 +2474,7 @@
       (net 38 "Net-(1V8_B1-Pad2)") (pintype "passive") (tstamp 76f7d5b6-798e-4bc9-93c3-f1b87a69ce75))
     (pad "2" smd roundrect locked (at 0.485 0) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 27 "/IN2_B") (pintype "passive") (tstamp 41226398-31de-4737-8564-484182bd94e3))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2517,14 +2517,14 @@
       (net 35 "Net-(1V8_A1-Pad2)") (pintype "passive") (tstamp 5a6d9471-8aa1-49a3-9de2-511b2acc260f))
     (pad "2" smd roundrect locked (at 0.485 0 180) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 12 "/IN2_A") (pintype "passive") (tstamp 48f94ba1-0916-4ef4-8e3f-e9e45a3e1f41))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:PinHeader_1x2_P1.27mm_Drill.7mm" (layer "F.Cu")
+  (footprint "FTDI-toolkit-footprints:PinHeader_1x2_P1.27mm_Drill.7mm" (layer "F.Cu")
     (tedit 620359A2) (tstamp 9b7e1ed5-7165-4be3-80e6-e4411c823f02)
     (at 96.007 103.039001 180)
     (descr "http://cnctech.us/pdfs/3220-XX-0100-00.pdf")
@@ -2566,7 +2566,7 @@
       (net 7 "3V3_FT") (pintype "passive") (tstamp 3641fbbf-9dc7-44bb-a8d2-6d11ff346f8c))
     (pad "2" thru_hole circle locked (at 1.27 0 180) (size 1.1 1.1) (drill 0.7) (layers *.Cu *.Mask)
       (net 1 "JTAG_VCC") (pintype "passive") (tstamp bde80837-b4f4-467e-9ce8-13c8b0fd038f))
-    (model "${ANT3DMDL}/m50-3530242_asm.stp"
+    (model "${KIPRJMOD}/lib/3d-models/m50-3530242_asm.stp"
       (offset (xyz 0 1 0.5))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -2615,7 +2615,7 @@
       (net 3 "5V_USB") (pintype "passive") (tstamp ddf05309-29e1-4f8e-bc99-c948b37f5094))
     (pad "2" smd rect locked (at 0.75 0 180) (size 0.8 0.8) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 38 "Net-(1V8_B1-Pad2)") (pintype "passive") (tstamp d978f411-eec2-4e81-a9f7-c3a753065e02))
-    (model "${ANT3DMDL}/LED0603.step"
+    (model "${KIPRJMOD}/lib/3d-models/LED0603.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2664,7 +2664,7 @@
       (net 3 "5V_USB") (pintype "passive") (tstamp 38125061-3342-41ef-8eea-33fafd44e102))
     (pad "2" smd rect locked (at 0.75 0 180) (size 0.8 0.8) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 36 "Net-(5V0_A1-Pad2)") (pintype "passive") (tstamp 35f69baf-a550-4d2f-b65b-4b17554e559a))
-    (model "${ANT3DMDL}/LED0603.step"
+    (model "${KIPRJMOD}/lib/3d-models/LED0603.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2713,7 +2713,7 @@
       (net 3 "5V_USB") (pintype "passive") (tstamp 116da8d8-5732-4b0d-b165-2ecd6efd0850))
     (pad "2" smd rect locked (at 0.75 0 180) (size 0.8 0.8) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 35 "Net-(1V8_A1-Pad2)") (pintype "passive") (tstamp de4746a9-05eb-43c5-b56d-b0a15cfe6e0d))
-    (model "${ANT3DMDL}/LED0603.step"
+    (model "${KIPRJMOD}/lib/3d-models/LED0603.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2756,7 +2756,7 @@
       (net 37 "Net-(3V3_B1-Pad2)") (pintype "passive") (tstamp 4317438a-088c-46f6-baab-67de713f19e0))
     (pad "2" smd roundrect locked (at 0.485 0 180) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 28 "/IN1_B") (pintype "passive") (tstamp 621373d4-cca4-445a-bb1a-522fde311720))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2786,7 +2786,7 @@
       (net 4 "GND") (pinfunction "2") (pintype "passive") (tstamp 8bc92c85-fec0-4bc1-982b-dedec1e1870a))
     (pad "3" thru_hole circle locked (at 0 5.08 270) (size 1.8 1.8) (drill 1.01999) (layers *.Cu *.Mask)
       (net 12 "/IN2_A") (pinfunction "3") (pintype "passive") (tstamp f31df058-789b-4559-a541-62a68a2412a8))
-    (model "${ANT3DMDL}/61300311121_Download_STP_61300311121_rev1.stp"
+    (model "${KIPRJMOD}/lib/3d-models/61300311121_Download_STP_61300311121_rev1.stp"
       (offset (xyz 0 -2.5 1.27))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 -90))
@@ -2829,14 +2829,14 @@
       (net 36 "Net-(5V0_A1-Pad2)") (pintype "passive") (tstamp 61485766-828a-4221-9a85-318740bfce99))
     (pad "2" smd roundrect locked (at 0.485 0) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 26 "/IN12_A") (pintype "passive") (tstamp 91c20bcf-9bc6-4976-b3dd-e4685ecbc62e))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0201-res" (layer "F.Cu")
+  (footprint "FTDI-toolkit-footprints:0201-res" (layer "F.Cu")
     (tedit 5FBD1D44) (tstamp f8d1c900-18ce-4d8d-8b5b-ca464b55d97b)
     (at 128.72 107.56 180)
     (descr "Resistor SMD 0201")
@@ -2870,7 +2870,7 @@
       (net 22 "/UART_2_RXD_T") (pintype "passive") (tstamp 319d9734-006a-439d-ba1d-646f288a7f73))
     (pad "2" smd roundrect locked (at 0.32 0 180) (size 0.46 0.4) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.25)
       (net 6 "VCCIOB") (pintype "passive") (tstamp 1410cf61-f0d1-45c3-9609-046e756b71f6))
-    (model "${ANT3DMDL}/0201_res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0201_res.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -2910,7 +2910,7 @@
       (net 5 "VCCIOA") (pinfunction "COM") (pintype "passive") (tstamp e96856b0-9113-494e-8887-41bbf18b9548))
     (pad "8" smd rect locked (at 1.579 0.75 90) (size 0.3 1.25) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 3 "5V_USB") (pinfunction "VCC") (pintype "passive") (tstamp 925dc08a-1fc4-468c-a62f-dd307d9dbcef))
-    (model "${ANT3DMDL}/TS5A3359DCUR.stp"
+    (model "${KIPRJMOD}/lib/3d-models/TS5A3359DCUR.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2953,7 +2953,7 @@
       (net 12 "/IN2_A") (pintype "passive") (tstamp 35e89666-ca07-4726-bf8c-4f2c0dabd699))
     (pad "2" smd roundrect locked (at 0.485 0 270) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 3 "5V_USB") (pintype "passive") (tstamp 77beef80-aeb4-42e0-9611-a3a5d4770f6a))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3014,7 +3014,7 @@
       (net 1 "JTAG_VCC") (pinfunction "D1+") (pintype "passive") (tstamp 51962a56-4feb-4174-a5f8-a7c114e0a06f))
     (pad "14" smd rect locked (at -1.5 -0.625 90) (size 0.2 0.5) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 1 "JTAG_VCC") (pinfunction "D1+") (pintype "passive") (tstamp 83376068-a553-429b-9039-bffd0eaaf14b))
-    (model "${ANT3DMDL}/USON-14_SMD.step"
+    (model "${KIPRJMOD}/lib/3d-models/USON-14_SMD.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 -90))
@@ -3057,7 +3057,7 @@
       (net 4 "GND") (pintype "passive") (tstamp a1152556-c467-4c4e-9c81-687a94797714))
     (pad "2" smd roundrect locked (at 0.485 0) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 3 "5V_USB") (pintype "passive") (tstamp 0a92731c-71ac-47df-bf85-8f7f98190a99))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3100,7 +3100,7 @@
       (net 27 "/IN2_B") (pintype "passive") (tstamp bede52dc-831e-478a-aa72-8b1971971ffc))
     (pad "2" smd roundrect locked (at 0.485 0 90) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 3 "5V_USB") (pintype "passive") (tstamp 5d69974f-c835-444a-aab4-049910a5ae6a))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3143,7 +3143,7 @@
       (net 13 "/IN1_A") (pintype "passive") (tstamp d2b505b4-301c-432f-8bce-6690f3e3998d))
     (pad "2" smd roundrect locked (at 0.485 0 90) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 3 "5V_USB") (pintype "passive") (tstamp fca53292-d824-4b57-974f-57d68ab5dcc6))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3196,7 +3196,7 @@
       (net 10 "/USB_D_N") (pinfunction "IO2") (pintype "passive") (solder_mask_margin 0.05) (tstamp 6c4f32bb-0346-4a14-9987-f258e9f5afef))
     (pad "3" smd rect locked (at 0 0.425 90) (size 0.3 0.3) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 4 "GND") (pinfunction "GND") (pintype "passive") (solder_mask_margin 0.05) (tstamp fb7e5c9c-5c79-4e58-beee-d41cb5ce01fb))
-    (model "${ANT3DMDL}/sc70-3.step"
+    (model "${KIPRJMOD}/lib/3d-models/sc70-3.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3239,7 +3239,7 @@
       (net 8 "Net-(C11-Pad1)") (pintype "passive") (tstamp 0f6ee6f2-bce8-4b14-927d-b873c9f23777))
     (pad "2" smd roundrect locked (at 0.485 0 270) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 4 "GND") (pintype "passive") (tstamp ca0cacde-e91c-4da0-b127-aa565597c845))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3282,7 +3282,7 @@
       (net 7 "3V3_FT") (pintype "passive") (tstamp c966f4b4-d6ff-46b9-a0f2-c2ed7818e32e))
     (pad "2" smd roundrect locked (at 0.485 0 180) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 4 "GND") (pintype "passive") (tstamp 5dd793a9-0f52-4241-96a7-056e23cfe85d))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3325,7 +3325,7 @@
       (net 8 "Net-(C11-Pad1)") (pintype "passive") (tstamp 300275a2-af19-47d1-9be1-e8e83f4c58e2))
     (pad "2" smd roundrect locked (at 0.485 0 270) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 4 "GND") (pintype "passive") (tstamp 18eba7fa-c984-4446-9850-6ded2b441a89))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3368,7 +3368,7 @@
       (net 7 "3V3_FT") (pintype "passive") (tstamp 6002c61e-573f-49a0-8700-f836586049e5))
     (pad "2" smd roundrect locked (at 0.485 0 270) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 4 "GND") (pintype "passive") (tstamp 354ad4ff-073e-4fbc-b9e8-bb6bc8013fc6))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3410,7 +3410,7 @@
       (net 7 "3V3_FT") (pintype "passive") (tstamp dcd3faea-0e4e-4836-a451-59f8f70c74f0))
     (pad "2" smd roundrect locked (at 0.485 0 90) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 8 "Net-(C11-Pad1)") (pintype "passive") (tstamp 75aa5a5c-01ad-41f0-a28d-bbe6bbad3452))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3453,7 +3453,7 @@
       (net 74 "Net-(R9-Pad1)") (pintype "passive") (tstamp be9a7374-4225-4a6c-8090-a8bfd1a29834))
     (pad "2" smd roundrect locked (at 0.485 0 180) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 4 "GND") (pintype "passive") (tstamp 621d03ab-0990-4178-b269-202ff26291f5))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3496,7 +3496,7 @@
       (net 4 "GND") (pintype "passive") (tstamp f67a8fcb-e401-49be-a1ad-d93823dcca18))
     (pad "2" smd rect locked (at 0.7 0) (size 0.6 0.8) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 2 "1V8") (pintype "passive") (tstamp e882108c-738a-47ff-be9d-910f6dc8cd00))
-    (model "${ANT3DMDL}/0603-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0603-cap.step"
       (offset (xyz 0 -0.45 0.42))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
@@ -3539,14 +3539,14 @@
       (net 4 "GND") (pintype "passive") (tstamp e8c4dfa2-1f2b-4078-9b11-fb5dd8dce56b))
     (pad "2" smd rect locked (at 0.7 0 270) (size 0.6 0.8) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 7 "3V3_FT") (pintype "passive") (tstamp 4903fd16-9763-4044-87b0-197c0de1d348))
-    (model "${ANT3DMDL}/0603-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0603-cap.step"
       (offset (xyz 0 -0.45 0.42))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:QFN-56-1EP_8x8mm_P0.5mm_EP5.5.9x5.9mm" (layer "B.Cu")
+  (footprint "FTDI-toolkit-footprints:QFN-56-1EP_8x8mm_P0.5mm_EP5.5.9x5.9mm" (layer "B.Cu")
     (tedit 5F353EA9) (tstamp 00000000-0000-0000-0000-00005f2c007a)
     (at 120.472 103.115501)
     (descr "QFN, 56 Pin (http://www.ti.com/lit/ds/symlink/tlc5957.pdf#page=23), generated with kicad-footprint-generator ipc_noLead_generator.py")
@@ -3715,7 +3715,7 @@
       (net 79 "unconnected-(U1-Pad56)") (pinfunction "EECLK") (pintype "output+no_connect") (tstamp fb0bada8-ad22-4990-9cc0-7c68e481eb0d))
     (pad "57" smd rect locked (at 0 0) (size 5.9 5.9) (layers "B.Cu" "B.Mask")
       (net 4 "GND") (pinfunction "GND") (pintype "power_in") (tstamp 3857cc65-5fdc-40d3-8bf9-b3877e420cf1))
-    (model "${ANT3DMDL}/FT2232H-56Q.STEP"
+    (model "${KIPRJMOD}/lib/3d-models/FT2232H-56Q.STEP"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3758,7 +3758,7 @@
       (net 4 "GND") (pintype "passive") (tstamp b9a5b22f-a124-42d6-86de-99b775e8cdbc))
     (pad "2" smd roundrect locked (at 0.485 0) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 7 "3V3_FT") (pintype "passive") (tstamp 15bddb00-2359-496a-8154-f39054de6652))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3801,7 +3801,7 @@
       (net 4 "GND") (pintype "passive") (tstamp 055bdad4-29fe-4d94-a64c-9eebe8ab34a4))
     (pad "2" smd roundrect locked (at 0.485 0 270) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 49 "/VREGOUT") (pintype "passive") (tstamp 36448087-a438-48ac-a244-94d661f4935c))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3844,7 +3844,7 @@
       (net 4 "GND") (pintype "passive") (tstamp 7dc1868c-b3b1-4a90-a732-91479df5f0ef))
     (pad "2" smd roundrect locked (at 0.485 0 270) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 54 "3V3_A") (pintype "passive") (tstamp 0ff18b98-c3cf-4d46-9f20-f5e92b3c4814))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5036,7 +5036,7 @@
       (net 4 "GND") (pintype "passive") (tstamp 67de82f1-d298-435d-901f-38b7bc694c78))
     (pad "2" smd roundrect locked (at 0.485 0 90) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 54 "3V3_A") (pintype "passive") (tstamp 6affbcda-294c-40be-9d11-c98b935313fd))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5079,7 +5079,7 @@
       (net 4 "GND") (pintype "passive") (tstamp d8df84e7-4408-4844-99fc-ed78ec5a34f4))
     (pad "2" smd roundrect locked (at 0.485 0 90) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 5 "VCCIOA") (pintype "passive") (tstamp 6aaa75c9-e2fd-42e7-a6d5-3769892741cd))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5122,7 +5122,7 @@
       (net 32 "Net-(Y1-Pad3)") (pinfunction "OUT") (pintype "output") (tstamp 207158d1-b6d0-4672-b528-4f8cca4732d8))
     (pad "4" smd rect locked (at 2.3 0) (size 1.2 1.1) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 7 "3V3_FT") (pinfunction "VDD") (pintype "power_in") (tstamp 38ec3cc9-49bb-47c9-b3e6-1192447937ee))
-    (model "${ANT3DMDL}/ASFLMB.step"
+    (model "${KIPRJMOD}/lib/3d-models/ASFLMB.step"
       (offset (xyz 1.1 -1.25 0.45))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 -90))
@@ -5165,7 +5165,7 @@
       (net 4 "GND") (pintype "passive") (tstamp 62e94911-a7d4-49a2-9041-9eeecfe974b6))
     (pad "2" smd roundrect locked (at 0.485 0 90) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 55 "/SWD_EN") (pintype "passive") (tstamp defdfe9f-8252-4b13-9f94-d7d57aba41b0))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5218,7 +5218,7 @@
       (net 70 "Net-(Q1-Pad5)") (pinfunction "G2") (pintype "input") (tstamp 5656e8c3-0069-4896-8adf-70e8076732d7))
     (pad "6" smd rect locked (at 0.85 0.5375 270) (size 0.5 0.375) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 68 "/nMPSSE_A") (pinfunction "D1") (pintype "output") (tstamp 799715ee-b781-4fa2-9216-fad7f20740fe))
-    (model "${ANT3DMDL}/SOT-666.STEP"
+    (model "${KIPRJMOD}/lib/3d-models/SOT-666.STEP"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -5261,7 +5261,7 @@
       (net 44 "/ADBUS3") (pintype "passive") (tstamp 0a31dba3-c77b-4e7c-94cc-b79d10187b27))
     (pad "2" smd roundrect locked (at 0.485 0 180) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 75 "Net-(R13-Pad2)") (pintype "passive") (tstamp 249755b1-0340-4d6f-a1ed-0b200adaa057))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5304,7 +5304,7 @@
       (net 76 "Net-(R19-Pad1)") (pintype "passive") (tstamp 1f209473-34d5-4bbe-9ec8-61d3363e4343))
     (pad "2" smd roundrect locked (at 0.485 0) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 75 "Net-(R13-Pad2)") (pintype "passive") (tstamp 3eb3e136-2b95-442e-b092-10f3134fcb84))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5347,7 +5347,7 @@
       (net 68 "/nMPSSE_A") (pintype "passive") (tstamp 4fc00314-d230-481a-9e86-f32fa499fffa))
     (pad "2" smd roundrect locked (at 0.485 0 270) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 7 "3V3_FT") (pintype "passive") (tstamp 58a901c0-93d2-425f-82e5-b33c0d1b0da1))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5390,7 +5390,7 @@
       (net 4 "GND") (pintype "passive") (tstamp c76f0aa2-ba7e-4350-94c2-affdd8697676))
     (pad "2" smd roundrect locked (at 0.485 0 270) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 54 "3V3_A") (pintype "passive") (tstamp f1bf7298-7842-408e-8855-5f6867234dfe))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5433,7 +5433,7 @@
       (net 4 "GND") (pintype "passive") (tstamp 3c57f938-ef4a-4302-adc4-a6bbe086c4fc))
     (pad "2" smd roundrect locked (at 0.485 0 90) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 55 "/SWD_EN") (pintype "passive") (tstamp 22b38ca7-e5e9-4348-919f-544abeceaa35))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5476,7 +5476,7 @@
       (net 4 "GND") (pintype "passive") (tstamp 8ccd4eff-b2a2-4acb-85a2-dccfeb451b0b))
     (pad "2" smd roundrect locked (at 0.485 0) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 72 "/MPSSE_B") (pintype "passive") (tstamp e9e60a60-9484-4036-b568-d9b9f0ad26f0))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5519,7 +5519,7 @@
       (net 78 "Net-(R36-Pad1)") (pintype "passive") (tstamp d0522d53-b27f-4b39-879b-a3f41438f2c3))
     (pad "2" smd roundrect locked (at 0.485 0 90) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 22 "/UART_2_RXD_T") (pintype "passive") (tstamp 91b0f531-c264-4941-beb3-0a5d034f3d39))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5568,7 +5568,7 @@
       (net 54 "3V3_A") (pinfunction "DIR") (pintype "input") (tstamp b6c35a57-7046-4cde-a0c2-10cb45167f66))
     (pad "6" smd rect locked (at 0.735 0.5) (size 0.66 0.31) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 5 "VCCIOA") (pinfunction "VCCB") (pintype "power_in") (tstamp ed7c7088-9c67-4ad5-b850-401f75f2a102))
-    (model "${ANT3DMDL}/SOT-553-6.step"
+    (model "${KIPRJMOD}/lib/3d-models/SOT-553-6.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -5617,7 +5617,7 @@
       (net 68 "/nMPSSE_A") (pinfunction "DIR") (pintype "input") (tstamp 33a80110-46e9-4395-8a81-d8f914979e95))
     (pad "6" smd rect locked (at 0.735 0.5) (size 0.66 0.31) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 5 "VCCIOA") (pinfunction "VCCB") (pintype "power_in") (tstamp 8aeb819f-43e3-43cd-a3d8-d60c1eb18af9))
-    (model "${ANT3DMDL}/SOT-553-6.step"
+    (model "${KIPRJMOD}/lib/3d-models/SOT-553-6.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -5669,7 +5669,7 @@
       (net 14 "/UART_1_RXD_T") (pinfunction "1B") (pintype "bidirectional") (tstamp 182481b0-3ab6-4856-971e-a9e4487c2119))
     (pad "8" smd rect locked (at 0.295 0.75 180) (size 0.42 0.31) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 5 "VCCIOA") (pinfunction "VCCB") (pintype "power_in") (tstamp 1333d54e-4e9d-4ee7-b8be-542b1bd3804c))
-    (model "${ANT3DMDL}/SOT833-1.step"
+    (model "${KIPRJMOD}/lib/3d-models/SOT833-1.step"
       (offset (xyz -0.5 1 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
@@ -5721,7 +5721,7 @@
       (net 76 "Net-(R19-Pad1)") (pinfunction "1B") (pintype "bidirectional") (tstamp 813204f1-02e3-4a1b-a8c6-c0486ec1f19a))
     (pad "8" smd rect locked (at 0.295 0.75 180) (size 0.42 0.31) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 55 "/SWD_EN") (pinfunction "VCCB") (pintype "power_in") (tstamp b0361bb3-1153-4fbf-b158-8c42b411b5c4))
-    (model "${ANT3DMDL}/SOT833-1.step"
+    (model "${KIPRJMOD}/lib/3d-models/SOT833-1.step"
       (offset (xyz -0.5 1 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
@@ -5773,7 +5773,7 @@
       (net 97 "Net-(D4-PadK)") (pinfunction "1B") (pintype "bidirectional") (tstamp 632b4225-d7d8-4f49-8ac5-1c74bdd144f2))
     (pad "8" smd rect locked (at 0.295 0.75 180) (size 0.42 0.31) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 56 "/I2C_EN") (pinfunction "VCCB") (pintype "power_in") (tstamp 52e2e203-6db1-4d43-9ef5-17640d7880e6))
-    (model "${ANT3DMDL}/SOT833-1.step"
+    (model "${KIPRJMOD}/lib/3d-models/SOT833-1.step"
       (offset (xyz -0.5 1 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
@@ -5822,7 +5822,7 @@
       (net 73 "3V3_B") (pinfunction "DIR") (pintype "input") (tstamp 9ba5a697-4266-4d61-b54d-58c6f681c69f))
     (pad "6" smd rect locked (at 0.735 0.5) (size 0.66 0.31) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 6 "VCCIOB") (pinfunction "VCCB") (pintype "power_in") (tstamp 84674591-b107-4fcc-8f4a-bd45f5b9a5bb))
-    (model "${ANT3DMDL}/SOT-553-6.step"
+    (model "${KIPRJMOD}/lib/3d-models/SOT-553-6.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -5871,7 +5871,7 @@
       (net 71 "/nMPSSE_B") (pinfunction "DIR") (pintype "input") (tstamp 5c48d7de-9465-47ba-8a5d-5605362101a0))
     (pad "6" smd rect locked (at 0.735 0.5) (size 0.66 0.31) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 6 "VCCIOB") (pinfunction "VCCB") (pintype "power_in") (tstamp 5cee6270-a54d-4ac2-b758-6f170bfd5576))
-    (model "${ANT3DMDL}/SOT-553-6.step"
+    (model "${KIPRJMOD}/lib/3d-models/SOT-553-6.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -5932,7 +5932,7 @@
       (net 47 "/BDBUS0") (pinfunction "B1") (pintype "bidirectional") (solder_mask_margin 0.05) (tstamp d82d10f6-462a-4c4a-835e-0ecccd6000ab))
     (pad "8" smd rect locked (at -0.525 0.5375) (size 0.17 0.725) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 7 "3V3_FT") (pinfunction "VCC_B") (pintype "power_in") (solder_mask_margin 0.05) (tstamp 8c400464-b985-45a2-9892-483f961fe51c))
-    (model "${ANT3DMDL}/X2SON8.step"
+    (model "${KIPRJMOD}/lib/3d-models/X2SON8.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -5984,7 +5984,7 @@
       (net 23 "/UART_2_CTS_T") (pinfunction "1B") (pintype "bidirectional") (tstamp 200b341c-2843-4b74-b58a-e33e04c54857))
     (pad "8" smd rect locked (at 0.295 0.75 180) (size 0.42 0.31) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 6 "VCCIOB") (pinfunction "VCCB") (pintype "power_in") (tstamp f1108ddc-cd87-4ddb-8d42-e10aec1f4164))
-    (model "${ANT3DMDL}/SOT833-1.step"
+    (model "${KIPRJMOD}/lib/3d-models/SOT833-1.step"
       (offset (xyz -0.5 1 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
@@ -6027,7 +6027,7 @@
       (net 4 "GND") (pintype "passive") (tstamp 0655fbfa-e590-4f39-b440-28a00237baf6))
     (pad "2" smd roundrect locked (at 0.485 0 270) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 7 "3V3_FT") (pintype "passive") (tstamp ce05dd2b-a35c-47bb-8104-2e1f16f4bb83))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6094,7 +6094,7 @@
       (net 5 "VCCIOA") (pinfunction "VCCB") (pintype "power_in") (tstamp 84315767-eab8-44f2-88b4-826126924732))
     (pad "12" smd rect locked (at 0 0.8 270) (size 0.6 0.2) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 7 "3V3_FT") (pinfunction "OE") (pintype "input") (tstamp dc8e5454-1310-4622-bc8a-049a352da967))
-    (model "${ANT3DMDL}/Texas_R_PUQFN-N12.step"
+    (model "${KIPRJMOD}/lib/3d-models/Texas_R_PUQFN-N12.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6137,7 +6137,7 @@
       (net 4 "GND") (pintype "passive") (tstamp 1d5c84b5-f3bf-4f44-9c60-7678ed34ffa0))
     (pad "2" smd roundrect locked (at 0.485 0) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 7 "3V3_FT") (pintype "passive") (tstamp 89872b5d-cdc7-4c9d-91c2-dc9058c86cbc))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6180,7 +6180,7 @@
       (net 4 "GND") (pintype "passive") (tstamp 705448d7-681e-405d-81a4-1217597da85f))
     (pad "2" smd roundrect locked (at 0.485 0) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 73 "3V3_B") (pintype "passive") (tstamp 5b35e6b5-0f01-408e-b878-f6660e6b8760))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6223,7 +6223,7 @@
       (net 71 "/nMPSSE_B") (pintype "passive") (tstamp c1f38271-54b0-4ce0-863c-15bcabf0bf2d))
     (pad "2" smd roundrect locked (at 0.485 0 270) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 7 "3V3_FT") (pintype "passive") (tstamp dc319863-e0ed-4782-8793-1cfb9a877ad4))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6266,7 +6266,7 @@
       (net 4 "GND") (pintype "passive") (tstamp 317dd411-b22b-4386-8833-db787a71f32f))
     (pad "2" smd roundrect locked (at 0.485 0) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 56 "/I2C_EN") (pintype "passive") (tstamp 49013685-579c-4601-bc1e-87d465731e47))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6319,7 +6319,7 @@
       (net 56 "/I2C_EN") (pinfunction "G2") (pintype "input") (tstamp ea39ce54-87b0-42bf-a95d-f17dda85128c))
     (pad "6" smd rect locked (at 0.85 0.5375 270) (size 0.5 0.375) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 71 "/nMPSSE_B") (pinfunction "D1") (pintype "output") (tstamp 34dce0b3-6433-4217-bc12-578d1af2152a))
-    (model "${ANT3DMDL}/SOT-666.STEP"
+    (model "${KIPRJMOD}/lib/3d-models/SOT-666.STEP"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -6362,7 +6362,7 @@
       (net 4 "GND") (pintype "passive") (tstamp f871d380-d37d-4a7e-be61-b241abd81467))
     (pad "2" smd roundrect locked (at 0.485 0) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 5 "VCCIOA") (pintype "passive") (tstamp 4b18d1ea-214b-470e-9a2a-fc24b28dfab3))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6405,7 +6405,7 @@
       (net 49 "/VREGOUT") (pintype "passive") (tstamp 3366b3c4-928e-4a5c-8607-b63746769bcf))
     (pad "2" smd roundrect locked (at 0.485 0 90) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 4 "GND") (pintype "passive") (tstamp 81348e11-ac27-4c43-99b5-c90e01cd8825))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6448,7 +6448,7 @@
       (net 4 "GND") (pintype "passive") (tstamp 1f067459-27e9-4717-954e-31d23d16d07b))
     (pad "2" smd roundrect locked (at 0.485 0) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 6 "VCCIOB") (pintype "passive") (tstamp de3dc1ec-f8ab-4ce2-89e2-047a605f911b))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6491,7 +6491,7 @@
       (net 4 "GND") (pintype "passive") (tstamp 26059410-b568-4e20-9c8d-867c8764f95f))
     (pad "2" smd roundrect locked (at 0.485 0) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 6 "VCCIOB") (pintype "passive") (tstamp 553ef192-3336-477c-97d9-7044e2fac0d9))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6534,7 +6534,7 @@
       (net 4 "GND") (pintype "passive") (tstamp 406b1fd2-52d3-4468-9e97-4168162476bf))
     (pad "2" smd roundrect locked (at 0.485 0 270) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 73 "3V3_B") (pintype "passive") (tstamp d0415ae1-1c28-4d94-811c-d674d97b810e))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6577,7 +6577,7 @@
       (net 4 "GND") (pintype "passive") (tstamp 4c5a5b00-1760-45de-befd-2db8434de183))
     (pad "2" smd roundrect locked (at 0.485 0 270) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 73 "3V3_B") (pintype "passive") (tstamp a41406c9-6b6f-4bad-8087-d2e9168d7b80))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6620,7 +6620,7 @@
       (net 96 "Net-(C33-Pad1)") (pintype "passive") (tstamp 57a3618c-8b96-4b26-815f-6ee5e5e8130d))
     (pad "2" smd roundrect locked (at 0.485 0 90) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 6 "VCCIOB") (pintype "passive") (tstamp 456cf217-bf71-4e45-bb4a-6110de4471d5))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6663,7 +6663,7 @@
       (net 4 "GND") (pintype "passive") (tstamp c9e922ec-a1ea-4077-8190-13e956aac1c8))
     (pad "2" smd roundrect locked (at 0.485 0 90) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 56 "/I2C_EN") (pintype "passive") (tstamp 121038fd-0d8f-4624-9322-a2af57c65b34))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6706,7 +6706,7 @@
       (net 77 "Net-(R35-Pad1)") (pintype "passive") (tstamp 5d7b6b64-c7ea-495c-a2ec-43142f1d1467))
     (pad "2" smd roundrect locked (at 0.485 0 90) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 24 "/UART_2_TXD_T") (pintype "passive") (tstamp 394c920a-5207-41ca-93b6-32523c4556bd))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6749,7 +6749,7 @@
       (net 4 "GND") (pintype "passive") (tstamp 091c21ba-3905-42ce-a36e-09609c280330))
     (pad "2" smd roundrect locked (at 0.485 0) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 69 "/MPSSE_A") (pintype "passive") (tstamp e42498c1-0c97-4cf8-a136-320e1e91518e))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6792,7 +6792,7 @@
       (net 4 "GND") (pintype "passive") (tstamp 66da2de4-19ff-40f3-8975-6296102ede05))
     (pad "2" smd roundrect locked (at 0.485 0 270) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 40 "Net-(R21-Pad1)") (pintype "passive") (tstamp 55d4caf0-efbf-4455-ba84-919344b93869))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6835,7 +6835,7 @@
       (net 9 "Net-(C12-Pad1)") (pintype "passive") (tstamp a2a06ede-b50c-4f44-af5d-1784f8ff1394))
     (pad "2" smd roundrect locked (at 0.485 0 90) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 4 "GND") (pintype "passive") (tstamp f32a039f-fdde-4d44-9220-24b899b67af6))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6877,7 +6877,7 @@
       (net 7 "3V3_FT") (pintype "passive") (tstamp b8e3f7b3-223c-4549-b32f-abb156a4cfe0))
     (pad "2" smd roundrect locked (at 0.485 0 270) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 9 "Net-(C12-Pad1)") (pintype "passive") (tstamp f51905bd-123d-4408-af41-dccc894a1075))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6920,7 +6920,7 @@
       (net 9 "Net-(C12-Pad1)") (pintype "passive") (tstamp 4d427140-3fee-497c-8992-9c64fce37d30))
     (pad "2" smd roundrect locked (at 0.485 0 90) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 4 "GND") (pintype "passive") (tstamp 5eedaf67-2091-43ea-9783-2083d56757a4))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6963,7 +6963,7 @@
       (net 40 "Net-(R21-Pad1)") (pintype "passive") (tstamp c0d659fd-a861-4f20-a744-daca7935d427))
     (pad "2" smd roundrect locked (at 0.485 0 90) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 3 "5V_USB") (pintype "passive") (tstamp a8b0feea-4c7a-46ee-98e2-842d0894b2e5))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -7006,7 +7006,7 @@
       (net 4 "GND") (pintype "passive") (tstamp 526081b4-f027-4023-a936-ea96f0fc820f))
     (pad "2" smd roundrect locked (at 0.485 0) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 7 "3V3_FT") (pintype "passive") (tstamp e7cfa912-95e7-4c7e-b2fd-f88f336b623a))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -7049,7 +7049,7 @@
       (net 4 "GND") (pintype "passive") (tstamp 167cf7f0-7bdf-4fe9-b073-ba564ae534b8))
     (pad "2" smd roundrect locked (at 0.485 0 270) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 7 "3V3_FT") (pintype "passive") (tstamp cf9d1d8b-bfc8-468a-ac44-e3b8241ec7db))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -7092,14 +7092,14 @@
       (net 4 "GND") (pintype "passive") (tstamp 0a582320-90d1-4d6f-b7a2-b8023b5c3677))
     (pad "2" smd roundrect locked (at 0.485 0 270) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 5 "VCCIOA") (pintype "passive") (tstamp c8052709-7cb5-412d-8c7d-df506f3693cc))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-res" (layer "B.Cu")
+  (footprint "FTDI-toolkit-footprints:0402-res" (layer "B.Cu")
     (tedit 5FD9C158) (tstamp 00000000-0000-0000-0000-0000624d7d6c)
     (at 108.457 101.139001 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -7135,14 +7135,14 @@
       (net 4 "GND") (pintype "passive") (tstamp e0a46fee-68b2-4714-949a-29d470b7c649))
     (pad "2" smd roundrect locked (at 0.485 0 180) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 1 "JTAG_VCC") (pintype "passive") (tstamp 895af314-8506-4519-b069-bfdb4a5ff6d2))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-res" (layer "B.Cu")
+  (footprint "FTDI-toolkit-footprints:0402-res" (layer "B.Cu")
     (tedit 5FD9C158) (tstamp 00000000-0000-0000-0000-0000624d7dcf)
     (at 108.107 95.039001 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -7178,7 +7178,7 @@
       (net 70 "Net-(Q1-Pad5)") (pintype "passive") (tstamp de7a6416-9404-4b8b-9c16-b572709fd9e7))
     (pad "2" smd roundrect locked (at 0.485 0 90) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 7 "3V3_FT") (pintype "passive") (tstamp 580b2160-d818-4800-8971-b81ad4ee2be5))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -7228,7 +7228,7 @@
     )
   )
 
-  (footprint "antmicro-footprints:SC-70-5" (layer "B.Cu")
+  (footprint "FTDI-toolkit-footprints:SC-70-5" (layer "B.Cu")
     (tedit 62470701) (tstamp 00000000-0000-0000-0000-0000624f1776)
     (at 92.317 109.379001)
     (property "MPN" "TLV70018DCKR")
@@ -7268,7 +7268,7 @@
       (net 102 "unconnected-(IC2-Pad4)") (pinfunction "4") (pintype "no_connect") (solder_mask_margin 0.1) (tstamp 1480819e-39cf-45c7-a9e8-c3a5a6939633))
     (pad "5" smd rect locked (at -0.65 1.1) (size 0.4 0.9) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 2 "1V8") (pinfunction "VOUT") (pintype "passive") (solder_mask_margin 0.1) (tstamp fc7c4784-da0d-468a-9ad3-7ada53bb403f))
-    (model "${ANT3DMDL}/sc705_model.STEP"
+    (model "${KIPRJMOD}/lib/3d-models/sc705_model.STEP"
       (offset (xyz 0 0 0.75))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -7318,7 +7318,7 @@
     )
   )
 
-  (footprint "antmicro-footprints:SC-70-5" (layer "B.Cu")
+  (footprint "FTDI-toolkit-footprints:SC-70-5" (layer "B.Cu")
     (tedit 62470701) (tstamp 00000000-0000-0000-0000-0000624fcdce)
     (at 84.944 97.410501 -90)
     (property "MPN" "TLV70033DCKR")
@@ -7358,7 +7358,7 @@
       (net 101 "unconnected-(IC1-Pad4)") (pinfunction "NC") (pintype "no_connect") (solder_mask_margin 0.1) (tstamp daa21dab-d8ca-4c4a-a22b-9b1e06a400f3))
     (pad "5" smd rect locked (at -0.65 1.1 270) (size 0.4 0.9) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 7 "3V3_FT") (pinfunction "VOUT") (pintype "passive") (solder_mask_margin 0.1) (tstamp 2ac1dca5-052c-4562-a651-f3606f7e0d59))
-    (model "${ANT3DMDL}/sc705_model.STEP"
+    (model "${KIPRJMOD}/lib/3d-models/sc705_model.STEP"
       (offset (xyz 0 0 0.75))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -7401,7 +7401,7 @@
       (net 4 "GND") (pintype "passive") (tstamp 8187db32-7c38-4cb9-a1ea-48b8c9ce804c))
     (pad "2" smd roundrect locked (at 0.485 0 270) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 3 "5V_USB") (pintype "passive") (tstamp a0c14ad2-13ee-4ac3-9839-8f5e7e1153af))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -7444,14 +7444,14 @@
       (net 28 "/IN1_B") (pintype "passive") (tstamp 3f495a3b-b445-43f7-9c4c-eacd39cec173))
     (pad "2" smd roundrect locked (at 0.485 0) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 3 "5V_USB") (pintype "passive") (tstamp 16bc4e5f-ee98-4897-8378-e6da2e27278d))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0201-res" (layer "B.Cu")
+  (footprint "FTDI-toolkit-footprints:0201-res" (layer "B.Cu")
     (tedit 5FBD1D44) (tstamp 04d46d53-6c55-46bb-923b-7d3c3ee9234a)
     (at 123.12 96.83)
     (descr "Resistor SMD 0201")
@@ -7485,14 +7485,14 @@
       (net 14 "/UART_1_RXD_T") (pintype "passive") (tstamp bed28109-18f6-4295-9434-d4a954016c89))
     (pad "2" smd roundrect locked (at 0.32 0) (size 0.46 0.4) (layers "B.Cu" "B.Mask") (roundrect_rratio 0.25)
       (net 5 "VCCIOA") (pintype "passive") (tstamp 1c1dff77-d878-46d2-942a-458a3b452d8e))
-    (model "${ANT3DMDL}/0201_res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0201_res.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0201-res" (layer "B.Cu")
+  (footprint "FTDI-toolkit-footprints:0201-res" (layer "B.Cu")
     (tedit 5FBD1D44) (tstamp 0a0e599d-3c4f-4f0d-b975-bf0bdc1da60c)
     (at 119.72 96.48)
     (descr "Resistor SMD 0201")
@@ -7526,7 +7526,7 @@
       (net 16 "/UART_1_TXD_T") (pintype "passive") (tstamp 3f225d97-d974-48c4-849f-6b4b39b12112))
     (pad "2" smd roundrect locked (at 0.32 0) (size 0.46 0.4) (layers "B.Cu" "B.Mask") (roundrect_rratio 0.25)
       (net 5 "VCCIOA") (pintype "passive") (tstamp f2b3c7b2-ce15-4c44-8637-338c7e8bc370))
-    (model "${ANT3DMDL}/0201_res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0201_res.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -7569,7 +7569,7 @@
       (net 4 "GND") (pintype "passive") (tstamp f63aa89d-013d-4d10-b08a-90487ac6d130))
     (pad "2" smd roundrect locked (at 0.485 0 180) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 3 "5V_USB") (pintype "passive") (tstamp 83e86eb4-38e8-4f80-859e-be5a58910be1))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -7611,7 +7611,7 @@
       (net 3 "5V_USB") (pintype "passive") (tstamp 6cf72f3d-3ac7-4931-ab26-2d8f0870bd51))
     (pad "2" smd rect locked (at 0.7 0 180) (size 0.6 0.8) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 99 "Net-(C3-Pad1)") (pintype "passive") (tstamp 4d2fd076-52a8-46f8-ab48-3c19b10a562a))
-    (model "${ANT3DMDL}/0603-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0603-res.step"
       (offset (xyz -0.8 -0.4 0.45))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
@@ -7654,7 +7654,7 @@
       (net 4 "GND") (pintype "passive") (tstamp 75e0fedb-f1d5-47e6-ba87-d6c2716c5840))
     (pad "2" smd rect locked (at 0.7 0) (size 0.6 0.8) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 3 "5V_USB") (pintype "passive") (tstamp 6ad43526-2fa1-4a8e-8446-8379c9cc2e0e))
-    (model "${ANT3DMDL}/0603-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0603-cap.step"
       (offset (xyz 0 -0.45 0.42))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
@@ -7697,14 +7697,14 @@
       (net 4 "GND") (pintype "passive") (tstamp 756ebdc6-9170-4a76-b9e4-f454d5336559))
     (pad "2" smd roundrect locked (at 0.485 0 90) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 3 "5V_USB") (pintype "passive") (tstamp f706494d-0c20-4ef4-a993-895f9faa86ff))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0201-res" (layer "B.Cu")
+  (footprint "FTDI-toolkit-footprints:0201-res" (layer "B.Cu")
     (tedit 5FBD1D44) (tstamp 491f48d5-bb3f-4795-b02c-1420da59e1b9)
     (at 120.5 108.52 -90)
     (descr "Resistor SMD 0201")
@@ -7738,14 +7738,14 @@
       (net 24 "/UART_2_TXD_T") (pintype "passive") (tstamp b64150b0-f908-4c41-ae48-b41d5c083df1))
     (pad "2" smd roundrect locked (at 0.32 0 270) (size 0.46 0.4) (layers "B.Cu" "B.Mask") (roundrect_rratio 0.25)
       (net 6 "VCCIOB") (pintype "passive") (tstamp c162eaf9-039a-4415-8d89-45d6683ac1c4))
-    (model "${ANT3DMDL}/0201_res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0201_res.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:SSM3K15ACT" (layer "B.Cu")
+  (footprint "FTDI-toolkit-footprints:SSM3K15ACT" (layer "B.Cu")
     (tedit 623DBAA0) (tstamp 495f954d-9e95-4dcf-8feb-aa7325b5f6be)
     (at 119.3528 109.54 90)
     (property "MPN" "SSM3K15ACT,L3F ")
@@ -7781,7 +7781,7 @@
       (net 4 "GND") (pinfunction "S") (pintype "bidirectional") (tstamp 15567bbf-dbb6-492c-a900-94d1bc876d72))
     (pad "3" smd rect locked (at 0.3175 0 90) (size 0.3048 0.5588) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 21 "Net-(RX_B1-Pad1)") (pinfunction "D") (pintype "bidirectional") (tstamp 6078d6bc-80c5-42e5-a25f-70a74b6963ae))
-    (model "${ANT3DMDL}/SSM3K15ACT.stp"
+    (model "${KIPRJMOD}/lib/3d-models/SSM3K15ACT.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -7824,7 +7824,7 @@
       (net 4 "GND") (pintype "passive") (tstamp aceda18a-ea22-4208-98d1-30fa208df48b))
     (pad "2" smd roundrect locked (at 0.485 0 270) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 3 "5V_USB") (pintype "passive") (tstamp 908a47e3-78e1-4227-ae38-478d89cfb909))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -7867,14 +7867,14 @@
       (net 4 "GND") (pintype "passive") (tstamp d4832582-4835-466d-a7f2-a97079c49e78))
     (pad "2" smd roundrect locked (at 0.485 0 180) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 31 "Net-(R2-Pad2)") (pintype "passive") (tstamp ffbc2f13-26a3-4b36-9e1f-53f73882b87d))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:SSM3K15ACT" (layer "B.Cu")
+  (footprint "FTDI-toolkit-footprints:SSM3K15ACT" (layer "B.Cu")
     (tedit 623DBAA0) (tstamp a026fb64-bda3-49fe-a64e-e1dae5cc66c1)
     (at 121.68 108.35 180)
     (property "MPN" "SSM3K15ACT,L3F ")
@@ -7910,14 +7910,14 @@
       (net 4 "GND") (pinfunction "S") (pintype "bidirectional") (tstamp cf576685-7c60-4a3c-8943-3d2fa37e7b55))
     (pad "3" smd rect locked (at 0.3175 0 180) (size 0.3048 0.5588) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 19 "Net-(R14-Pad1)") (pinfunction "D") (pintype "bidirectional") (tstamp a6386042-eba6-4517-be7b-2d7abbbd58d1))
-    (model "${ANT3DMDL}/SSM3K15ACT.stp"
+    (model "${KIPRJMOD}/lib/3d-models/SSM3K15ACT.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:SOT-323" (layer "B.Cu")
+  (footprint "FTDI-toolkit-footprints:SOT-323" (layer "B.Cu")
     (tedit 5DC13324) (tstamp bcec79e5-c87f-4211-a98f-cdf222808c59)
     (at 108.857 99.039001 -90)
     (descr "https://assets.nexperia.com/documents/data-sheet/PESD1CAN-U.pdf")
@@ -7962,7 +7962,7 @@
       (net 70 "Net-(Q1-Pad5)") (pintype "passive") (tstamp 66285bf5-d8db-44cd-8620-f85dcb7bbcda))
     (pad "3" smd rect locked (at 0.925 0 270) (size 0.55 0.6) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 4 "GND") (pintype "passive") (tstamp 965b3101-3332-4754-a0a8-4b195da886b4))
-    (model "${ANT3DMDL}/sc70-3.step"
+    (model "${KIPRJMOD}/lib/3d-models/sc70-3.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -8005,7 +8005,7 @@
       (net 4 "GND") (pintype "passive") (tstamp cd0ce68d-caf0-4df4-b7b8-0acd01d1e87d))
     (pad "2" smd rect locked (at 0.7 0 270) (size 0.6 0.8) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 7 "3V3_FT") (pintype "passive") (tstamp 322cd0a3-0ade-477c-8705-de73d9f83498))
-    (model "${ANT3DMDL}/0603-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0603-cap.step"
       (offset (xyz 0 -0.45 0.42))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
@@ -8045,14 +8045,14 @@
       (net 6 "VCCIOB") (pinfunction "COM") (pintype "passive") (tstamp 788351fd-718e-4dcd-9921-f1a36c561b34))
     (pad "8" smd rect locked (at 1.579 0.75 90) (size 0.3 1.25) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 3 "5V_USB") (pinfunction "VCC") (pintype "passive") (tstamp a9a05237-b492-427b-9029-00ce9ed4b746))
-    (model "${ANT3DMDL}/TS5A3359DCUR.stp"
+    (model "${KIPRJMOD}/lib/3d-models/TS5A3359DCUR.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:SSM3K15ACT" (layer "B.Cu")
+  (footprint "FTDI-toolkit-footprints:SSM3K15ACT" (layer "B.Cu")
     (tedit 623DBAA0) (tstamp c9e3ae29-0022-4868-8c81-7bfa19f9a09b)
     (at 121.23 95.97)
     (property "MPN" "SSM3K15ACT,L3F ")
@@ -8088,7 +8088,7 @@
       (net 4 "GND") (pinfunction "S") (pintype "bidirectional") (tstamp 44dd1162-3db6-4730-b74f-f6ac5c8083a7))
     (pad "3" smd rect locked (at 0.3175 0) (size 0.3048 0.5588) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 20 "Net-(RX_A1-Pad1)") (pinfunction "D") (pintype "bidirectional") (tstamp 58a7ca62-54b1-4078-898c-d86ca65fcae0))
-    (model "${ANT3DMDL}/SSM3K15ACT.stp"
+    (model "${KIPRJMOD}/lib/3d-models/SSM3K15ACT.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -8130,14 +8130,14 @@
       (net 4 "GND") (pintype "passive") (tstamp a17ff9ad-04e9-4ffc-b4e6-4e0098f1f72b))
     (pad "2" smd rect locked (at 0.7 0 270) (size 0.6 0.8) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 30 "GNDREF") (pintype "passive") (tstamp 3f91f326-35ab-4f9a-9be2-3a9814c1854b))
-    (model "${ANT3DMDL}/0603-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0603-res.step"
       (offset (xyz -0.8 -0.4 0.45))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:SSM3K15ACT" (layer "B.Cu")
+  (footprint "FTDI-toolkit-footprints:SSM3K15ACT" (layer "B.Cu")
     (tedit 623DBAA0) (tstamp e8e94133-091e-4f27-a0b3-b61f218c8504)
     (at 118.51 95.35 -90)
     (property "MPN" "SSM3K15ACT,L3F ")
@@ -8173,7 +8173,7 @@
       (net 4 "GND") (pinfunction "S") (pintype "bidirectional") (tstamp 6b4edb7f-ae10-446f-bf83-16e7f0b7c227))
     (pad "3" smd rect locked (at 0.3175 0 270) (size 0.3048 0.5588) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 18 "Net-(TX_A1-Pad1)") (pinfunction "D") (pintype "bidirectional") (tstamp cd0aea73-3e97-4ba9-b55a-4aec8a0b8a18))
-    (model "${ANT3DMDL}/SSM3K15ACT.stp"
+    (model "${KIPRJMOD}/lib/3d-models/SSM3K15ACT.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -8216,7 +8216,7 @@
       (net 99 "Net-(C3-Pad1)") (pintype "passive") (tstamp db9502b2-e074-488f-97a5-1f4587668ce9))
     (pad "2" smd roundrect locked (at 0.485 0) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 4 "GND") (pintype "passive") (tstamp 2e0b5abd-aa15-410b-ad62-18cc9dc1e63f))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -8270,7 +8270,7 @@
       (net 3 "5V_USB") (pinfunction "VCC") (pintype "passive") (tstamp 76db3f5a-18b4-4cab-a934-73cec3d2d7cb))
     (pad "15" smd rect locked (at 0 0 180) (size 1 1.5) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 4 "GND") (pinfunction "GND") (pintype "passive") (tstamp d31f977c-b8f4-4b77-b1cf-ed8a449f948c))
-    (model "${ANT3DMDL}/DHVQFN14.step"
+    (model "${KIPRJMOD}/lib/3d-models/DHVQFN14.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 -90))

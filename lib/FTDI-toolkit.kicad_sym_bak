@@ -392,7 +392,7 @@
                 (font 
                     (size 1.524 1.524)) 
                 (justify left bottom))) 
-        (property "Footprint" "antmicro-footprints:SOT-3" 
+        (property "Footprint" "FTDI-toolkit-footprints:SOT-3" 
             (id 2) 
             (at 1.27 5.08 0) 
             (effects 
@@ -4834,7 +4834,7 @@
             (effects 
                 (font 
                     (size 1.27 1.27)))) 
-        (property "Footprint" "FTDI-toolkit-footprints:PinHeader_1x2_P2.54mm" 
+        (property "Footprint" "antmicro-footprints:PinHeader_1x2_P2.54mm" 
             (id 2) 
             (at 5.08 5.08 0) 
             (effects 
@@ -4930,7 +4930,7 @@
             (effects 
                 (font 
                     (size 1.524 1.524)) hide)) 
-        (property "Footprint" "FTDI-toolkit-footprints:0201-res" 
+        (property "Footprint" "antmicro-footprints:0201-res" 
             (id 2) 
             (at -11.43 -15.24 0) 
             (effects 
@@ -5013,7 +5013,7 @@
             (effects 
                 (font 
                     (size 1.27 1.27)))) 
-        (property "Footprint" "FTDI-toolkit-footprints:PinHeader_1x2_P1.27mm_Drill.7mm" 
+        (property "Footprint" "antmicro-footprints:PinHeader_1x2_P1.27mm_Drill.7mm" 
             (id 2) 
             (at 5.08 7.62 0) 
             (effects 
@@ -5124,7 +5124,7 @@
             (effects 
                 (font 
                     (size 1.524 1.524)))) 
-        (property "Footprint" "FTDI-toolkit-footprints:SSM3K15ACT" 
+        (property "Footprint" "antmicro-footprints:SSM3K15ACT" 
             (id 2) 
             (at -11.43 5.08 0) 
             (effects 
@@ -5383,7 +5383,7 @@
                 (font 
                     (size 1.524 1.524)) 
                 (justify left bottom))) 
-        (property "Footprint" "FTDI-toolkit-footprints:SC-70-5" 
+        (property "Footprint" "antmicro-footprints:SC-70-5" 
             (id 2) 
             (at 10.16 -8.255 0) 
             (effects 
@@ -5491,7 +5491,7 @@
                 (font 
                     (size 1.524 1.524)) 
                 (justify left))) 
-        (property "Footprint" "FTDI-toolkit-footprints:QFN-56-1EP_8x8mm_P0.5mm_EP5.5.9x5.9mm" 
+        (property "Footprint" "antmicro-footprints:QFN-56-1EP_8x8mm_P0.5mm_EP5.5.9x5.9mm" 
             (id 2) 
             (at 5.08 5.08 90) 
             (effects 
@@ -6182,7 +6182,7 @@
                 (font 
                     (size 1.27 1.27)) 
                 (justify left bottom))) 
-        (property "Footprint" "FTDI-toolkit-footprints:GCT_USB4105-GF-A" 
+        (property "Footprint" "antmicro-footprints:GCT_USB4105-GF-A" 
             (id 2) 
             (at -16.51 19.05 0) 
             (effects 
@@ -6674,7 +6674,7 @@
             (effects 
                 (font 
                     (size 1.524 1.524)) hide)) 
-        (property "Footprint" "FTDI-toolkit-footprints:0402-res" 
+        (property "Footprint" "antmicro-footprints:0402-res" 
             (id 2) 
             (at 5.08 5.08 0) 
             (effects 
@@ -6756,7 +6756,7 @@
             (effects 
                 (font 
                     (size 1.27 1.27)))) 
-        (property "Footprint" "FTDI-toolkit-footprints:SOT-323" 
+        (property "Footprint" "antmicro-footprints:SOT-323" 
             (id 2) 
             (at 1.27 -19.05 0) 
             (effects 
@@ -6943,7 +6943,7 @@
                 (font 
                     (size 1.524 1.524)) 
                 (justify left bottom))) 
-        (property "Footprint" "FTDI-toolkit-footprints:SC-70-5" 
+        (property "Footprint" "antmicro-footprints:SC-70-5" 
             (id 2) 
             (at 10.16 -10.16 0) 
             (effects 
