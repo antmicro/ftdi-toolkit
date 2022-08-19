@@ -28,4 +28,4 @@ The remaining files are stored in the following directories:
 
 ## License
 
-`Apache-2.0 <LICENSE>`_
+[Apache-2.0](LICENSE)
