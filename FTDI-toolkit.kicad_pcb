@@ -2392,7 +2392,7 @@
     )
   )
 
-  (footprint "antmicro-footprints:SHF-105-01-X-D-SM" (layer "F.Cu")
+  (footprint "FTDI-toolkit-footprints:SHF-105-01-X-D-SM" (layer "F.Cu")
     (tedit 5FD885BD) (tstamp 7c51cfeb-0ce8-469a-979c-92f1855a1d9e)
     (at 106.5925 100.275 90)
     (property "MPN" "SHF-105-01-L-D-SM")
@@ -2445,7 +2445,7 @@
       (net 4 "GND") (pinfunction "9") (pintype "passive") (tstamp 39e10af7-d355-48a9-947a-e24296d0ecab))
     (pad "10" smd rect (at 2.54 -1.7775 90) (size 0.74 2.795) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 50 "/ADBUS5") (pinfunction "10") (pintype "passive") (tstamp d6c1c4b2-4ff1-4196-bb97-8ce6c50be4ad))
-    (model "${ANT3DMDL}/SHF-105-01-L-D-SM.step"
+    (model "${KIPRJMOD}/lib/3d-models/SHF-105-01-L-D-SM.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))

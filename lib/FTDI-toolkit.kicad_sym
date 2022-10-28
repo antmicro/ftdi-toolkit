@@ -392,7 +392,7 @@
                 (font 
                     (size 1.524 1.524)) 
                 (justify left bottom))) 
-        (property "Footprint" "antmicro-footprints:SOT-3" 
+        (property "Footprint" "FTDI-toolkit-footprints:SOT-3" 
             (id 2) 
             (at 1.27 5.08 0) 
             (effects 
@@ -857,258 +857,6 @@
                     (font 
                         (size 1.524 1.524)) 
                     (justify left bottom))))) 
-    (symbol "2X05" 
-        (pin_names 
-            (offset 1.016)) 
-        (in_bom yes) 
-        (on_board yes) 
-        (property "Reference" "J" 
-            (id 0) 
-            (at -2.54 -15.24 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)) 
-                (justify left bottom))) 
-        (property "Value" "2X05" 
-            (id 1) 
-            (at -1.27 3.81 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)))) 
-        (property "Footprint" "FTDI-toolkit-footprints:SHF-105-01-X-D-SM" 
-            (id 2) 
-            (at 12.7 -16.51 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)) hide)) 
-        (property "Datasheet" "" 
-            (id 3) 
-            (at 0 0 0) 
-            (effects 
-                (font 
-                    (size 1.524 1.524)) hide)) 
-        (property "MPN" "SHF-105-01-L-D-SM" 
-            (id 4) 
-            (at -5.08 -19.05 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (property "Manufacturer" "Samtec" 
-            (id 5) 
-            (at -5.08 -21.59 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (symbol "2X05_0_1" 
-            (rectangle 
-                (start -2.54 -12.7) 
-                (end 2.54 2.54) 
-                (stroke 
-                    (width 0.254) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type background))) 
-            (rectangle 
-                (start -2.032 -10.668) 
-                (end -0.762 -9.652) 
-                (stroke 
-                    (width 0.254) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type background))) 
-            (rectangle 
-                (start -2.032 -8.128) 
-                (end -0.762 -7.112) 
-                (stroke 
-                    (width 0.254) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type background))) 
-            (rectangle 
-                (start -2.032 -5.588) 
-                (end -0.762 -4.572) 
-                (stroke 
-                    (width 0.254) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type background))) 
-            (rectangle 
-                (start -2.032 -3.048) 
-                (end -0.762 -2.032) 
-                (stroke 
-                    (width 0.254) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type background))) 
-            (rectangle 
-                (start -2.032 -0.508) 
-                (end -0.762 0.508) 
-                (stroke 
-                    (width 0.254) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type background))) 
-            (rectangle 
-                (start 0.508 -10.668) 
-                (end 1.778 -9.652) 
-                (stroke 
-                    (width 0.254) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type background))) 
-            (rectangle 
-                (start 0.508 -8.128) 
-                (end 1.778 -7.112) 
-                (stroke 
-                    (width 0.254) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type background))) 
-            (rectangle 
-                (start 0.508 -5.588) 
-                (end 1.778 -4.572) 
-                (stroke 
-                    (width 0.254) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type background))) 
-            (rectangle 
-                (start 0.508 -3.048) 
-                (end 1.778 -2.032) 
-                (stroke 
-                    (width 0.254) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type background))) 
-            (rectangle 
-                (start 0.508 -0.508) 
-                (end 1.778 0.508) 
-                (stroke 
-                    (width 0.254) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type background))) 
-            (pin passive line 
-                (at -7.62 0 0) 
-                (length 6.35) 
-                (name "1" 
-                    (effects 
-                        (font 
-                            (size 0.0254 0.0254)))) 
-                (number "1" 
-                    (effects 
-                        (font 
-                            (size 1.778 1.778))))) 
-            (pin passive line 
-                (at 7.62 -10.16 180) 
-                (length 6.35) 
-                (name "10" 
-                    (effects 
-                        (font 
-                            (size 0.0254 0.0254)))) 
-                (number "10" 
-                    (effects 
-                        (font 
-                            (size 1.778 1.778))))) 
-            (pin passive line 
-                (at 7.62 0 180) 
-                (length 6.35) 
-                (name "2" 
-                    (effects 
-                        (font 
-                            (size 0.0254 0.0254)))) 
-                (number "2" 
-                    (effects 
-                        (font 
-                            (size 1.778 1.778))))) 
-            (pin passive line 
-                (at -7.62 -2.54 0) 
-                (length 6.35) 
-                (name "3" 
-                    (effects 
-                        (font 
-                            (size 0.0254 0.0254)))) 
-                (number "3" 
-                    (effects 
-                        (font 
-                            (size 1.778 1.778))))) 
-            (pin passive line 
-                (at 7.62 -2.54 180) 
-                (length 6.35) 
-                (name "4" 
-                    (effects 
-                        (font 
-                            (size 0.0254 0.0254)))) 
-                (number "4" 
-                    (effects 
-                        (font 
-                            (size 1.778 1.778))))) 
-            (pin passive line 
-                (at -7.62 -5.08 0) 
-                (length 6.35) 
-                (name "5" 
-                    (effects 
-                        (font 
-                            (size 0.0254 0.0254)))) 
-                (number "5" 
-                    (effects 
-                        (font 
-                            (size 1.778 1.778))))) 
-            (pin passive line 
-                (at 7.62 -5.08 180) 
-                (length 6.35) 
-                (name "6" 
-                    (effects 
-                        (font 
-                            (size 0.0254 0.0254)))) 
-                (number "6" 
-                    (effects 
-                        (font 
-                            (size 1.778 1.778))))) 
-            (pin passive line 
-                (at -7.62 -7.62 0) 
-                (length 6.35) 
-                (name "7" 
-                    (effects 
-                        (font 
-                            (size 0.0254 0.0254)))) 
-                (number "7" 
-                    (effects 
-                        (font 
-                            (size 1.778 1.778))))) 
-            (pin passive line 
-                (at 7.62 -7.62 180) 
-                (length 6.35) 
-                (name "8" 
-                    (effects 
-                        (font 
-                            (size 0.0254 0.0254)))) 
-                (number "8" 
-                    (effects 
-                        (font 
-                            (size 1.778 1.778))))) 
-            (pin passive line 
-                (at -7.62 -10.16 0) 
-                (length 6.35) 
-                (name "9" 
-                    (effects 
-                        (font 
-                            (size 0.0254 0.0254)))) 
-                (number "9" 
-                    (effects 
-                        (font 
-                            (size 1.778 1.778))))))) 
     (symbol "TS5A3359" 
         (pin_names 
             (offset 1.016)) 
@@ -6739,6 +6487,258 @@
                     (effects 
                         (font 
                             (size 0 0))))))) 
+    (symbol "2X05" 
+        (pin_names 
+            (offset 1.016)) 
+        (in_bom yes) 
+        (on_board yes) 
+        (property "Reference" "J" 
+            (id 0) 
+            (at -2.54 -15.24 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left bottom))) 
+        (property "Value" "2X05" 
+            (id 1) 
+            (at -1.27 3.81 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)))) 
+        (property "Footprint" "FTDI-toolkit-footprints:SHF-105-01-X-D-SM" 
+            (id 2) 
+            (at 12.7 -16.51 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) hide)) 
+        (property "Datasheet" "https://eu.mouser.com/datasheet/2/527/shf-1370134.pdf" 
+            (id 3) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) hide)) 
+        (property "MPN" "SHF-105-01-L-D-SM" 
+            (id 4) 
+            (at -5.08 -19.05 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Manufacturer" "Samtec" 
+            (id 5) 
+            (at -5.08 -21.59 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (symbol "2X05_0_1" 
+            (rectangle 
+                (start -2.54 -12.7) 
+                (end 2.54 2.54) 
+                (stroke 
+                    (width 0.254) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type background))) 
+            (rectangle 
+                (start -2.032 -10.668) 
+                (end -0.762 -9.652) 
+                (stroke 
+                    (width 0.254) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type background))) 
+            (rectangle 
+                (start -2.032 -8.128) 
+                (end -0.762 -7.112) 
+                (stroke 
+                    (width 0.254) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type background))) 
+            (rectangle 
+                (start -2.032 -5.588) 
+                (end -0.762 -4.572) 
+                (stroke 
+                    (width 0.254) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type background))) 
+            (rectangle 
+                (start -2.032 -3.048) 
+                (end -0.762 -2.032) 
+                (stroke 
+                    (width 0.254) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type background))) 
+            (rectangle 
+                (start -2.032 -0.508) 
+                (end -0.762 0.508) 
+                (stroke 
+                    (width 0.254) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type background))) 
+            (rectangle 
+                (start 0.508 -10.668) 
+                (end 1.778 -9.652) 
+                (stroke 
+                    (width 0.254) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type background))) 
+            (rectangle 
+                (start 0.508 -8.128) 
+                (end 1.778 -7.112) 
+                (stroke 
+                    (width 0.254) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type background))) 
+            (rectangle 
+                (start 0.508 -5.588) 
+                (end 1.778 -4.572) 
+                (stroke 
+                    (width 0.254) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type background))) 
+            (rectangle 
+                (start 0.508 -3.048) 
+                (end 1.778 -2.032) 
+                (stroke 
+                    (width 0.254) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type background))) 
+            (rectangle 
+                (start 0.508 -0.508) 
+                (end 1.778 0.508) 
+                (stroke 
+                    (width 0.254) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type background))) 
+            (pin passive line 
+                (at -7.62 0 0) 
+                (length 6.35) 
+                (name "1" 
+                    (effects 
+                        (font 
+                            (size 0.0254 0.0254)))) 
+                (number "1" 
+                    (effects 
+                        (font 
+                            (size 1.778 1.778))))) 
+            (pin passive line 
+                (at 7.62 -10.16 180) 
+                (length 6.35) 
+                (name "10" 
+                    (effects 
+                        (font 
+                            (size 0.0254 0.0254)))) 
+                (number "10" 
+                    (effects 
+                        (font 
+                            (size 1.778 1.778))))) 
+            (pin passive line 
+                (at 7.62 0 180) 
+                (length 6.35) 
+                (name "2" 
+                    (effects 
+                        (font 
+                            (size 0.0254 0.0254)))) 
+                (number "2" 
+                    (effects 
+                        (font 
+                            (size 1.778 1.778))))) 
+            (pin passive line 
+                (at -7.62 -2.54 0) 
+                (length 6.35) 
+                (name "3" 
+                    (effects 
+                        (font 
+                            (size 0.0254 0.0254)))) 
+                (number "3" 
+                    (effects 
+                        (font 
+                            (size 1.778 1.778))))) 
+            (pin passive line 
+                (at 7.62 -2.54 180) 
+                (length 6.35) 
+                (name "4" 
+                    (effects 
+                        (font 
+                            (size 0.0254 0.0254)))) 
+                (number "4" 
+                    (effects 
+                        (font 
+                            (size 1.778 1.778))))) 
+            (pin passive line 
+                (at -7.62 -5.08 0) 
+                (length 6.35) 
+                (name "5" 
+                    (effects 
+                        (font 
+                            (size 0.0254 0.0254)))) 
+                (number "5" 
+                    (effects 
+                        (font 
+                            (size 1.778 1.778))))) 
+            (pin passive line 
+                (at 7.62 -5.08 180) 
+                (length 6.35) 
+                (name "6" 
+                    (effects 
+                        (font 
+                            (size 0.0254 0.0254)))) 
+                (number "6" 
+                    (effects 
+                        (font 
+                            (size 1.778 1.778))))) 
+            (pin passive line 
+                (at -7.62 -7.62 0) 
+                (length 6.35) 
+                (name "7" 
+                    (effects 
+                        (font 
+                            (size 0.0254 0.0254)))) 
+                (number "7" 
+                    (effects 
+                        (font 
+                            (size 1.778 1.778))))) 
+            (pin passive line 
+                (at 7.62 -7.62 180) 
+                (length 6.35) 
+                (name "8" 
+                    (effects 
+                        (font 
+                            (size 0.0254 0.0254)))) 
+                (number "8" 
+                    (effects 
+                        (font 
+                            (size 1.778 1.778))))) 
+            (pin passive line 
+                (at -7.62 -10.16 0) 
+                (length 6.35) 
+                (name "9" 
+                    (effects 
+                        (font 
+                            (size 0.0254 0.0254)))) 
+                (number "9" 
+                    (effects 
+                        (font 
+                            (size 1.778 1.778))))))) 
     (symbol "BC807-25W" 
         (pin_names 
             (offset 1.016)) 
