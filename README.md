@@ -1,8 +1,8 @@
-# FTDI Toolkit
+# Debug Toolkit
 
 Copyright (c) 2018-2023 [Antmicro](https://www.antmicro.com)
 
-![visualization](img/antmicro-ftdi-toolkit.jpg )
+![visualization](img/antmicro-debug-toolkit.jpg )
 
 ## Overview
 
