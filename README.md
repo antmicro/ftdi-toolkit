@@ -11,8 +11,8 @@ The board exposes the programmable IO buses from the FT2232H/FT4232H on a 2.54 m
 Those interfaces include:
 
 * UART - two independent channels with optional flow control and selectable IO voltage (5.0V, 3.3V, 1.8V) 
-* I2C bus master with selectable IO voltage standard (5.0V, 3.3V, 1.8V)
-* SPI bus master with selectable IO voltage standard (5.0V, 3.3V, 1.8V)
+* I2C bus initiator with selectable IO voltage standard (5.0V, 3.3V, 1.8V)
+* SPI bus initiator with selectable IO voltage standard (5.0V, 3.3V, 1.8V)
 * JTAG openocd-compliant with selectable IO voltage standard (5.0V, 3.3V, 1.8V) and fixed 3.3V IO voltage standard
 * SWD openocd-compliant with selectable IO voltage standard (5.0V, 3.3V, 1.8V) and fixed 3.3V IO voltage standard
 
