@@ -11175,7 +11175,7 @@
   (symbol (lib_id "antmicroGenericPinHeaders:PinHeader_1x3_P2.54mm_Drill1.1mm") (at 309.88 91.44 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 00000000-0000-0000-0000-00005e5f7c1f)
-    (property "Reference" "SW1_B1" (at 306.07 85.09 0)
+    (property "Reference" "J1_B1" (at 306.07 85.09 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "PinHeader_1x3_P2.54mm_Drill1.1mm" (at 289.56 101.6 0)
@@ -11208,7 +11208,7 @@
     (instances
       (project "debug-toolkit"
         (path "/dd9af27c-a67f-40d3-942b-1892dec86b34"
-          (reference "SW1_B1") (unit 1)
+          (reference "J1_B1") (unit 1)
         )
       )
     )
@@ -11217,7 +11217,7 @@
   (symbol (lib_id "antmicroGenericPinHeaders:PinHeader_1x3_P2.54mm_Drill1.1mm") (at 309.88 53.34 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 00000000-0000-0000-0000-00005e5f7c21)
-    (property "Reference" "SW1_A1" (at 306.07 46.99 0)
+    (property "Reference" "J1_A1" (at 306.07 46.99 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "PinHeader_1x3_P2.54mm_Drill1.1mm" (at 289.56 63.5 0)
@@ -11250,7 +11250,7 @@
     (instances
       (project "debug-toolkit"
         (path "/dd9af27c-a67f-40d3-942b-1892dec86b34"
-          (reference "SW1_A1") (unit 1)
+          (reference "J1_A1") (unit 1)
         )
       )
     )
