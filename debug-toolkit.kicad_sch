@@ -18642,7 +18642,7 @@
   (symbol (lib_id "antmicroGenericPinHeaders:PinHeader_2x3_P2.54mm_Drill1.1mm") (at 148.59 334.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9c033324-8614-4a17-9e91-4d81f37b8b09)
-    (property "Reference" "SW2" (at 153.67 331.47 0)
+    (property "Reference" "J7" (at 153.67 331.47 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Value" "PinHeader_2x3_P2.54mm_Drill1.1mm" (at 137.16 343.535 0)
@@ -18675,7 +18675,7 @@
     (instances
       (project "debug-toolkit"
         (path "/dd9af27c-a67f-40d3-942b-1892dec86b34"
-          (reference "SW2") (unit 1)
+          (reference "J7") (unit 1)
         )
       )
     )
