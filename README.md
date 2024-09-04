@@ -1,6 +1,6 @@
 # Debug Toolkit
 
-Copyright (c) 2018-2023 [Antmicro](https://www.antmicro.com)
+Copyright (c) 2018-2024 [Antmicro](https://www.antmicro.com)
 
 ![visualization](img/antmicro-debug-toolkit.jpg )
 
